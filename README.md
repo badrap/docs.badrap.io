@@ -2,7 +2,7 @@
 
 ## Yleisiä, tai yleiskäyttöisiä ohjeita
 
-* [Usein kysytyt kysymykse](ukk.md)
+* [Usein kysytyt kysymykset](ukk.md)
 
 * [Ongelmallisen palvelun paikallistaminen](paikallista.md)
 
