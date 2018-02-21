@@ -2,8 +2,6 @@
 
 ## Yleisiä, tai yleiskäyttöisiä ohjeita
 
-* [Usein kysytyt kysymykset](ukk.md)
-
 * [Ongelmallisen palvelun paikallistaminen](paikallista.md)
 
 * [Hyökkäyskategorioista](kategoriat.md)
