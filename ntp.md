@@ -14,7 +14,7 @@ Tunnistetaampa aluksi laite, missä palvelu on auki. Jos et jo tiedä sitä, lue
 
 <https://github.com/badrap/testaaverkkosi.fi/blob/master/paikallista.md>
 
-Tämän jälkeen suosittelemme palvelun poistamista käytöstä. Jos haluat pitää palvelun päällä, etsi laitteestasi ominaisuus, jolla estät palveluiden näkymisen Internetiin. Googlesta on apua. Kirjoita hakuehtoihin disable ntp sekä kotireitittimesi malli. Jos kyseessä oli kotireititin, katso löytyykö reitittimen malliin sopiva ohjekirja täältä: <https://kayttoohje.fi/reitittimet/>
+Tämän jälkeen suosittelemme palvelun poistamista käytöstä. Jos haluat pitää palvelun päällä, etsi laitteestasi ominaisuus, jolla estät palveluiden näkymisen Internetiin. Googlesta on apua. Kirjoita hakuehtoihin disable ntp sekä kotireitittimesi malli. Jos kyseessä oli kotireititin, katso löytyykö reitittimen malliin sopiva ohjekirja täältä: <https://kayttoohje.fi/reitittimet>
 
 Jos kaipaat lisävinkkejä, voit käydä keskustelemassa Reddit-palstallamme:
 
