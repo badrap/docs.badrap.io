@@ -1,6 +1,8 @@
+# Liian avoin nimipalvelu
+
 ## Ongelman kuvaus
 
-Onko verkkosi toiminut joskus huonosti? Vika ei aina ole välttämättä palveluntarjoajassa. Tässä osoitteessa on liian avoin DNS-palvelu. Pahikset etsivät näitä peittääkseen jälkensä ja vahvistaakseen palvelunestohyökkäyksiään. Samalla yleensä oma verkko tukkiintuu. Jos haluat ymmärtää paremmin kuinka tämä tapahtuu, katso amplifikaatiohyökkäyksen kuvaus täältä:
+    Onko verkkosi toiminut joskus huonosti? Vika ei aina ole välttämättä palveluntarjoajassa. Tässä osoitteessa on liian avoin DNS-palvelu. Pahikset etsivät näitä peittääkseen jälkensä ja vahvistaakseen palvelunestohyökkäyksiään. Samalla yleensä oma verkko tukkiintuu. Jos haluat ymmärtää paremmin kuinka tämä tapahtuu, katso amplifikaatiohyökkäyksen kuvaus täältä:
 
 <https://github.com/badrap/testaaverkkosi.fi/blob/master/kategoriat.md#amplifikaatiohyökkäykset>
 
