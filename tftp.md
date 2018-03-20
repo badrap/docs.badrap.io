@@ -2,32 +2,22 @@
 
 ## Ongelman kuvaus
 
-Onko verkkosi toiminut joskus huonosti? Vika ei aina ole välttämättä palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa TFTP-palvelua hyväkseen palvelunestohyökkäyksissä.
+Onko verkkosi toiminut joskus huonosti? Vika ei aina ole välttämättä palveluntarjoajassa. Pahikset saattavat käyttää tässä IP-osoitteessa olevaa avointa TFTP-palvelua hyväkseen palvelunestohyökkäyksissä.
 
-Jos haluat ymmärtää paremmin kuinka tämä tapahtuu, katso
-amplifikaatiohyökkäyksen kuvaus täältä:
-
-https://github.com/badrap/testaaverkkosi.fi/blob/master/kategoriat.md#amplifikaatiohyökkäykset
+Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää täältä: https://testaaverkkosi.fi/amplifikaatiohyokkays
 
 ## Korjausehdotuksia
 
-Jos haluat kaupallista apua, katso linkki ohjeiden lopusta.
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi täältä: https://testaaverkkosi.fi/laitteen-paikallistaminen
 
-Nyt aluksi pitäisi tunnistaa se laite, missä palvelu on auki.
-Jos et jo tiedä sitä, täältä löytyy vinkkejä metsästyspuuhiin.
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable tftp" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
 
-https://github.com/badrap/testaaverkkosi.fi/blob/master/paikallista.md
+"disable tftp netgear nighthawk"
 
-Tämän jälkeen suosittelemme lämpimästi palvelun poistamista käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable tftp". Laita vielä kaveriksi laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli.
+Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme https://www.reddit.com/r/testaaverkkosi/
 
-Jos kaipaat lisävinkkejä, voit käydä keskustelemassa Reddit-palstallamme:
-
-https://www.reddit.com/r/testaaverkkosi/
-
-Linkkejä kaupalliseen apuun löytyy osoitteesta:
-
-https://plus.google.com/collection/wu6ZWE
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen https://plus.google.com/collection/wu6ZWE
 
 ## Tietolähde
 
-ShadowServer tarjosi tämän havainnon - jotta sinunkin  Internetisi olisi puhtaampi!
+Havainto: ShadowServer https://www.shadowserver.org/ – Ohjeet: Badrap Oy https://badrap.io/
