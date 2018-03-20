@@ -21,7 +21,7 @@ Käy ensitöiksesi tarkistamassa reitittimesi tarkka merkki ja malli. Tiedot lö
 
 Seuraavaksi etsi netistä kyseisen kotireitittimen käyttöohje. Ohjeessa kerrotaan kuinka reititintä ylläpidetään, miten siihen otetaan etäyhteys ja mitkä ovat sen käyttäjätunnukset. Käyttäjätunnus ja salasana saattavat myös lukea reitittimen pohjassa.
 
-Onneksi olkoon, onnistuit paikallistamaan laitteen ja pystyt nyt ylläpitämään sitä. Seuraavaksi lue toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta ja ryhdy korjaustoimenpiteisiin!
+Onneksi olkoon, onnistuit paikallistamaan laitteen ja pystyt nyt ylläpitämään sitä. Lue seuraavaksi toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta ja ryhdy korjaustoimenpiteisiin!
 
 ### Käytätkö oman puhelimesi tai tabletin mobiiliverkkoa? (3G, 4G/LTE)
 
@@ -29,7 +29,7 @@ Mobiiliverkot ovat hieman hankalampia tapauksia, sillä niissä IP-osoitteet sii
 
 Näet palvelumme IP-osoitekohtaisesta informaatiokortista milloin olet seurannut IP-osoitetta. Vertaa aikaleimoja havainnon raportointiaikaan. Jos havainto on raportoitu myöhemmin, saattaa kyseessä olla sinun laitteesi. Muussa tapauksessa kyseessä voi olla havainto, joka on tehty silloin kun IP-osoite on ollut jonkun toisen käytössä.
 
-Onneksi olkoon, olet mahdollisesti paikallistanut laitteen. Seuraavaksi lue toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta. Tarkista onko laitteessasi kyseistä ongelmaa ja korjaa se palvelun antamilla ohjeilla!
+Onnistuitko paikallistamaan laitteen? Lue seuraavaksi toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta. Tarkista onko laitteessasi kyseistä ongelmaa ja korjaa se palvelun antamilla ohjeilla!
 
 ----------
 
