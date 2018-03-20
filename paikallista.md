@@ -1,8 +1,10 @@
 # Ongelmallisen laitteen paikallistaminen
 
-Oletko täällä koska [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelu kertoi, että käyttämässäsi IP-osoitteessa oli ongelma? Hienoa, että aloit selvittämään asiaa!
+Oletko täällä, koska [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelu kertoi käyttämässäsi IP-osoitteessa olevasta ongelmasta?
 
-Nyt tarvitaan pientä etsivätyötä. Koska Internet toimii hieman monimutkaisesti, emme voi suoraan kertoa sinulle IP:n perusteella tarkalleen mistä laitteesta havainnossasi on kyse. Voimme kuitenkin auttaa sinua löytämään kyseisen laitteen. Jos olet jonkun toisen verkossa, voimme auttaa sinua löytämään tahon kenelle kertoa asiasta.
+Hienoa, että ryhdyit selvittämään asiaa!
+
+Nyt tarvitaan pientä etsivätyötä. Koska Internet toimii hieman monimutkaisesti, emme voi kertoa sinulle IP-osoitteen perusteella tarkalleen mistä laitteesta havainnossasi on kyse. Voimme kuitenkin auttaa sinua löytämään laitteen. Mikäli olet jonkun toisen verkossa, voimme auttaa sinua löytämään tahon kenelle kertoa löydöstäsi.
 
 Tuumasta toimeen!
 
@@ -14,21 +16,23 @@ Käy ensitöiksesi tarkistamassa reitittimesi tarkka merkki ja malli. Tiedot lö
 
 Seuraavaksi etsi netistä kyseisen kotireitittimen käyttöohje. Ohjeessa kerrotaan kuinka reititintä ylläpidetään, miten siihen otetaan etäyhteys ja mitkä ovat sen käyttäjätunnukset. Käyttäjätunnus ja salasana saattavat myös lukea reitittimen pohjassa.
 
-Kun pääset kirjautumaan reitittimesi ylläpitokäyttöliittymään, löydät asetuksista FIXME
+Onneksi olkoon, onnistuit paikallistamaan laitteen ja pystyt nyt ylläpitämään sitä. Seuraavaksi lue toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta ja ryhdy korjaustoimenpiteisiin!
 
 ## Käytätkö oman puhelimesi tai tabletin mobiiliverkkoa? (3G, 4G/LTE)
 
 Mobiiliverkot ovat hieman hankalampia tapauksia, sillä niissä IP-osoitteet siirtyvät henkilöltä toiselle tiuhaan tahtiin. Joillakin operaattoreilla saman IP-osoitteen takaa voi löytyä tuhansia eri käyttäjiä.
 
-Näet palvelumme IP-osoitekohtaisesta informaatiokortista milloin olet seurannut IP-osoitetta. Vertaa aikaleimoja havainnon raportointiaikaan. Jos havainto on raportoitu myöhemmin, on kyseessä todennäköisesti sinun laitteesi. Muuten kyseessä voi olla havainto, joka on tehty silloin, kun IP-osoite on ollut jonkun toisen käytössä.
+Näet palvelumme IP-osoitekohtaisesta informaatiokortista milloin olet seurannut IP-osoitetta. Vertaa aikaleimoja havainnon raportointiaikaan. Jos havainto on raportoitu myöhemmin, saattaa kyseessä olla sinun laitteesi. Muussa tapauksessa kyseessä voi olla havainto, joka on tehty silloin kun IP-osoite on ollut jonkun toisen käytössä.
+
+Onneksi olkoon, olet mahdollisesti paikallistanut laitteen. Seuraavaksi lue toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta. Tarkista onko laitteessasi kyseistä ongelmaa ja korjaa se palvelun antamilla ohjeilla!
 
 ## Oletko jonkun toisen verkossa?
 
-Jos teet havainnon jonkun toisen verkossa, kuten työpaikallasi tai vierasverkossa yrityksessä, hotellissa tai kahvilassa, et voi korjata ongelmaa suoraan itse. Saatat kuitenkin pelastaa jonkun päivän! Mutta kenen? Palataan tähän hetken kuluttua.
+Jos teet havainnon jonkun toisen verkossa, kuten työpaikallasi tai vierasverkossa yrityksessä, hotellissa tai kahvilassa, et voi korjata ongelmaa suoraan itse. Voit kuitenkin auttaa ongelman korjauksessa kertomalla siitä verkon ylläpitäjälle.
 
-Aivan ensimmäiseksi kuitenkin: **Tallenna todisteaineisto.**
+Aivan ensimmäiseksi kuitenkin: **Kerää aineisto talteen.**
 
-Ota palvelun näyttämistä tiedoista kuvakaappaus tai kirjoita tarkasti kaikki näkemäsi tieto muistiin. Myös esimerkiksi älypuhelimen kameran kuva käy, luovuus ennenkaikkea.
+Helpoiten tämä onnistuu ottamalla palvelun näyttämistä tiedoista kuvakaappaus. Myös esimerkiksi älypuhelimen kameran kuva käy mainiosti, luovuus kunniaan.
 
 Seuraavaksi etsi käsiisi henkilö, jolle voit kertoa löydöstäsi:
 
@@ -38,9 +42,8 @@ Jos olet omalla työpaikallasi, ole yhteydessä työpaikkanne IT-guruun. Välit�
 
 ### Vieraana jonkun toisen työpaikalla
 
-Ehkä käytät vierailullasi neukkarin vierasverkkoa? Näytä tulos vierailusi isännälle. Hän osaa olla yhteydessä oman työpaikkansa IT-guruun, joka puolestaan voi guruilla verkon takaisin priimakuntoon.
+Käytätkö vierailullasi neukkarin vierasverkkoa? Näytä tulos vierailusi isännälle. Hän osaa olla yhteydessä oman työpaikkansa IT-guruun, joka puolestaan voi guruilla verkon takaisin priimakuntoon antamiesi tietojen perusteella.
 
 ### Koulussa, hotellissa, kahvilassa
 
-Esittele löydöksesi henkilökunnalle. He tietävät, tai pystyvät selvittämään kuka vastaa paikan tietotekniikasta.
-
+Esittele tiedot löydästäsi henkilökunnalle. He tietävät, tai pystyvät selvittämään kuka vastaa paikan tietotekniikasta ja pystyy korjaamaan tilanteen.
