@@ -1,7 +1,8 @@
+# Avoin MDNS-palvelu
+
 ## Ongelman kuvaus
 
-Tökkiikö netti? Joskus vika ei olekaan palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa MDNS-palvelua hyväkseen palvelunestohyökkäyksissä. Tällöin nettisi voi toimia
-todella hitaasti ja varsinainen hyökkäyksen kohde ei ollenkaan.
+Tökkiikö netti? Joskus vika ei olekaan palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa MDNS-palvelua hyväkseen palvelunestohyökkäyksissä. Tällöin nettisi voi toimia todella hitaasti ja varsinainen hyökkäyksen kohde ei ollenkaan.
 
 Jos haluat ymmärtää paremmin kuinka tämä tapahtuu, katso
 amplifikaatiohyökkäyksen kuvaus täältä:
@@ -32,5 +33,4 @@ https://plus.google.com/collection/wu6ZWE
 
 ## Tietolähde
 
-ShadowServer tarjosi tämän havainnon, jotta sinunkin
-Internet olisi puhtaampi.
+Shadowserver
