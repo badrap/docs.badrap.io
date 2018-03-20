@@ -1,14 +1,19 @@
 # Ongelmallisen laitteen paikallistaminen
 
-Oletko täällä, koska [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelu kertoi käyttämässäsi IP-osoitteessa olevasta ongelmasta?
-
 Hienoa, että ryhdyit selvittämään asiaa!
 
 Nyt tarvitaan pientä etsivätyötä. Koska Internet toimii hieman monimutkaisesti, emme voi kertoa sinulle IP-osoitteen perusteella tarkalleen mistä laitteesta havainnossasi on kyse. Voimme kuitenkin auttaa sinua löytämään laitteen. Mikäli olet jonkun toisen verkossa, voimme auttaa sinua löytämään tahon kenelle kertoa löydöstäsi.
 
-Tuumasta toimeen!
+Tuumasta toimeen! Missä olet tällä hetkellä?
 
-## Oletko kotona WiFi-verkossasi?
+ * Olen kotona
+ * Olen muualla kuin kotonani
+
+----------
+
+## Olen kotona
+
+### Oletko kotona WiFi-verkossasi?
 
 Kotisi langattomassa verkossa ollessasi kyseessä on aika varmasti kotireitittimesi, sillä useimmiten kotisi muut internetiin kytketyt laitteet piilottelevat sen IP-osoitteen takana.
 
@@ -18,7 +23,7 @@ Seuraavaksi etsi netistä kyseisen kotireitittimen käyttöohje. Ohjeessa kerrot
 
 Onneksi olkoon, onnistuit paikallistamaan laitteen ja pystyt nyt ylläpitämään sitä. Seuraavaksi lue toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta ja ryhdy korjaustoimenpiteisiin!
 
-## Käytätkö oman puhelimesi tai tabletin mobiiliverkkoa? (3G, 4G/LTE)
+### Käytätkö oman puhelimesi tai tabletin mobiiliverkkoa? (3G, 4G/LTE)
 
 Mobiiliverkot ovat hieman hankalampia tapauksia, sillä niissä IP-osoitteet siirtyvät henkilöltä toiselle tiuhaan tahtiin. Joillakin operaattoreilla saman IP-osoitteen takaa voi löytyä tuhansia eri käyttäjiä.
 
@@ -26,7 +31,9 @@ Näet palvelumme IP-osoitekohtaisesta informaatiokortista milloin olet seurannut
 
 Onneksi olkoon, olet mahdollisesti paikallistanut laitteen. Seuraavaksi lue toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta. Tarkista onko laitteessasi kyseistä ongelmaa ja korjaa se palvelun antamilla ohjeilla!
 
-## Oletko jonkun toisen verkossa?
+----------
+
+## Olen muualla kuin kotonani
 
 Jos teet havainnon jonkun toisen verkossa, kuten työpaikallasi tai vierasverkossa yrityksessä, hotellissa tai kahvilassa, et voi korjata ongelmaa suoraan itse. Voit kuitenkin auttaa ongelman korjauksessa kertomalla siitä verkon ylläpitäjälle.
 
