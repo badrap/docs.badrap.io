@@ -1,10 +1,11 @@
 # testaaverkkosi.fi - suomenkieliset materiaalit
 
-## Yleisiä, tai yleiskäyttöisiä ohjeita
+ Suomenkieliset ohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun näyttämiin havaintoihin.
+
+## Yleisiä ja yleiskäyttöisiä ohjeita
 
 * [Ongelmallisen palvelun paikallistaminen](paikallista.md)
-
-* [Hyökkäyskategorioista](kategoriat.md)
+* [Tietoa hyökkäyskategorioista](kategoriat.md)
 
 ## Havaintojen ohjeet
 
@@ -15,3 +16,4 @@
 * [Avoin TFTP-palvelu](tftp.md)
 * [Avoin Netbios-palvelu](netbios.md)
 * [Avoin NTP-palvelu](ntp.md)
+* [Avoin Memcached-palvelu](memcached.md)
