@@ -4,33 +4,22 @@
 
 Tökkiikö netti? Joskus vika ei olekaan palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa MDNS-palvelua hyväkseen palvelunestohyökkäyksissä. Tällöin nettisi voi toimia todella hitaasti ja varsinainen hyökkäyksen kohde ei ollenkaan.
 
-Jos haluat ymmärtää paremmin kuinka tämä tapahtuu, katso
-amplifikaatiohyökkäyksen kuvaus täältä:
-
-https://github.com/badrap/testaaverkkosi.fi/blob/master/kategoriat.md#amplifikaatiohyökkäykset
+Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää täältä: https://testaaverkkosi.fi/amplifikaatiohyokkays
 
 ## Korjausehdotuksia
 
-Linkkejä kaupallisen avun hankkimiseksi löytyy ohjeiden lopusta.
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi täältä: https://testaaverkkosi.fi/laitteen-paikallistaminen
 
-Tunnistetaampa aluksi laite, missä palvelu on auki.
-Jos et jo tiedä sitä, lue tunnistusvinkit täältä:
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä. Jos kyseessä on kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse tai ota tietokoneesi oma palomuuri käyttöön.
 
-https://github.com/badrap/testaaverkkosi.fi/blob/master/paikallista.md
+Mikäli kyseessä oli laite, jota et voi piilottaa palomuurin taakse, poista palvelu kokonaan käytöstä. Etsi laitteeseesi sopivat ohjeet kirjoittamalla hakukoneeseen "disable mdns" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
 
-Tämän jälkeen suosittelemme lämpimästi palvelun poistamista käytöstä. Jos kyseessä oli kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse, tai
-ota tietokoneesi oma palomuuri käyttöön.
+"disable mdns google wifi"
 
-Mikäli kyseessä oli laite, jota et voi piilottaa palomuurin taakse, poista palvelu käytöstä. Etsi laitteeseesi sopivat ohjeet kirjoittamalla hakukoneeseen "disable mdns". Lisää hakuehtoihin laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli.
+Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme https://www.reddit.com/r/testaaverkkosi/
 
-Jos kaipaat lisävinkkejä, voit käydä keskustelemassa Reddit-palstallamme:
-
-https://www.reddit.com/r/testaaverkkosi/
-
-Linkkejä kaupalliseen apuun löytyy osoitteesta:
-
-https://plus.google.com/collection/wu6ZWE
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen https://plus.google.com/collection/wu6ZWE
 
 ## Tietolähde
 
-Shadowserver
+Havainto: ShadowServer https://www.shadowserver.org/ – Ohjeet: Badrap Oy https://badrap.io/

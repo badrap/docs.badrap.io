@@ -12,19 +12,16 @@ Telnet - tuo ikivanha Internet-palvelu, jota ei soisi enää näkyvän - varsink
 
 ## Korjausehdotuksia
 
-Jos haluat kaupallista apua, katso linkki ohjeiden lopusta.
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi täältä: https://testaaverkkosi.fi/laitteen-paikallistaminen
 
-Ensiksi sinun tulisi tunnistaa laite jossa Telnet on auki.  Lue ohjeet laitteen paikallistamiseksi: https://docs.google.com/document/d/12XoBcRVuwwqJHFnqKvvl4uZv24GcbSEq9-C8OMQdUho
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable telnet" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
 
-Tämän jälkeen suosittelemme lämpimästi palvelun poistamista käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable telnet" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli.
+"disable telnet telewell tw-ea501"
 
-Esimerkki: disable telnet Telewell TW-EA501
+Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme https://www.reddit.com/r/testaaverkkosi/
 
-Jos kaipaat lisävinkkejä, voit käydä keskustelemassa Reddit-palstallamme, osoitteessa https://www.reddit.com/r/testaaverkkosi/
-
-Linkkejä kaupalliseen apuun löytyy osoitteesta:
-https://plus.google.com/collection/wu6ZWE
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen https://plus.google.com/collection/wu6ZWE
 
 ## Tietolähde
 
-Havainnon tarjosi yksi Internetin supersankareihin kuuluvista organisaatioista,  ShadowServer
+Havainto: ShadowServer https://www.shadowserver.org/ – Ohjeet: Badrap Oy https://badrap.io/

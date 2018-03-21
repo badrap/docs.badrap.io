@@ -2,26 +2,26 @@
 
 ## Ongelman kuvaus
 
-SNMP, tuo Internet-palveluiden kasariveteraani. Tämän palvelun ei kannata olla näkyvillä Internetiin. Sen avulla kuka tahansa voi kysellä tietoja tässä  osoitteessa olevasta laitteesta.
+SNMP, tuo Internet-palveluiden kasariveteraani. Tämän palvelun ei kannata olla näkyvillä Internetiin. Palvelun avulla nimittäin kuka tahansa voi kysellä tietoja IP-osoitteessasi olevista laitteista. Eikä siinä kaikki.
 
-Eikä siinä kaikki. SNMP-palvelu on kätevä työkalu Internetin pahiksille. He kimmottavat ja vahvistavat hyökkäyksiään muita vastaan tämän palvelun avulla. Olet ehkä kuullut uutisissa joskus palvelunestohyökkäyksistä? Näillä niitä tehdään.
+SNMP-palvelu on kätevä työkalu Internetin pahiksille. He kimmottavat ja vahvistavat hyökkäyksiään muita vastaan tämän palvelun avulla. Olet ehkä kuullut uutisissa joskus palvelunestohyökkäyksistä? Näillä niitä tehdään.
 
 Uhrille homma näyttää siltä, että hyökkäys tulee tästä osoitteesta. Hyvä palvelu pahiksille, paha maine omistajalle. Ei jatkoon.
 
 ## Korjausehdotuksia
 
-Jos haluat kaupallista apua, katso linkki ohjeiden lopusta.
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi täältä: https://testaaverkkosi.fi/laitteen-paikallistaminen
 
-Ensiksi sinun tulisi paikallistaa laite jossa SNMP-palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi: https://docs.google.com/document/d/12XoBcRVuwwqJHFnqKvvl4uZv24GcbSEq9-C8OMQdUho
-
-Tämän jälkeen suosittelemme lämpimästi palvelun poistamista käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable snmp" ja laitteeseen liittyvä tarkenne, esimerkiksi:
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable snmp" ja laitteeseen liittyvä tarkenne, esimerkiksi:
 
 "disable snmp apple airport"
 
-Saattaa olla että löydätkin vain ohjeita, mitkä kertovat vain, miten SNMP-palvelu laitetaan päälle. Onneksi ohjeita voi soveltaa: etsi ohjeiden avulla mistä palvelu laitetaan päälle. Palvelun voi myös sammuttaa samasta paikasta.
+Saattaa olla että löydät vain ohjeita, joissa kerrotaan miten SNMP-palvelu laitetaan päälle. Onneksi tätäkin ohjeita voi soveltaa: etsi ohjeista miten palvelu kytketään päälle ja tee juuri päinvastainen toimenpide – palvelun voi myös sammuttaa samasta paikasta.
 
-Jos kaipaat lisävinkkejä, voit käydä keskustelemassa Reddit-palstallamme, osoitteessa https://www.reddit.com/r/testaaverkkosi/.  Linkkejä kaupalliseen apuun löytyy osoitteesta: https://plus.google.com/collection/wu6ZWE
+Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme https://www.reddit.com/r/testaaverkkosi/
+
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen https://plus.google.com/collection/wu6ZWE
 
 ## Tietolähde
 
-Havainnon tarjosi yksi Internetin supersankareihin kuuluvista organisaatioista, ShadowServer
+Havainto: ShadowServer https://www.shadowserver.org/ – Ohjeet: Badrap Oy https://badrap.io/
