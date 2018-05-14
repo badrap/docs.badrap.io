@@ -17,3 +17,4 @@
 * [Avoin Netbios-palvelu](netbios.md)
 * [Avoin NTP-palvelu](ntp.md)
 * [Avoin Memcached-palvelu](memcached.md)
+* [Avoin SMB-tiedostojakopalvelu](smb.md)
