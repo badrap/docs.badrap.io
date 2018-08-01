@@ -43,7 +43,7 @@ jobs:
         git config --global user.name "${GIT_NAME}"
         git config --global push.default simple
         git checkout gh-pages
-        git rm -r *
+        git rm -r *.*
         tar xfz /tmp/workspace/dist.tar.gz
         git add -A
         git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
