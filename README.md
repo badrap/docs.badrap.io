@@ -32,4 +32,4 @@ Changes to the `master` branch are deployed automatically. However, if you want 
 $ yarn build
 ```
 
-If the build is successful the results are located in the `docs/.vuepress/dist` directory.
+If the build is successful the results are located in the `./docs/.vuepress/dist` directory.
