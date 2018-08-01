@@ -10,6 +10,7 @@ themeConfig:
   logo: /badrap-logo.png
   sidebar: auto
   docsRepo: badrap/docs
+  docsDir: docs
   editLinks: true
   nav:
   - text: badrap.io
