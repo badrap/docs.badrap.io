@@ -1,4 +1,4 @@
-title: Badrap docs
+title: BADRAP DOCS
 locales:
   /:
     lang: en-US
@@ -7,11 +7,20 @@ locales:
     lang: fi
     description: Badrapin dokumentaatiosivusto
 themeConfig:
+  logo: /badrap-logo.png
   sidebar: auto
+  docsRepo: badrap/docs
+  editLinks: true
+  nav:
+  - text: badrap.io
+    link: https://badrap.io
   locales:
     /:
       selectText: Languages
       label: English
+      editLinkText: Edit this page on GitHub
     /fi/:
       selectText: Kielet
       label: Suomi
+      editLinkText: Muokkaa tätä sivua GitHubissa
+      
