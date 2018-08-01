@@ -1,0 +1,57 @@
+version: 2.0
+
+jobs:
+  build:
+    docker:
+    - image: node:10.5-alpine
+    steps:
+    - checkout
+    - restore_cache:
+        name: Restore Yarn Package Cache
+        keys:
+        - yarn-packages-{{ checksum "yarn.lock" }}
+    - run:
+        name: Install Dependencies
+        command: yarn install
+    - save_cache:
+        name: Save Yarn Package Cache
+        key: yarn-packages-{{ checksum "yarn.lock" }}
+        paths:
+        - ~/.cache/yarn
+    - run:
+        name: Build the site
+        command: yarn build
+    - run: |
+        mkdir -p /tmp/workspace            
+        tar cfvz /tmp/workspace/dist.tar.gz -C docs/.vuepress/dist .
+    - persist_to_workspace:
+        root: /tmp/workspace
+        paths:
+        - dist.tar.gz    
+#   deploy:
+#     steps:
+#     - add_ssh_keys:
+#         fingerprints:
+#         - "SO:ME:FIN:G:ER:PR:IN:T"              
+#     - attach_workspace:
+#         at: /tmp/workspace
+#     - checkout
+#     - run: |
+#         git checkout gh-pages
+#         git rm -r *
+#         tar xfz /tmp/workspace/dist.tar.gz
+#         git add -A
+#         git commit -m "Deploy ${CIRCLE_SHA1}"
+#         git push
+        
+workflows:
+  version: 2
+  main:
+    jobs:
+    - build
+    - deploy:
+        requires:
+        - build
+        filters:
+          branches:
+            only: master           
