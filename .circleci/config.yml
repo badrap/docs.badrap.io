@@ -47,7 +47,7 @@ jobs:
         tar xfz /tmp/workspace/dist.tar.gz
         git add -A
         git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
-        git push
+        git push "${CIRCLE_REPOSITORY_URL}"
         
 workflows:
   version: 2
