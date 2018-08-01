@@ -28,21 +28,21 @@ jobs:
         root: /tmp/workspace
         paths:
         - dist.tar.gz    
-#   deploy:
-#     steps:
-#     - add_ssh_keys:
-#         fingerprints:
-#         - "SO:ME:FIN:G:ER:PR:IN:T"              
-#     - attach_workspace:
-#         at: /tmp/workspace
-#     - checkout
-#     - run: |
-#         git checkout gh-pages
-#         git rm -r *
-#         tar xfz /tmp/workspace/dist.tar.gz
-#         git add -A
-#         git commit -m "Deploy ${CIRCLE_SHA1}"
-#         git push
+  deploy:
+    steps:
+    # - add_ssh_keys:
+    #     fingerprints:
+    #     - "10:ba:b4:29:1d:64:e5:4b:7b:11:0c:23:a7:85:df:82"              
+    - attach_workspace:
+        at: /tmp/workspace
+    - checkout
+    - run: |
+        git checkout gh-pages
+        git rm -r *
+        tar xfz /tmp/workspace/dist.tar.gz
+        git add -A
+        git commit -m "Deploy ${CIRCLE_SHA1}"
+        git push
         
 workflows:
   version: 2
