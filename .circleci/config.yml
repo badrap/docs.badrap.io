@@ -39,11 +39,13 @@ jobs:
         at: /tmp/workspace
     - checkout
     - run: |
+        git config --global user.email "${GIT_EMAIL}"
+        git config --global user.name "${GIT_NAME}"
         git checkout gh-pages
         git rm -r *
         tar xfz /tmp/workspace/dist.tar.gz
         git add -A
-        git commit -m "Deploy ${CIRCLE_SHA1}"
+        git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
         git push
         
 workflows:
