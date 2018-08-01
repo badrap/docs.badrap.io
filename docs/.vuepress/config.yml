@@ -1,0 +1,17 @@
+title: Badrap docs
+locales:
+  /:
+    lang: en-US
+    description: Badrap documentation site
+  /fi/:
+    lang: fi
+    description: Badrapin dokumentaatiosivusto
+themeConfig:
+  sidebar: auto
+  locales:
+    /:
+      selectText: Languages
+      label: English
+    /fi/:
+      selectText: Kielet
+      label: Suomi
