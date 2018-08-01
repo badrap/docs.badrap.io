@@ -32,12 +32,12 @@ jobs:
     docker:
     - image: circleci/node:10  
     steps:
-    - attach_workspace:
-        at: /tmp/workspace
-    - checkout
     - add_ssh_keys:
         fingerprints:
-        - "10:ba:b4:29:1d:64:e5:4b:7b:11:0c:23:a7:85:df:82"       
+        - "12:28:9b:e3:4b:df:92:3c:48:04:d9:c5:a1:30:07:e3"  
+    - checkout           
+    - attach_workspace:
+        at: /tmp/workspace
     - run: |
         git config --global user.email "${GIT_EMAIL}"
         git config --global user.name "${GIT_NAME}"
@@ -47,7 +47,7 @@ jobs:
         tar xfz /tmp/workspace/dist.tar.gz
         git add -A
         git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
-        git push "${CIRCLE_REPOSITORY_URL}"
+        git push
         
 workflows:
   version: 2
