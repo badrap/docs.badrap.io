@@ -29,6 +29,8 @@ jobs:
         paths:
         - dist.tar.gz    
   deploy:
+    docker:
+    - image: circleci/node:10  
     steps:
     # - add_ssh_keys:
     #     fingerprints:
