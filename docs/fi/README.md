@@ -4,13 +4,13 @@ Suomenkieliset ohjeet [badrap.io](https://badrap.io)-palvelun näyttämiin havai
 
 ## Yleisiä ja yleiskäyttöisiä ohjeita
 
-- [Ongelmallisen palvelun paikallistaminen](paikallista.md)
-- [Tietoa hyökkäyskategorioista](kategoriat.md)
+- [Ongelmallisen palvelun paikallistaminen](locate.md)
+- [Tietoa hyökkäyskategorioista](categories.md)
 
 ## Havaintojen ohjeet
 
-- [Avoin Telnet-palvelu](avoin-telnet.md)
-- [Liian avoin nimipalvelu](liian-avoin-nimipalvelu.md)
+- [Avoin Telnet-palvelu](telnet.md)
+- [Liian avoin nimipalvelu](dns.md)
 - [Avoin MDNS-palvelu](mdns.md)
 - [Avoin SNMP-palvelu](snmp.md)
 - [Avoin TFTP-palvelu](tftp.md)
