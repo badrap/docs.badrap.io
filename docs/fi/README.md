@@ -18,3 +18,8 @@ Suomenkieliset ohjeet [badrap.io](https://badrap.io)-palvelun näyttämiin havai
 - [Avoin NTP-palvelu](ntp.md)
 - [Avoin Memcached-palvelu](memcached.md)
 - [Avoin SMB-tiedostojakopalvelu](smb.md)
+
+## Tietoja palvelusta
+
+- [Usein kysytyt kysymykset](./faq.md)
+- [badrap.io:n tietosuojaseloste](./privacy.md)
