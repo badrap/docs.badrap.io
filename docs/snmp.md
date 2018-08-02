@@ -10,15 +10,15 @@ When a bad guy uses your SNMP service to launch an attack towards someone else, 
 
 ## Suggestions for repair
 
-First of all you need to identify the device which has the vulnerable service open. Please read our instructions on locating vulnerable devices here: https://staging.badrap.io/locate
+First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
 
 When you have located the vulnerable device, we recommend disabling the service from it. Search for instructions from the Internet with the keywords "disable snmp" and your device brand and model, for instance:
 
 "disable snmp apple airport"
 
-Sometimes you may be able to only find instructions on how to enable the SNMP service in your device. If this happens, just perform the exact opposite actions and disable the service - usually you can enable and disable the service from the same location in your device's administration interface. 
+Sometimes you may be able to only find instructions on how to enable the SNMP service in your device. If this happens, just perform the exact opposite actions and disable the service - usually you can enable and disable the service from the same location in your device's administration interface.
 
-If the SNMP service is on intentionally and you want to keep it that way, at least block access to it from the Internet at your firewall or home router. 
+If the SNMP service is on intentionally and you want to keep it that way, at least block access to it from the Internet at your firewall or home router.
 
 We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
 
