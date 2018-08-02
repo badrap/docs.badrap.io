@@ -4,7 +4,19 @@ This is the repository for authoring and building content for the https://docs.b
 
 Changes to this repository's `master` branch get automatically built and deployed. The site is built using [VuePress](https://vuepress.vuejs.org/), the result is pushed to this repository's `gh-pages` branch from which [GitHub Pages](https://pages.github.com/) deploys it.
 
-## Prerequisites
+## Development Quickstart
+
+If you have Docker and Docker Compose installed, then you can run
+
+```sh
+$ docker-compose up
+```
+
+After the initial compilation the site will be served on http://localhost:8080/. The repository root directory is mounted inside the dev build container, which should enable live reloads.
+
+## Development Slow Start
+
+### Prerequisites
 
 As a prerequisite for running the development environment you need to have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com) installed.
 
@@ -14,7 +26,7 @@ On the first run you need to install the dependencies (VuePress and whatnot) by 
 $ yarn
 ```
 
-## Start Development
+### Start Development
 
 Start the development environment:
 
@@ -24,7 +36,7 @@ $ yarn dev
 
 After a while you can open http://localhost:8080/ to see the current version of the site. The site also auto-updates when you edit the relevant files under `./docs`.
 
-## Build the Production Version
+### Build the Production Version
 
 Changes to the `master` branch are deployed automatically. However, if you want to try building a production version of the site manually, the command is:
 

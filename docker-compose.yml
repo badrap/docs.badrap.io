@@ -4,17 +4,11 @@ services:
   docs:
     image: node:10-alpine
     init: true
-    command: /bin/sh -c 'yarn --frozen-lockfile --mutex file:/yarn/mutex && yarn dev'
+    command: /bin/sh -c 'yarn --frozen-lockfile --no-bin-links --modules-folder /cachedir/node_modules && node /cachedir/node_modules/vuepress/bin/vuepress.js dev docs'
     volumes:
       - .:/app:ro
-      - yarn:/yarn
-      - node-modules:/app/node_modules
     environment:
-      YARN_CACHE_FOLDER: /yarn/cache
+      NODE_PATH: /cachedir/node_modules
     working_dir: /app
     ports:
       - "8080:8080"
-
-volumes:
-  yarn:
-  node-modules:
