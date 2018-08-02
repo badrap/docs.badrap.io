@@ -1,0 +1,20 @@
+version: "2.4"
+
+services:
+  docs:
+    image: node:10-alpine
+    init: true
+    command: /bin/sh -c 'yarn --frozen-lockfile --mutex file:/yarn/mutex && yarn dev'
+    volumes:
+      - .:/app:ro
+      - yarn:/yarn
+      - node-modules:/app/node_modules
+    environment:
+      YARN_CACHE_FOLDER: /yarn/cache
+    working_dir: /app
+    ports:
+      - "8080:8080"
+
+volumes:
+  yarn:
+  node-modules:
