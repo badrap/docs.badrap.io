@@ -10,7 +10,7 @@ Liian avoin SMB-palvelu voi jakaa kovalevysi sisältöä, kuvia ja dokumentteja 
 
 ## Korjausehdotuksia
 
-Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi täältä: https://testaaverkkosi.fi/laitteen-paikallistaminen
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./laitteen-paikallistaminen.md)
 
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä. Jos kyseessä on kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse tai ota tietokoneesi oma palomuuri käyttöön. Rajoita siis palvelu näkymään ainoastaan paikalliseen verkkoosi.
 

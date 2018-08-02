@@ -4,11 +4,11 @@
 
 Tökkiikö netti? Joskus vika ei olekaan palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa Netbios-palvelua hyväkseen palvelunestohyökkäyksissä. Tällöin nettisi voi toimia todella hitaasti ja varsinainen hyökkäyksen kohde ei ollenkaan.
 
-Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää täältä: https://testaaverkkosi.fi/amplifikaatiohyokkays
+Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää [täältä](./kategoriat.md#amplifikaatiohyokkaykset).
 
 ## Korjausehdotuksia
 
-Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. Lue ohjeet laitteen paikallistamiseksi täältä: https://testaaverkkosi.fi/laitteen-paikallistaminen
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./laitteen-paikallistaminen.md)
 
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä. Jos kyseessä on kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse tai ota tietokoneesi oma palomuuri käyttöön.
 

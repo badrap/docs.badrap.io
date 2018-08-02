@@ -6,10 +6,10 @@ Nyt tarvitaan pientä etsivätyötä. Koska Internet toimii hieman monimutkaises
 
 Tuumasta toimeen! Missä olet tällä hetkellä?
 
- * Olen kotona
- * Olen muualla kuin kotonani
+- Olen kotona
+- Olen muualla kuin kotonani
 
-----------
+---
 
 ## Olen kotona
 
@@ -21,7 +21,7 @@ Käy ensitöiksesi tarkistamassa reitittimesi tarkka merkki ja malli. Tiedot lö
 
 Seuraavaksi etsi netistä kyseisen kotireitittimen käyttöohje. Ohjeessa kerrotaan kuinka reititintä ylläpidetään, miten siihen otetaan etäyhteys ja mitkä ovat sen käyttäjätunnukset. Käyttäjätunnus ja salasana saattavat myös lukea reitittimen pohjassa.
 
-Onneksi olkoon, onnistuit paikallistamaan laitteen ja pystyt nyt ylläpitämään sitä. Lue seuraavaksi toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta ja ryhdy korjaustoimenpiteisiin!
+Onneksi olkoon, onnistuit paikallistamaan laitteen ja pystyt nyt ylläpitämään sitä. Lue seuraavaksi toimintaohjeet [badrap.io](https://badrap.io)-palvelun antamasta havainnosta ja ryhdy korjaustoimenpiteisiin!
 
 ### Käytätkö oman puhelimesi tai tabletin mobiiliverkkoa? (3G, 4G/LTE)
 
@@ -29,9 +29,9 @@ Mobiiliverkot ovat hieman hankalampia tapauksia, sillä niissä IP-osoitteet sii
 
 Näet palvelumme IP-osoitekohtaisesta informaatiokortista milloin olet seurannut IP-osoitetta. Vertaa aikaleimoja havainnon raportointiaikaan. Jos havainto on raportoitu myöhemmin, saattaa kyseessä olla sinun laitteesi. Muussa tapauksessa kyseessä voi olla havainto, joka on tehty silloin kun IP-osoite on ollut jonkun toisen käytössä.
 
-Onnistuitko paikallistamaan laitteen? Lue seuraavaksi toimintaohjeet [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun antamasta havainnosta. Tarkista onko laitteessasi kyseistä ongelmaa ja korjaa se palvelun antamilla ohjeilla!
+Onnistuitko paikallistamaan laitteen? Lue seuraavaksi toimintaohjeet [badrap.io](https://badrap.io)-palvelun antamasta havainnosta. Tarkista onko laitteessasi kyseistä ongelmaa ja korjaa se palvelun antamilla ohjeilla!
 
-----------
+---
 
 ## Olen muualla kuin kotonani
 
@@ -45,7 +45,7 @@ Seuraavaksi etsi käsiisi henkilö, jolle voit kertoa löydöstäsi:
 
 ### Omalla työpaikalla
 
-Jos olet omalla työpaikallasi, ole yhteydessä työpaikkanne IT-guruun. Välitä [testaaverkkosi.fi](https://testaaverkkosi.fi)-palvelun varoitus hänelle ja kysy tietääkö hän IP-osoitteen perusteella mistä laitteesta on kyse. Kysäise samalla voisiko guru korjata ongelman.
+Jos olet omalla työpaikallasi, ole yhteydessä työpaikkanne IT-guruun. Välitä [badrap.io](https://badrap.io)-palvelun varoitus hänelle ja kysy tietääkö hän IP-osoitteen perusteella mistä laitteesta on kyse. Kysäise samalla voisiko guru korjata ongelman.
 
 ### Vieraana jonkun toisen työpaikalla
 
