@@ -16,10 +16,10 @@ Estä ulkopuolisten pääsy palveluun palomuuraamalla portti 11211 umpeen. Mikä
 
 Hakusanoilla "how to disable memcache" löytyy hyvin ohjeita. Voit liittää hakuusi vielä laitteen, käyttöjärjestelmän tai Linux-distribuution nimen tarkentaaksesi osumatarkkuutta.
 
-Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme https://www.reddit.com/r/testaaverkkosi/
+Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
 
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen https://plus.google.com/collection/wu6ZWE
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
 
 ## Tietolähde
 
-Havainto: ShadowServer https://www.shadowserver.org/ – Ohjeet: Badrap Oy https://badrap.io/
+Havainto: [ShadowServer](https://www.shadowserver.org/) – Ohjeet: [Badrap Oy](https://badrap.io/)
