@@ -12,7 +12,7 @@ Telnet - tuo ikivanha Internet-palvelu, jota ei soisi enää näkyvän - varsink
 
 ## Korjausehdotuksia
 
-Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./laitteen-paikallistaminen.md)
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./locate.md)
 
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable telnet" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
 

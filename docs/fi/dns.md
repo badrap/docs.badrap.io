@@ -6,11 +6,11 @@ Onko verkkosi toiminut joskus huonosti? Vika ei aina ole välttämättä palvelu
 
 Liian avoin nimipalvelu tarkoittaa sitä, että hyökkääjä voi esittää Internetistä käsin palvelimelle pienen kysymyksen ja palvelin antaa takaisin suuren vastauksen. Kun hyökkääjä väärentää lähdeosoitteensa ja lähettää massiivisen määrän kysymyksiä, toimii palvelu palvelunestohyökkäyksen vahvistimena. Kohteena on yleensä joku muu, mutta omakin verkkosi ja/tai palvelusi voivat hajota.
 
-Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää [täältä](./kategoriat.md#amplifikaatiohyokkaykset).
+Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää [täältä](./categories.md#amplifikaatiohyokkaykset).
 
 ## Korjausehdotuksia
 
-Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./laitteen-paikallistaminen.md)
+Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./locate.md)
 
 Nimipalvelu on päällä ilman hyvää syytä:
 
