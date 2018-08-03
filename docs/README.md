@@ -2,12 +2,12 @@
 
 Descriptions and instructions for events shown in [badrap.io](https://badrap.io) service
 
-## General instructions
+## General Instructions
 
 - [How to locate a vulnerable service](locate.md)
 - [Information about vulnerability categories](categories.md)
 
-## Instructions for events
+## Instructions for Events
 
 - [Open Telnet service](telnet.md)
 - [Open DNS service](dns.md)
@@ -18,3 +18,8 @@ Descriptions and instructions for events shown in [badrap.io](https://badrap.io)
 - [Open NTP service](ntp.md)
 - [Open memcached service](memcached.md)
 - [Open SMB service](smb.md)
+
+## Service Information
+
+- [Frequently Asked Questions](./faq.md)
+- [badrap.io Privacy Policy](./privacy.md)
