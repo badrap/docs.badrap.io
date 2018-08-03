@@ -1,4 +1,4 @@
-# The docs.badrap.io site [![CircleCI](https://circleci.com/gh/badrap/docs.svg?style=shield&circle-token=13fe463461063525c5dfe21dad81a830fcd50259)](https://circleci.com/gh/badrap/docs)
+# The docs.badrap.io site [![CircleCI](https://circleci.com/gh/badrap/docs.badrap.io.svg?style=svg&circle-token=13fe463461063525c5dfe21dad81a830fcd50259)](https://circleci.com/gh/badrap/docs.badrap.io)
 
 This is the repository for authoring and building content for the https://docs.badrap.io site.
 
