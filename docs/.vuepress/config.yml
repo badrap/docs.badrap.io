@@ -9,7 +9,7 @@ locales:
 themeConfig:
   logo: /badrap-logo.png
   sidebar: auto
-  docsRepo: badrap/docs
+  docsRepo: badrap/docs.badrap.io
   docsDir: docs
   editLinks: true
   nav:
