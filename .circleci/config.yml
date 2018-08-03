@@ -47,14 +47,17 @@ jobs:
         git checkout HEAD -- CNAME
         tar xfz /tmp/workspace/dist.tar.gz
         git add -A
-        git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
+        git commit -m "Deploy ${CIRCLE_SHA1}"
         git push
         
 workflows:
   version: 2
   main:
     jobs:
-    - build
+    - build:
+        filters:
+          branches:
+            ignore: gh-pages
     - deploy:
         requires:
         - build
