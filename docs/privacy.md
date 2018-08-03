@@ -14,7 +14,7 @@ Badrap Oy\
 Teknologiantie 18 B\
 90590 Oulu\
 Finland\
-email: [asiakaspalvelu@badrap.io](asiakaspalvelu@badrap.io)\
+Email: [support@badrap.io](support@badrap.io)\
 Business ID: 2846254-9
 
 ## Purpose and legal basis for processing

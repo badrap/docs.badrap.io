@@ -11,7 +11,7 @@ sinulle oikeuksistasi.
 Badrap Oy\
 Teknologiantie 18 B\
 90590 Oulu\
-Sähköposti: [asiakaspalvelu@badrap.io](asiakaspalvelu@badrap.io)\
+Sähköposti: [support@badrap.io](support@badrap.io)\
 Y-tunnus 2846254-9
 
 ## Henkilötietojen käsittelyn tarkoitukset ja oikeusperuste
