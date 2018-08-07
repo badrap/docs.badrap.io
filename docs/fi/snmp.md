@@ -16,6 +16,4 @@ Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömä
 
 Saattaa olla että löydät vain ohjeita, joissa kerrotaan miten SNMP-palvelu laitetaan päälle. Onneksi tätäkin ohjeita voi soveltaa: etsi ohjeista miten palvelu kytketään päälle ja tee juuri päinvastainen toimenpide – palvelun voi myös sammuttaa samasta paikasta.
 
-Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
-
 Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
