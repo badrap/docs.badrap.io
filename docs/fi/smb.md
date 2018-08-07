@@ -14,12 +14,6 @@ Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet lait
 
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä. Jos kyseessä on kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse tai ota tietokoneesi oma palomuuri käyttöön. Rajoita siis palvelu näkymään ainoastaan paikalliseen verkkoosi.
 
-Hakusanoilla “disable smb” löydät omaan käyttöjärjestelmään ja laitteeseesi liittyvät SMB-palvelun poisto-ohjeet.
+Hakusanoilla `disable smb` löydät käyttöjärjestelmääsi ja laitteeseesi liittyvät SMB-palvelun poisto-ohjeet.
 
-Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
-
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
-
-## Tietolähde
-
-Havainto: [ShadowServer](https://www.shadowserver.org/) – Ohjeet: [Badrap Oy](https://badrap.io/)
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.

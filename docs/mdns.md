@@ -10,14 +10,6 @@ If you want to understand better how these kinds of so-called amplification atta
 
 First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
 
-When you have located the vulnerable device, we recommend disabling the MDNS service from it. Search for instructions from the Internet with the keywords "disable mdns" and your device brand and model, for instance:
-
-"disable mdns google wifi"
+When you have located the vulnerable device, we recommend disabling the MDNS service from it. Search for instructions from the Internet with the keywords `disable mdns` and your device brand and model, for instance: `disable mdns google wifi`
 
 If the MDNS service is on intentionally and you want to keep it that way, at least block access to the MDNS service from the Internet at your firewall or home router.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)

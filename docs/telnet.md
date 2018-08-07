@@ -14,14 +14,6 @@ Telnet, that age-old Internet service, which should no longer even exist - let a
 
 First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
 
-When you have located the vulnerable device, we recommend disabling the Telnet service immediately. Search for instructions from the Internet with the keywords "disable telnet" and your device brand and model, for instance:
-
-"disable telnet telewell tw-ea501"
+When you have located the vulnerable device, we recommend disabling the Telnet service immediately. Search for instructions from the Internet with the keywords `disable telnet` and your device brand and model, for instance: `disable telnet telewell tw-ea501`
 
 After you disable the Telnet service, you should at least change the administrator password for your device, or consider resetting your device to factory defaults (and then disabling Telnet again if necessary) in order to protect your device from bad guys who have already potentially abused your device.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)
