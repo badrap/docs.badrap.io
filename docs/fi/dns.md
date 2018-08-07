@@ -12,11 +12,11 @@ Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyök
 
 Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./locate.md)
 
-Nimipalvelu on päällä ilman hyvää syytä:
+### Nimipalvelu on päällä ilman hyvää syytä
 
 Omistatko laitteen, etkä tiedä miksi siinä on nimipalvelu päällä? Et todennäköisesti silloin tarvitse sitä. Katso tässä tapauksessa laitteesi ohjeista miten nimipalvelun saisi pois päältä. Etsi avainsanoja "DNS", "Domain Name Service" tai "Name Service". Voit myös etsiä laitteestasi palomuuriominaisuuden, jolla estät pääsyn laitteen palveluihin Internetistä käsin.
 
-Nimipalvelu on tarkoituksella päällä:
+### Nimipalvelu on tarkoituksella päällä
 
 US-CERTin ohje osoitteessa [https://www.us-cert.gov/ncas/alerts/TA13-088A]() tarjoaa esimerkkejä yleisimmistä nimipalveluohjelmistojen tiukemmista asetuksista. Salli rekursiiviset kyselyt vain omille laitteillesi.
 

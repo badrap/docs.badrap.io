@@ -10,8 +10,6 @@ If you want to understand better how these kinds of so-called amplification atta
 
 First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
 
-When you have located the vulnerable device, we recommend disabling the TFTP service from it. Search for instructions from the Internet with the keywords "disable tftp" and your device brand and model, for instance:
-
-"disable tftp netgear nighthawk"
+When you have located the vulnerable device, we recommend disabling the TFTP service from it. Search for instructions from the Internet with the keywords `disable tftp` and your device brand and model, for instance: `disable tftp netgear nighthawk`
 
 If the TFTP service is on intentionally and you want to keep it that way, at least block access to the service from the Internet at your firewall or home router.

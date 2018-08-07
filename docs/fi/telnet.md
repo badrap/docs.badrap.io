@@ -14,9 +14,7 @@ Telnet - tuo ikivanha Internet-palvelu, jota ei soisi enää näkyvän - varsink
 
 Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./locate.md)
 
-Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable telnet" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
-
-"disable telnet telewell tw-ea501"
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen `disable telnet` ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli: `disable telnet telewell tw-ea501`
 
 Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
 

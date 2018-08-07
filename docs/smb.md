@@ -12,6 +12,6 @@ An open SMB service can share the contents of your hard drives including your pe
 
 First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
 
-When you have located the vulnerable device, we recommend disabling the SMB service from it. Search for instructions from the Internet with the keywords "disable smb" and include your device or operating system version to further refine the search results.
+When you have located the vulnerable device, we recommend disabling the SMB service from it. Search for instructions from the Internet with the keywords `disable smb` and include your device or operating system version to further refine the search results.
 
 If the SMB service is on intentionally and you want to keep it that way, at least block access to the service from the Internet at your firewall or home router.

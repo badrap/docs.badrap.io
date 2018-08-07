@@ -12,9 +12,7 @@ Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet lait
 
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä. Jos kyseessä on kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse tai ota tietokoneesi oma palomuuri käyttöön.
 
-Mikäli kyseessä oli laite, jota et voi piilottaa palomuurin taakse, poista palvelu kokonaan käytöstä. Etsi laitteeseesi sopivat ohjeet kirjoittamalla hakukoneeseen "disable netbios" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
-
-"disable netbios asus rt-ac86u"
+Mikäli kyseessä oli laite, jota et voi piilottaa palomuurin taakse, poista palvelu kokonaan käytöstä. Etsi laitteeseesi sopivat ohjeet kirjoittamalla hakukoneeseen `disable netbios` ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli: `disable netbios asus rt-ac86u`
 
 Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
 

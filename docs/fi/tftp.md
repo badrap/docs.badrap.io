@@ -10,9 +10,7 @@ Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyök
 
 Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./locate.md)
 
-Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable tftp" ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli:
-
-"disable tftp netgear nighthawk"
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen `disable tftp` ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli: `disable tftp netgear nighthawk`
 
 Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
 

@@ -12,9 +12,7 @@ Uhrille homma näyttää siltä, että hyökkäys tulee tästä osoitteesta. Hyv
 
 Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet laitteen paikallistamiseksi.](./locate.md)
 
-Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen "disable snmp" ja laitteeseen liittyvä tarkenne, esimerkiksi:
-
-"disable snmp apple airport"
+Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen `disable snmp` ja laitteeseen liittyvä tarkenne, esimerkiksi: `disable snmp apple airport`
 
 Saattaa olla että löydät vain ohjeita, joissa kerrotaan miten SNMP-palvelu laitetaan päälle. Onneksi tätäkin ohjeita voi soveltaa: etsi ohjeista miten palvelu kytketään päälle ja tee juuri päinvastainen toimenpide – palvelun voi myös sammuttaa samasta paikasta.
 

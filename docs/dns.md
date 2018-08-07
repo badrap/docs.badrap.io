@@ -12,12 +12,12 @@ If you want to understand better how these kinds of so-called amplification atta
 
 First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
 
-If your DNS service is on without your knowledge or a valid reason:
+### If your DNS service is on without your knowledge or a valid reason
 
 Do you own a device but don't know why its DNS service is visible to the Internet? This most likely means you do not need the service to be open. See your device instructions on how to disable DNS from being accessible from the Internet. Look for keywords "DNS", "Domain Name Service" or "Name Service". You could also look for a firewall function in your device, that could be used to block access to the DNS service from the Internet.
 
-If your DNS service is on intentionally:
+### If your DNS service is on intentionally
 
-See these instructions from US-CERT for examples on how to harden most common DNS services: https://www.us-cert.gov/ncas/alerts/TA13-088A
+See these instructions from US-CERT for examples on how to harden most common DNS services: [https://www.us-cert.gov/ncas/alerts/TA13-088A]()
 
 You should allow recursive queries only for your own devices.
