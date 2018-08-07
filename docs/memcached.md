@@ -17,7 +17,3 @@ Block access to the service from the Internet by blocking incoming UDP port 1121
 You can find good instructions by searching for the keywords "how to disable memcached". To refine the results even further, add your device, operating system or name of Linux distribution to the search terms.
 
 We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)

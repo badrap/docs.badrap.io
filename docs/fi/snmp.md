@@ -21,7 +21,3 @@ Saattaa olla että löydät vain ohjeita, joissa kerrotaan miten SNMP-palvelu la
 Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
 
 Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
-
-## Tietolähde
-
-Havainto: [ShadowServer](https://www.shadowserver.org/) – Ohjeet: [Badrap Oy](https://badrap.io/)

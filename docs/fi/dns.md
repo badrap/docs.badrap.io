@@ -23,7 +23,3 @@ US-CERTin ohje osoitteessa [https://www.us-cert.gov/ncas/alerts/TA13-088A]() tar
 Jos tarvit lisäohjeita, voit käydä keskustelemassa Reddit-palstallamme [https://www.reddit.com/r/testaaverkkosi/]().
 
 Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
-
-## Tietolähde
-
-Havainto: [ShadowServer](https://www.shadowserver.org/) – Ohjeet: [Badrap Oy](https://badrap.io/)

@@ -23,7 +23,3 @@ See these instructions from US-CERT for examples on how to harden most common DN
 You should allow recursive queries only for your own devices.
 
 We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)

@@ -17,7 +17,3 @@ When you have located the vulnerable device, we recommend disabling the SMB serv
 If the SMB service is on intentionally and you want to keep it that way, at least block access to the service from the Internet at your firewall or home router.
 
 We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)

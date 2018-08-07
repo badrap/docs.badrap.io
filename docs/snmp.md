@@ -21,7 +21,3 @@ Sometimes you may be able to only find instructions on how to enable the SNMP se
 If the SNMP service is on intentionally and you want to keep it that way, at least block access to it from the Internet at your firewall or home router.
 
 We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)

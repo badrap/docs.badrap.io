@@ -21,7 +21,3 @@ When you have located the vulnerable device, we recommend disabling the Telnet s
 After you disable the Telnet service, you should at least change the administrator password for your device, or consider resetting your device to factory defaults (and then disabling Telnet again if necessary) in order to protect your device from bad guys who have already potentially abused your device.
 
 We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
-
-## Data source
-
-Observations: [ShadowServer](https://www.shadowserver.org/) – Instructions: [Badrap](https://badrap.io/)
