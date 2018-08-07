@@ -15,5 +15,3 @@ First of all you need to identify the device which has the vulnerable service op
 When you have located the vulnerable device, we recommend disabling the SMB service from it. Search for instructions from the Internet with the keywords "disable smb" and include your device or operating system version to further refine the search results.
 
 If the SMB service is on intentionally and you want to keep it that way, at least block access to the service from the Internet at your firewall or home router.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE

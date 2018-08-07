@@ -15,5 +15,3 @@ When you have located the vulnerable device, we recommend disabling the NTP serv
 "disable ntp linksys wrt32x"
 
 If the NTP service is on intentionally and you want to keep it that way, at least block access to the NTP service from the Internet at your firewall or home router.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE

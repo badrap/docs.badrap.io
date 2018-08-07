@@ -15,5 +15,3 @@ If you want to understand better how these kinds of so-called amplification atta
 Block access to the service from the Internet by blocking incoming UDP port 11211 at your firewall. If you do not need the Memcached service to be on, disable it.
 
 You can find good instructions by searching for the keywords "how to disable memcached". To refine the results even further, add your device, operating system or name of Linux distribution to the search terms.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE

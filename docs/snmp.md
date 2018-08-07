@@ -19,5 +19,3 @@ When you have located the vulnerable device, we recommend disabling the service 
 Sometimes you may be able to only find instructions on how to enable the SNMP service in your device. If this happens, just perform the exact opposite actions and disable the service - usually you can enable and disable the service from the same location in your device's administration interface.
 
 If the SNMP service is on intentionally and you want to keep it that way, at least block access to it from the Internet at your firewall or home router.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE

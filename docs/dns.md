@@ -21,5 +21,3 @@ If your DNS service is on intentionally:
 See these instructions from US-CERT for examples on how to harden most common DNS services: https://www.us-cert.gov/ncas/alerts/TA13-088A
 
 You should allow recursive queries only for your own devices.
-
-We have also collected some links to companies offering assistance in fixing these kinds of issues: https://plus.google.com/collection/wu6ZWE
