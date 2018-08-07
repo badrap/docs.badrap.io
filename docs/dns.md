@@ -18,6 +18,6 @@ Do you own a device but don't know why its DNS service is visible to the Interne
 
 ### If your DNS service is on intentionally
 
-See these instructions from US-CERT for examples on how to harden most common DNS services: [https://www.us-cert.gov/ncas/alerts/TA13-088A]()
+See these instructions from US-CERT for examples on how to harden most common DNS services: <https://www.us-cert.gov/ncas/alerts/TA13-088A>.
 
 You should allow recursive queries only for your own devices.

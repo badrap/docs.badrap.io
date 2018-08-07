@@ -16,4 +16,4 @@ Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä.
 
 Hakusanoilla `disable smb` löydät käyttöjärjestelmääsi ja laitteeseesi liittyvät SMB-palvelun poisto-ohjeet.
 
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.

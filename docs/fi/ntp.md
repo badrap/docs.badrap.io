@@ -14,4 +14,4 @@ Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä.
 
 Mikäli kyseessä oli laite, jota et voi piilottaa palomuurin taakse, poista palvelu kokonaan käytöstä. Etsi laitteeseesi sopivat ohjeet kirjoittamalla hakukoneeseen `disable ntp` ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli: `disable ntp linksys wrt32x`
 
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.

@@ -16,4 +16,4 @@ Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet lait
 
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen `disable telnet` ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli: `disable telnet telewell tw-ea501`
 
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen [https://plus.google.com/collection/wu6ZWE]().
+Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.
