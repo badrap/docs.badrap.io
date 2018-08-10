@@ -36,6 +36,12 @@ $ yarn dev
 
 After a while you can open http://localhost:8080/ to see the current version of the site. The site also auto-updates when you edit the relevant files under `./docs`.
 
+By default the development server binds to `localhost` port `8080`. This can be modified by setting the environment variables `HOST` and `PORT`:
+
+```sh
+$ HOST=192.168.0.1 PORT=3000 yarn dev
+```
+
 ### Build the Production Version
 
 Changes to the `master` branch are deployed automatically. However, if you want to try building a production version of the site manually, the command is:
@@ -45,3 +51,9 @@ $ yarn build
 ```
 
 If the build is successful the results are located in the `./docs/.vuepress/dist` directory.
+
+Google Analytics can be enabled by setting the `GA_TRACKING_ID` environment variable when building:
+
+```sh
+$ GA_TRACKING_ID=XX-YYYYYYYYY-Z yarn build
+```

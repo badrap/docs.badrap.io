@@ -1,4 +1,8 @@
 module.exports = {
+  host: process.env.HOST || "localhost",
+  port: process.env.PORT || 8080,
+  ga: process.env.GA_TRACKING_ID,
+
   title: "Badrap docs",
   locales: {
     "/": {

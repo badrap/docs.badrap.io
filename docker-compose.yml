@@ -9,6 +9,7 @@ services:
       - .:/app:ro
     environment:
       NODE_PATH: /cachedir/node_modules
+      HOST: 0.0.0.0
     working_dir: /app
     ports:
       - "8080:8080"
