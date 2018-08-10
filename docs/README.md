@@ -9,15 +9,15 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 
 ## Instructions for Events
 
-- [Open Telnet service](telnet.md)
-- [Open DNS service](dns.md)
-- [Open mDNS service](mdns.md)
-- [Open SNMP service](snmp.md)
-- [Open TFTP service](tftp.md)
-- [Open NetBIOS service](netbios.md)
-- [Open NTP service](ntp.md)
-- [Open Memcached service](memcached.md)
-- [Open SMB service](smb.md)
+- [Open Telnet service](types/telnet.md)
+- [Open DNS service](types/dns.md)
+- [Open mDNS service](types/mdns.md)
+- [Open SNMP service](types/snmp.md)
+- [Open TFTP service](types/tftp.md)
+- [Open NetBIOS service](types/netbios.md)
+- [Open NTP service](types/ntp.md)
+- [Open Memcached service](types/memcached.md)
+- [Open SMB service](types/smb.md)
 
 ## Service Information
 

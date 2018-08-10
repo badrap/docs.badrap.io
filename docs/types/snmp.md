@@ -10,7 +10,7 @@ When a bad guy uses your SNMP service to launch an attack towards someone else, 
 
 ## Suggestions for repair
 
-First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
+First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](../locate.md)
 
 When you have located the vulnerable device, we recommend disabling the service from it. Search for instructions from the Internet with the keywords `disable snmp` and your device brand and model, for instance: `disable snmp apple airport`
 

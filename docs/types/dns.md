@@ -6,11 +6,11 @@ Has your Internet connection sometimes been working badly? Your service provider
 
 An open DNS service means simply, that an attacker can send your device a small request message from the Internet, and your device will send back a large response message. If an attacker forges their source address and send a massive amount of small requests to your device, your device amplifies the attack by sending a massive amount of large responses to a third party (the actual victim of the attack). The victim is usually someone else than you, but as a result of the attack your own Internet connection usually breaks down.
 
-If you want to understand better how these kinds of so-called amplification attacks work, please see [here](./categories.md#amplification-attacks).
+If you want to understand better how these kinds of so-called amplification attacks work, please see [here](../categories.md#amplification-attacks).
 
 ## Suggestions for repair
 
-First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
+First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](../locate.md)
 
 ### If your DNS service is on without your knowledge or a valid reason
 

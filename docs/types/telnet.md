@@ -12,7 +12,7 @@ Telnet, that age-old Internet service, which should no longer even exist - let a
 
 ## Suggestions for repair
 
-First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](./locate.md)
+First of all you need to identify the device which has the vulnerable service open. [Please read our instructions on locating vulnerable devices.](../locate.md)
 
 When you have located the vulnerable device, we recommend disabling the Telnet service immediately. Search for instructions from the Internet with the keywords `disable telnet` and your device brand and model, for instance: `disable telnet telewell tw-ea501`
 

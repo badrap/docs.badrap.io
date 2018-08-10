@@ -8,7 +8,7 @@ Here's one report of this rather questionable record attack: <https://thehackern
 
 Amplification attacks abusing services that run on top of the UDP protocol are common. There is also another issue with Memcached, as it does not support authentication outsiders can tamper with the service data. (Source: <https://www.shadowserver.org/wiki/pmwiki.php/Services/Open-Memcached>)
 
-If you want to understand better how these kinds of so-called amplification attacks work, please see [here](./categories.md#amplification-attacks).
+If you want to understand better how these kinds of so-called amplification attacks work, please see [here](../categories.md#amplification-attacks).
 
 ## Suggestions for repair
 

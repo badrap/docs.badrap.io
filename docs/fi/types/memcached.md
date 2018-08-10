@@ -8,7 +8,7 @@ Uutinen kyseenalaisesta ennätyksestä löytyy muun muassa täältä: <https://t
 
 Amplifikaatiohyökkäykset ovat mahdollista, mikäli palvelu tarjoillaan UDP-protokollan välityksellä. Memcached:n kanssa on vielä toinenkin ongelma, nimittäin palvelu ei tue autentikointia joten ulkopuolisilla on mahdollista käpelöidä siinä olevia tietoja. (Lähde: <https://www.shadowserver.org/wiki/pmwiki.php/Services/Open-Memcached>)
 
-Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää [täältä](./categories.md#amplifikaatiohyokkaykset).
+Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää [täältä](../categories.md#amplifikaatiohyokkaykset).
 
 ## Korjausehdotuksia
 
