@@ -1,6 +1,6 @@
 # Badrapin suomenkieliset materiaalit
 
-Suomenkieliset ohjeet [badrap.io](https://badrap.io)-palvelun näyttämiin havaintoihin.
+Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 
 ## Yleisiä ja yleiskäyttöisiä ohjeita
 
