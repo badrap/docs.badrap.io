@@ -1,4 +1,4 @@
-# Open memcached service
+# Open Memcached service
 
 ## Problem description
 
