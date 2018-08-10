@@ -14,7 +14,7 @@ Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 - [Avoin mDNS-palvelu](mdns.md)
 - [Avoin SNMP-palvelu](snmp.md)
 - [Avoin TFTP-palvelu](tftp.md)
-- [Avoin Netbios-palvelu](netbios.md)
+- [Avoin NetBIOS-palvelu](netbios.md)
 - [Avoin NTP-palvelu](ntp.md)
 - [Avoin Memcached-palvelu](memcached.md)
 - [Avoin SMB-tiedostojakopalvelu](smb.md)
