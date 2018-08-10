@@ -11,7 +11,7 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 
 - [Open Telnet service](telnet.md)
 - [Open DNS service](dns.md)
-- [Open MDNS service](mdns.md)
+- [Open mDNS service](mdns.md)
 - [Open SNMP service](snmp.md)
 - [Open TFTP service](tftp.md)
 - [Open Netbios service](netbios.md)

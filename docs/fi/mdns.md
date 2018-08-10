@@ -1,8 +1,8 @@
-# Avoin MDNS-palvelu
+# Avoin mDNS-palvelu
 
 ## Ongelman kuvaus
 
-Tökkiikö netti? Joskus vika ei olekaan palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa MDNS-palvelua hyväkseen palvelunestohyökkäyksissä. Tällöin nettisi voi toimia todella hitaasti ja varsinainen hyökkäyksen kohde ei ollenkaan.
+Tökkiikö netti? Joskus vika ei olekaan palveluntarjoajassa. Pahikset saattavat käyttää tässä osoitteessa olevaa avointa mDNS-palvelua hyväkseen palvelunestohyökkäyksissä. Tällöin nettisi voi toimia todella hitaasti ja varsinainen hyökkäyksen kohde ei ollenkaan.
 
 Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyökkäykset toimivat, lue lisää [täältä](./categories.md#amplifikaatiohyokkaykset).
 

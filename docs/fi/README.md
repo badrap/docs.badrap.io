@@ -11,7 +11,7 @@ Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 
 - [Avoin Telnet-palvelu](telnet.md)
 - [Liian avoin nimipalvelu](dns.md)
-- [Avoin MDNS-palvelu](mdns.md)
+- [Avoin mDNS-palvelu](mdns.md)
 - [Avoin SNMP-palvelu](snmp.md)
 - [Avoin TFTP-palvelu](tftp.md)
 - [Avoin Netbios-palvelu](netbios.md)
