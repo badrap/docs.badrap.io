@@ -1,6 +1,6 @@
-# Badrap feed instructions
+# Badrap documentation
 
-Descriptions and instructions for events shown in [badrap.io](https://badrap.io) service
+This site contains supplementary material for the [badrap.io](https://badrap.io) service.
 
 ## General Instructions
 
