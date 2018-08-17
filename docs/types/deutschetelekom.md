@@ -1,10 +1,10 @@
-# Deutsche Telekom Honeypot Attacks
+# Attack Source
 
 ## Problem description
 
 This IP has been identified as a source of attacks. Usually this means that someone else is controlling your device and using it to attack others. Your device may be used to find new victims to infect, gain unauthorized access to to other devices, scan networks for vulnerabilities and try to exploit them, or cause disruption to normal Internet services.
 
-These forms of attacks are detected automatically by devices called honeypots, which simply listen for attack attempts and alert if one is detected. The Deutsche Telekom Honeypot Project operates a network of honeypots around the world as part of their Cyber Early Warning System.
+These forms of attacks are detected automatically by researchers with devices called honeypots, which simply listen for attack attempts and record the attacker IP address and attack type when an attack is detected. Sometimes also the victims of these attack attempts alert researchers that they have seen an attack from a particular IP. 
 
 ## Suggestions for repair
 
