@@ -18,6 +18,7 @@ Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 - [Avoin NTP-palvelu](types/ntp.md)
 - [Avoin Memcached-palvelu](types/memcached.md)
 - [Avoin SMB-tiedostojakopalvelu](types/smb.md)
+- [Verkkohyökkäysten lähde verkossasi](types/attacksource.md)
 
 ## Tietoja palvelusta
 
