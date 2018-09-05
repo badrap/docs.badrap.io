@@ -19,6 +19,8 @@ Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 - [Avoin Memcached-palvelu](types/memcached.md)
 - [Avoin SMB-tiedostojakopalvelu](types/smb.md)
 - [Verkkohyökkäysten lähde verkossasi](types/attacksource.md)
+- [Porttiskannauksen lähde](types/portscan.md)
+- [Haittaohjelma: Sality](types/malware-sality.md)
 
 ## Tietoja palvelusta
 
