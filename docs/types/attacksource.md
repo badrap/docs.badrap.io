@@ -6,6 +6,8 @@ This IP has been identified as a source of attacks. Usually this means that some
 
 These forms of attacks are detected automatically by researchers with devices called honeypots, which simply listen for attack attempts and record the attacker IP address and attack type when an attack is detected. Sometimes also the victims of these attack attempts alert researchers that they have seen an attack from a particular IP. 
 
+Our research partner Deutsche Telekom Honeypot Project operates a network of honeypots around the world as part of their Cyber Early Warning System.
+
 ## Suggestions for repair
 
 First of all you need to identify the device which is sending out these attacks. [Please read our instructions on locating vulnerable devices.](../locate.md)
