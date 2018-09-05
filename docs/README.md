@@ -19,6 +19,7 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 - [Open Memcached service](types/memcached.md)
 - [Open SMB service](types/smb.md)
 - [Attack source](types/attacksource.md)
+- [Port scanning](types/portscan.md)
 
 ## Service Information
 
