@@ -20,7 +20,13 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 - [Open SMB service](types/smb.md)
 - [Attack source](types/attacksource.md)
 - [Port scanning](types/portscan.md)
+- [Malware: Citeary](types/malware-citeary.md)
+- [Malware: IRCBot](types/malware-ircbot.md)
+- [Malware: Jadtre](types/malware-jadtre.md)
+- [Malware: Palevo](types/malware-palevo.md)
+- [Malware: Pushdo](types/malware-pushdo.md)
 - [Malware: Sality](types/malware-sality.md)
+- [Malware: Wapomi](types/malware-wapomi.md)
 
 ## Service Information
 
