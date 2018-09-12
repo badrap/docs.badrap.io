@@ -8,7 +8,7 @@ During summer 2018 Mikrotik routers which were not updated were hacked and taken
 
 Security researchers investigated these hacks and identified patterns how these devices can be identified in the Internet. In August 2018, Netlab Security Research Team 360 made a global search for all publically visible hacked devices. You can read more about this research in [their blog post](http://blog.netlab.360.com/7500-mikrotik-routers-are-forwarding-owners-traffic-to-the-attackers-how-is-yours-en/). Their research data contains the IP addresses that these hacked devices were using between August 23-24, 2018. Your IP address was found in this dataset among the devices that send users' network traffic information to attackers. 
 
-If the IP address of your Mikrotik router has not changed between Aug 23 and now, you are likely affected and your device is hacked. If the IP address of your router has changed between Aug 23 and now, you might not be hacked. The only way to make sure is to reset the device to its factory configuration and to update the device software to the latest available version from Mikrotik. 
+If you have a Mikrotik router and its IP address has not changed between Aug 23 and now, you are likely affected and your device is hacked. If you have a Mikrotik router and its IP address has changed between Aug 23 and now, you might not be hacked. The only way to make sure is to reset the device to its factory configuration and to update the device software to the latest available version from Mikrotik. 
 
 ## Suggestions for repair
 
