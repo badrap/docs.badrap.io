@@ -1,4 +1,4 @@
-# Mikrotik Router Hijacked
+# Mikrotik Router Hijacked and Stealing Your Information
 
 ## Problem description
 
@@ -6,7 +6,7 @@ Your IP address has very likely a Mikrotik router that has been hacked and hijac
 
 During summer 2018 Mikrotik routers which were not updated were hacked and taken over by attackers. The attackers started to use the hacked devices to eavesdrop on users' traffic, to steal personal and financial data, and to perform computing tasks such as mining cryptocurrencies. 
 
-Security researchers investigated these hacks and identified patterns how these devices can be identified in the Internet. In August 2018, Netlab Security Research Team 360 made a global search for all publically visible hacked devices. You can read more about this research in [their blog post](http://blog.netlab.360.com/7500-mikrotik-routers-are-forwarding-owners-traffic-to-the-attackers-how-is-yours-en/). Their research data contains the IP addresses that these hacked devices were using between August 23-24, 2018. Your IP address was found in this dataset. 
+Security researchers investigated these hacks and identified patterns how these devices can be identified in the Internet. In August 2018, Netlab Security Research Team 360 made a global search for all publically visible hacked devices. You can read more about this research in [their blog post](http://blog.netlab.360.com/7500-mikrotik-routers-are-forwarding-owners-traffic-to-the-attackers-how-is-yours-en/). Their research data contains the IP addresses that these hacked devices were using between August 23-24, 2018. Your IP address was found in this dataset among the devices that send users' network traffic information to attackers. 
 
 If the IP address of your Mikrotik router has not changed between Aug 23 and now, you are likely affected and your device is hacked. If the IP address of your router has changed between Aug 23 and now, you might not be hacked. The only way to make sure is to reset the device to its factory configuration and to update the device software to the latest available version from Mikrotik. 
 
