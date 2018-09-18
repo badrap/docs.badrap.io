@@ -2,7 +2,7 @@
 
 ## Problem description
 
-Your IP address has very likely a Mikrotik router that has been hacked and hijacked to perform malicious actions. In April 2018, a security vulnerability involving Mikrotik routers was published. The vulnerability was patched by the device vendor and updated software was released to fix the issue. However, not every user heard about this vulnerability or updated their device software. 
+Your network has very likely a Mikrotik router that has been hacked and hijacked to perform malicious actions. In April 2018, a security vulnerability involving Mikrotik routers was published. The vulnerability was patched by the device vendor and updated software was released to fix the issue. However, not every user heard about this vulnerability or updated their device software. 
 
 During summer 2018 Mikrotik routers which were not updated were hacked and taken over by attackers. The attackers installed a configuration that enabled the attackers to eavesdrop on users' traffic, to steal personal and financial data, and to perform computing tasks such as mining cryptocurrencies. 
 
