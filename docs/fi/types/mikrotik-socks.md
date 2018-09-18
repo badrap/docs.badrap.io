@@ -2,7 +2,7 @@
 
 ## Ongelman kuvaus
 
-IP-osoitteessasi on hyvin todennäköisesti Mikrotikin reititin, joka on hakkeroitu ja otettu hyökkääjän haltuun. Huhtikuussa 2018 julkaistiin tietoturvahaavoittuvuus Mikrotikin reitittimissä. Laitevalmistaja korjasi haavoittuvuuden ja julkaisi päivitetyn ohjelmistoversion ongelman korjaamiseksi. Kaikki käyttäjät eivät kuitenkaan ole kuulleet haavoittuvuudesta ja päivittäneet reitittimensä ohjelmistoa uuteen versioon. 
+Verkossasi on hyvin todennäköisesti Mikrotikin reititin, joka on hakkeroitu ja otettu hyökkääjän haltuun. Huhtikuussa 2018 julkaistiin tietoturvahaavoittuvuus Mikrotikin reitittimissä. Laitevalmistaja korjasi haavoittuvuuden ja julkaisi päivitetyn ohjelmistoversion ongelman korjaamiseksi. Kaikki käyttäjät eivät kuitenkaan ole kuulleet haavoittuvuudesta ja päivittäneet reitittimensä ohjelmistoa uuteen versioon. 
 
 Kesän 2018 aikana päivittämättömiin Mikrotikin reitittimiin hyökättiin laajalti, ja hyökkääjät ottivat laitteita haltuunsa haavoittuvuutta hyväksikäyttämällä. Pahantekijät alkoivat käyttää joitakin laitteita omiin tarkoituksiinsa, kuten kuuntelemaan käyttäjien verkkoliikennettä, anastamaan henkilötietoja ja pankkitietoja, tai käyttämään laitteiden laskentatehoa esimerkiksi kryptovaluuttojen generoimiseen. 
 
