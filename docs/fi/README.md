@@ -27,9 +27,9 @@ Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 - [Haittaohjelma: Pushdo](types/malware-pushdo.md)
 - [Haittaohjelma: Sality](types/malware-sality.md)
 - [Haittaohjelma: Wapomi](types/malware-wapomi.md)
-- [Mikrotik-reitittimessä haavoittuvuus](types/mikrotik-vuln.md)
-- [Mikrotik-reititin hakkeroitu](types/mikrotik-socks.md)
-- [Mikrotik-reititin kaapattu varastamaan tietojasi](types/mikrotik-spy.md)
+- [MikroTik-reitittimessä haavoittuvuus](types/mikrotik-vuln.md)
+- [MikroTik-reititin hakkeroitu](types/mikrotik-socks.md)
+- [MikroTik-reititin kaapattu varastamaan tietojasi](types/mikrotik-spy.md)
 
 ## Tietoja palvelusta
 
