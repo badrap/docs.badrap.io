@@ -27,9 +27,6 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 - [Malware: Pushdo](types/malware-pushdo.md)
 - [Malware: Sality](types/malware-sality.md)
 - [Malware: Wapomi](types/malware-wapomi.md)
-- [MikroTik Router Vulnerability](types/mikrotik-vuln.md)
-- [MikroTik Router Hijacked](types/mikrotik-socks.md)
-- [MikroTik Router Stealing Information](types/mikrotik-spy.md)
 
 ## Service Information
 
