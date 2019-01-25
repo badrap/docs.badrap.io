@@ -13,13 +13,14 @@ search for their own data easily and find out if they are vulnerable.
 
 ## Is there any danger if I search for my own data in your service?
 
-Absolutely not. Information about your IP address already exists out in the
-Internet. By searching for your own data through our service, you just search for
-your own IP address from existing data sets published by security researchers.
-We could show the results for your IP address as soon as you enter our site,
-but we decided to put the search functionality behind a button, so that
-we do not do anything without your explicit consent, and that we can separate
-users who are really interested in our service from random passers-by.
+Absolutely not. Information about your personal network assets (e.g. IP 
+addresses, email addresses) already exists out in the Internet. By searching 
+for your own data through our service, you just search for your own assets 
+from existing data sets published by security researchers. We could show the 
+results for your assets as soon as you enter our site, but we decided to put 
+the search functionality behind a button, so that we do not do anything 
+without your explicit consent, and that we can separate users who are really 
+interested in our service from random passers-by.
 
 ## Why is this a free service?
 
@@ -44,6 +45,7 @@ are:
 - [Fitsec](https://www.fitsec.com/)
 - [T-Sec Radar](https://sicherheitstacho.eu/start/main)
 - Telia
+- [HaveIBeenPwned](https://haveibeenpwned.com)
 
 ## Are you monitoring me or my networks?
 
@@ -68,20 +70,50 @@ the privacy tool of your choice and block everything else. :)
 ## If I create an account, will you send me spam?
 
 No way. If you want, you can request automatic notifications on any new
-information regarding your IP addresses. If any new vulnerabilities appear,
-you will get a notification via email. We also may inform you about major
-updates to the service as well as new features that affect your use of the
-service substantially. You can always remove any IP addresses from your
-notifications as well as deny all email notifications completely.
+information regarding your IP addresses or email addresses. If any new 
+vulnerabilities appear, you will get a notification via email. We also 
+may inform you about major updates to the service as well as new features 
+that affect your use of the service substantially. You can always remove 
+any registered assets from your notifications as well as deny all email 
+notifications completely.
+
+## What is the email search feature?
+
+We started off Badrap by allowing you to search for security information
+relating to your important IP addresses. However, IP addresses are just one type 
+of important network asset. We have added email addresses as another asset type 
+that you can search and get notified about. We may add also other asset types in 
+the future, let us know if you have some good ideas!
+
+## How does the email search feature work?
+
+The email search feature works similarly to what we do with IP addresses. You 
+register your email address into our service, so that we believe you have
+a right to search for available security information relating to it. We help
+you search for your email address from security researchers' information that
+is already available. We use security researcher Troy Hunt's widely publicized 
+and credible service Have I Been Pwned to tell you about publically known 
+security incidents relating to your email address, such as data breaches. 
+
+The email search works slightly differently in the sense that when you 
+enable the email search feature for your email address, we have to 
+submit your email address to the I Have Been Pwned search interface. That
+service does not log any searches or store your email address when it is
+searched. We explicitly ask for your consent and permission if you want to 
+enable the email search functionality. As with any other services, if you
+do not trust Badrap or Have I Been Pwned to handle your email address 
+properly, you can simply choose not to enable the email search 
+functionality. 
 
 ## Finally
 
 We hope we were able to answer your questions above!
 
-You can always check your current IP address with any web browser without
-creating an account. However, by registering you can subscribe to notifications
+You can always check the status of your current IP address with any web browser 
+without creating an account. However, by registering you can also search for 
+information regarding your email address. By registering you can also get notifications
 regarding your IP addresses, which means you will automatically receive any new
-security warnings by email, and you can easily get up-to-date information on
+security warnings by email. That way you can easily get up-to-date information on
 all of the different IP addresses that you use daily at home, at work, at the
 coffee shop, and so on.
 
