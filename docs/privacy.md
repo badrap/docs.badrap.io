@@ -106,16 +106,22 @@ cease our processing of your personal data.
 
 ## Data recipients
 
-Your personal data can be accessed only by named employees of Badrap Ltd,
-who develop and maintain the service. We do not transfer your data to
-third parties or use external service providers as subcontractors.
+Your personal data can be accessed by named employees of Badrap Ltd,
+who develop and maintain the service. As a rule, we do not transfer 
+your data to third parties or use external service providers as 
+subcontractors.
 
 For our email search feature, we perform a search of your email address
 against security researcher Troy Hunt's data breach reporting service
 [Have I Been Pwned](https://haveibeenpwned.com/). Their [privacy policy](https://haveibeenpwned.com/Privacy)
-states they do not log or store your email when the query is performed. If
-you do not trust Badrap or Have I Been Pwned for processing your email 
-addess, you can always refrain from enabling and using the email search feature.
+states they do not store your email address in any way when a query 
+is performed. If you do not trust Badrap or Have I Been Pwned for processing 
+your email address securely, you can always refrain from enabling and using 
+the email search feature.
+
+Note that you have to always provide your explicit and unambiguous consent to 
+use the email search feature, and that you can revoke this consent from your
+account settings at any time. 
 
 ## Data transfers outside of EU
 
