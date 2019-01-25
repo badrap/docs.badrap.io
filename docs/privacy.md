@@ -33,29 +33,29 @@ These technologies allow us to know someone visited our service.
 
 ## What personal information do we process?
 
-- Your email address
+- One or more email addresses that you may choose to register into our service
 - One or more IP addresses that you may choose to register into our service
-- Security researchers' warnings regarding your registered IP addresses
+- Security researchers' warnings regarding your registered IP addresses and email addresses ("assets")
 
 ## Data sources
 
 We receive your personal data with your explicit consent when you
 create an account for the service and when you use the service. You
-can choose to register your current IP address under your user account.
-If you register an IP address, it will be associated with your email
-address (your user account). You can add more IP addresses under your
-user account. Registering a new IP address under your account always
+can choose to register your assets (IP addresses or email addresses 
+that you use) under your user account. If you register an asset, it will 
+be associated with your user account. You can add more assets 
+under your user account. Registering a new asset under your account always
 requires your explicit consent. You can at any time see all of your
-personal data under your user account page, remove any registered IP
-addresses from your account, or remove your whole user account completely.
+personal data under your user account page, remove any registered assets 
+from your account, or remove your whole user account completely.
 
 We receive information security warnings from security researchers and
-research groups who follow malicious Internet traffic. If an IP address
+research groups who follow malicious Internet traffic. If an asset 
 that you have registered is found in any security researchers' warning lists,
-we will forward you any information regarding your IP address that we have
-received from security researchers. Your personal data is never submitted to
+we will forward you any information regarding your asset that we have
+received from security researchers. Your personal data is not transferred to
 security researchers or any other third parties - only you yourself have
-access to your own personal data.
+access to your own personal data. 
 
 ## Your rights as a data subject
 
@@ -110,6 +110,13 @@ Your personal data can be accessed only by named employees of Badrap Ltd,
 who develop and maintain the service. We do not transfer your data to
 third parties or use external service providers as subcontractors.
 
+For our email search feature, we perform a search of your email address
+against security researcher Troy Hunt's data breach reporting service
+[Have I Been Pwned](https://haveibeenpwned.com/). Their [privacy policy](https://haveibeenpwned.com/Privacy)
+states they do not log or store your email when the query is performed. If
+you do not trust Badrap or Have I Been Pwned for processing your email 
+addess, you can always refrain from enabling and using the email search feature.
+
 ## Data transfers outside of EU
 
 Some parts of our technical service implementation use external components:
@@ -144,7 +151,7 @@ We constantly strive to develop our practices and measures further
 in order to improve the security and privacy of our service.
 
 Technically the process goes as follows: The user (you) registers
-his/her/their email address and IP address to the service via a
+his/her/their email addresses and IP addresses to the service via a
 TLS-encrypted session. The data provided by the user is stored into
 a Google Cloud SQL database. The database is secured with strong
 encryption and it implements SSAE 16, ISO 27001, PCI DSS v3.0 and HIPAA
