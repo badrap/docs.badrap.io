@@ -77,33 +77,51 @@ that affect your use of the service substantially. You can always remove
 any registered assets from your notifications as well as deny all email 
 notifications completely.
 
-## What is the email search feature?
+## What is the data breach monitoring service (or "Have I Been Pwned integration")?
 
 We started off Badrap by allowing you to search for security information
 relating to your important IP addresses. However, IP addresses are just one type 
 of important network asset. We have added email addresses as another asset type 
-that you can search and get notified about. We may add also other asset types in 
-the future, let us know if you have some good ideas!
+that you can search for and get notified about. For this, we integrate with
+security researcher Troy Hunt's data breach search engine Have I Been Pwned. 
+It allows you to search for information relating to your email address among
+publically available data breach datasets. These data breaches may include
+in addition to your email address other personal data such as passwords, home 
+address, telephone number, etc. In addition to IP addresses and email addresses, 
+we may add also other asset types in the future - let us know if you have some 
+good ideas!
 
-## How does the email search feature work?
+## What is a data breach and what can it contain? 
 
-The email search feature works similarly to what we do with IP addresses. You 
-register your email address into our service, so that we believe you have
-a right to search for available security information relating to it. We help
-you search for your email address from security researchers' information that
-is already available. We use security researcher Troy Hunt's widely publicized 
-and credible service Have I Been Pwned to tell you about publically known 
-security incidents relating to your email address, such as data breaches. 
+A data breach usually contains personal data stolen or inadvertently made public
+from a closed database. The most typical form of data breach happens when 
+you register for a service, the service contains some kind of security
+vulnerability or is otherwise inadequately protected, and your personal data 
+is copied from the service database. Data breaches typically contain your
+email address, any other personal data, passwords, and in really severe cases 
+even things like credit card details or bank account information. You can read 
+more about data breaches from our [instructions](types/databreach.md). 
 
-The email search works slightly differently in the sense that when you 
-enable the email search feature for your email address, we have to 
+## How does the Have I Been Pwned search feature work?
+
+The Have I Been Pwned search feature works similarly to what we have been doing
+with IP addresses. You register your email address into our service, so that we 
+believe you have a right to search for available security information relating to 
+it. We help you search for security information relating to your email address 
+from available good-quality sources. Initially we use security researcher Troy Hunt's 
+widely publicized and credible data breach reporting service Have I Been Pwned 
+to tell you about publically known security incidents relating to your email 
+address, such as data breaches. 
+
+The Have I Been Pwned search feature works slightly differently in the sense 
+that when you enable the feature for your email address, we have to 
 submit your email address to the I Have Been Pwned search interface. That
 service does not log any searches or store your email address when it is
 searched. We explicitly ask for your consent and permission if you want to 
-enable the email search functionality. As with any other services, if you
-do not trust Badrap or Have I Been Pwned to handle your email address 
-properly, you can simply choose not to enable the email search 
-functionality. 
+enable the Have I Been Pwned search functionality. As with any other services, 
+if you do not trust Badrap or Have I Been Pwned to handle your email address 
+properly, you can simply choose not to enable the Have I Been Pwned search
+feature.
 
 ## Finally
 
@@ -111,10 +129,11 @@ We hope we were able to answer your questions above!
 
 You can always check the status of your current IP address with any web browser 
 without creating an account. However, by registering you can also search for 
-information regarding your email address. By registering you can also get notifications
-regarding your IP addresses, which means you will automatically receive any new
-security warnings by email. That way you can easily get up-to-date information on
-all of the different IP addresses that you use daily at home, at work, at the
-coffee shop, and so on.
+information regarding your email address and possibly other personal assets in
+the future. By registering you can also get notifications regarding your registered 
+assets, which means you will automatically receive any new security warnings by 
+email. That way you can easily get up-to-date information on all of the different 
+IP addresses that you use daily at home, at work, or at the coffee shop, as well 
+as new security information relating to your email address. 
 
 [Create an account »](https://badrap.io/register)
