@@ -53,9 +53,9 @@ We receive information security warnings from security researchers and
 research groups who follow malicious Internet traffic. If an asset 
 that you have registered is found in any security researchers' warning lists,
 we will forward you any information regarding your asset that we have
-received from security researchers. Your personal data is not transferred to
-security researchers or any other third parties - only you yourself have
-access to your own personal data. 
+received from security researchers. As a rule, your personal data is not 
+transferred to security researchers or any other third parties - only you 
+yourself have access to your own personal data. 
 
 ## Your rights as a data subject
 
@@ -111,17 +111,22 @@ who develop and maintain the service. As a rule, we do not transfer
 your data to third parties or use external service providers as 
 subcontractors.
 
-For our email search feature, we perform a search of your email address
-against security researcher Troy Hunt's data breach reporting service
-[Have I Been Pwned](https://haveibeenpwned.com/). Their [privacy policy](https://haveibeenpwned.com/Privacy)
-states they do not store your email address in any way when a query 
-is performed. If you do not trust Badrap or Have I Been Pwned for processing 
-your email address securely, you can always refrain from enabling and using 
-the email search feature.
+As part of our data breach monitoring service, we offer an integrated
+search function against security researcher Troy Hunt's [Have I Been Pwned](https://haveibeenpwned.com/)
+data breach reporting database. This search function allows you to search for
+your email address from the Have I Been Pwned data breach service, and to be 
+automatically notified if any new data breaches are published which contain 
+personal information relating to your email address. 
+
+Have I Been Pwned [privacy policy](https://haveibeenpwned.com/Privacy) states
+they do not store or log your email address in any way when a query is
+performed. If you do not trust Badrap or Have I Been Pwned for processing
+your email address securely, you can always refrain from enabling and using
+the Have I Been Pwned search feature in Badrap. 
 
 Note that you have to always provide your explicit and unambiguous consent to 
-use the email search feature, and that you can revoke this consent from your
-account settings at any time. 
+use Badrap's Have I Been Pwned search feature, and that you can revoke 
+this consent from your account settings at any time. 
 
 ## Data transfers outside of EU
 
