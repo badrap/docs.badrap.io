@@ -9,6 +9,8 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 
 ## Instructions for Events
 
+- [Data Breach](types/databreach.md)
+- [Spam List](types/spamlist.md)
 - [Open Telnet service](types/telnet.md)
 - [Open DNS service](types/dns.md)
 - [Open mDNS service](types/mdns.md)

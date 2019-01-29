@@ -13,13 +13,14 @@ search for their own data easily and find out if they are vulnerable.
 
 ## Is there any danger if I search for my own data in your service?
 
-Absolutely not. Information about your IP address already exists out in the
-Internet. By searching for your own data through our service, you just search for
-your own IP address from existing data sets published by security researchers.
-We could show the results for your IP address as soon as you enter our site,
-but we decided to put the search functionality behind a button, so that
-we do not do anything without your explicit consent, and that we can separate
-users who are really interested in our service from random passers-by.
+Absolutely not. Information about your personal network assets (e.g. IP 
+addresses, email addresses) already exists out in the Internet. By searching 
+for your own data through our service, you just search for your own assets 
+from existing data sets published by security researchers. We could show the 
+results for your assets as soon as you enter our site, but we decided to put 
+the search functionality behind a button, so that we do not do anything 
+without your explicit consent, and that we can separate users who are really 
+interested in our service from random passers-by.
 
 ## Why is this a free service?
 
@@ -44,6 +45,7 @@ are:
 - [Fitsec](https://www.fitsec.com/)
 - [T-Sec Radar](https://sicherheitstacho.eu/start/main)
 - Telia
+- [HaveIBeenPwned](https://haveibeenpwned.com)
 
 ## Are you monitoring me or my networks?
 
@@ -68,21 +70,70 @@ the privacy tool of your choice and block everything else. :)
 ## If I create an account, will you send me spam?
 
 No way. If you want, you can request automatic notifications on any new
-information regarding your IP addresses. If any new vulnerabilities appear,
-you will get a notification via email. We also may inform you about major
-updates to the service as well as new features that affect your use of the
-service substantially. You can always remove any IP addresses from your
-notifications as well as deny all email notifications completely.
+information regarding your IP addresses or email addresses. If any new 
+vulnerabilities appear, you will get a notification via email. We also 
+may inform you about major updates to the service as well as new features 
+that affect your use of the service substantially. You can always remove 
+any registered assets from your notifications as well as deny all email 
+notifications completely.
+
+## What is the data breach monitoring service (or "Have I Been Pwned integration")?
+
+We started off Badrap by allowing you to search for security information
+relating to your important IP addresses. However, IP addresses are just one type 
+of important network asset. We have added email addresses as another asset type 
+that you can search for and get notified about. For this, we integrate with
+security researcher Troy Hunt's data breach search engine Have I Been Pwned. 
+It allows you to search for information relating to your email address among
+publically available data breach datasets. These data breaches may include
+in addition to your email address other personal data such as passwords, home 
+address, telephone number, etc. In addition to IP addresses and email addresses, 
+we may add also other asset types in the future - let us know if you have some 
+good ideas!
+
+## What is a data breach and what can it contain? 
+
+A data breach usually contains personal data stolen or inadvertently made public
+from a closed database. The most typical form of data breach happens when 
+you register for a service, the service contains some kind of security
+vulnerability or is otherwise inadequately protected, and your personal data 
+is copied from the service database. Data breaches typically contain your
+email address, any other personal data, passwords, and in really severe cases 
+even things like credit card details or bank account information. You can read 
+more about data breaches from our [instructions](types/databreach.md). 
+
+## How does the Have I Been Pwned search feature work?
+
+The Have I Been Pwned search feature works similarly to what we have been doing
+with IP addresses. You register your email address into our service, so that we 
+believe you have a right to search for available security information relating to 
+it. We help you search for security information relating to your email address 
+from available good-quality sources. Initially we use security researcher Troy Hunt's 
+widely publicized and credible data breach reporting service Have I Been Pwned 
+to tell you about publically known security incidents relating to your email 
+address, such as data breaches. 
+
+The Have I Been Pwned search feature works slightly differently in the sense 
+that when you enable the feature for your email address, we have to 
+submit your email address to the I Have Been Pwned search interface. That
+service does not log any searches or store your email address when it is
+searched. We explicitly ask for your consent and permission if you want to 
+enable the Have I Been Pwned search functionality. As with any other services, 
+if you do not trust Badrap or Have I Been Pwned to handle your email address 
+properly, you can simply choose not to enable the Have I Been Pwned search
+feature.
 
 ## Finally
 
 We hope we were able to answer your questions above!
 
-You can always check your current IP address with any web browser without
-creating an account. However, by registering you can subscribe to notifications
-regarding your IP addresses, which means you will automatically receive any new
-security warnings by email, and you can easily get up-to-date information on
-all of the different IP addresses that you use daily at home, at work, at the
-coffee shop, and so on.
+You can always check the status of your current IP address with any web browser 
+without creating an account. However, by registering you can also search for 
+information regarding your email address and possibly other personal assets in
+the future. By registering you can also get notifications regarding your registered 
+assets, which means you will automatically receive any new security warnings by 
+email. That way you can easily get up-to-date information on all of the different 
+IP addresses that you use daily at home, at work, or at the coffee shop, as well 
+as new security information relating to your email address. 
 
 [Create an account »](https://badrap.io/register)
