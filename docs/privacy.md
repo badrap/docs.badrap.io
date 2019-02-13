@@ -28,8 +28,8 @@ your user account.
 
 For users who use our service without creating an user account, the legal
 basis for processing personal data is our legitimate interests. We use
-Google Analytics to collect anonymous visitor statistics.
-These technologies allow us to know someone visited our service.
+Google Analytics to collect anonymous visitor statistics. It allows us to 
+know someone visited our service.
 
 ## What personal information do we process?
 
@@ -114,14 +114,14 @@ subcontractors.
 As part of our data breach monitoring service, we offer an integrated
 search function against security researcher Troy Hunt's [Have I Been Pwned](https://haveibeenpwned.com/)
 data breach reporting database. This search function allows you to search for
-your email address from the Have I Been Pwned data breach service, and to be 
+your email addresses from the Have I Been Pwned data breach service, and to be 
 automatically notified if any new data breaches are published which contain 
-personal information relating to your email address. 
+personal information relating to your email addresses. 
 
 Have I Been Pwned [privacy policy](https://haveibeenpwned.com/Privacy) states
-they do not store or log your email address in any way when a query is
+they do not store or log your email addresses in any way when a query is
 performed. If you do not trust Badrap or Have I Been Pwned for processing
-your email address securely, you can always refrain from enabling and using
+your email addresses securely, you can always refrain from enabling and using
 the Have I Been Pwned search feature in Badrap. 
 
 Note that you have to always provide your explicit and unambiguous consent to 
@@ -131,12 +131,12 @@ this consent from your account settings at any time.
 ## Data transfers outside of EU
 
 Some parts of our technical service implementation use external components:
-we use Google Analytics and Facebook Pixel for usage statistics, Mailgun
-and Mailchimp for sending automatic email notifications to registered users,
-and Google Cloud SQL for storing information. We require our foreign
-service providers that their countries have an adequate level of data
-privacy as required by the GDPR, and that they are committed to
-follow the GDPR and other relevant EU regulations.
+we use Google Analytics for usage statistics, Mailgun and Mailchimp for 
+sending automatic email notifications to registered users, and Google 
+Cloud SQL for storing information. We require our foreign service providers 
+that their countries have an adequate level of data privacy as required 
+by the GDPR, and that they are committed to follow the GDPR and other 
+relevant EU regulations.
 
 ## Automated individual decision-making
 
