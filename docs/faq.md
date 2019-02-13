@@ -136,19 +136,19 @@ we will send a verification link to each email address that you want to register
 and you must use that link to verify you have access to those additional addresses. 
 After you register a new email address, it will show up under your user account
 as another network asset - the same way that happens when you register multiple
-IP addresses. 
+IP addresses. You will also get another notification email to that address, 
+confirming that the address was successfully registered.
 
 ## What happens if someone else tries to claim my email address?
 
 You will always get a verification link if anyone tries to register your email
 address to Badrap. If you have not registered that email address yourself, 
-you can simply ignore the verification request. If you have registered the address
-yourself or want to give someone else permission to register your emmail address
-on your behalf, you may accept the request. You can also opt to remove your
-address from Badrap completely by clicking on the "remove this email address"
-link in the verification email. This will remove your email address from all 
-registered assets in Badrap, under yourself and any other user accounts that have 
-registered it. 
+you can simply ignore the verification request. If you have registered the address 
+yourself or want to give someone else permission to register your email address 
+on your behalf, you may accept the request. You can also opt to remove your 
+address from Badrap completely by clicking on the "remove this email address" link 
+in the verification email. This will remove your email address from all registered 
+assets in Badrap, under yourself and any other user accounts that have registered it. 
 
 ## Finally
 
