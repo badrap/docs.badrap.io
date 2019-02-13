@@ -146,8 +146,9 @@ you can simply ignore the verification request. If you have registered the addre
 yourself or want to give someone else permission to register your emmail address
 on your behalf, you may accept the request. You can also opt to remove your
 address from Badrap completely by clicking on the "remove this email address"
-link in the verification email. This will remove your email address from Badrap
-completely, from yourself and any other user accounts that have registered it. 
+link in the verification email. This will remove your email address from all 
+registered assets in Badrap, under yourself and any other user accounts that have 
+registered it. 
 
 ## Finally
 
