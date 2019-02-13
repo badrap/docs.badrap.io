@@ -28,7 +28,7 @@ your user account.
 
 For users who use our service without creating an user account, the legal
 basis for processing personal data is our legitimate interests. We use
-Google Analytics and Facebook Pixel to collect anonymous visitor statistics.
+Google Analytics to collect anonymous visitor statistics.
 These technologies allow us to know someone visited our service.
 
 ## What personal information do we process?
