@@ -8,7 +8,7 @@ Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osa
 
 ## Mikä tässä on vaarana?
 
-Taloautomaatiojärjestelmien ei kuulu missään nimessä olla auki Internetiin. Sekä [Viestintäviraston Kyberturvallisuuskeskus](https://www.kyberturvallisuuskeskus.fi/fi/ajankohtaista/kuka-sammutti-valot-puutteellinen-rakennusautomaatiolaitteiden-suojaus-verkossa) että [taloautomaatiojärjestelmien valmistaja Fidelix](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/) varoittavat pitämästä järjestelmiä avoimissa verkoissa. 
+Taloautomaatiojärjestelmien ei kuulu missään nimessä olla auki Internetiin. Sekä [Viestintäviraston Kyberturvallisuuskeskus](https://www.kyberturvallisuuskeskus.fi/fi/ajankohtaista/kuka-sammutti-valot-puutteellinen-rakennusautomaatiolaitteiden-suojaus-verkossa) että [taloautomaatiojärjestelmien suomalainen valmistaja Fidelix](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/) varoittavat pitämästä järjestelmiä avoimissa verkoissa. 
 
 Jos taloautomaatiolaitteistot ovat koko maailman käytettävissä, niitä voi löytää helposti erilaisilla hakukoneilla ja yrittää väärinkäyttää. Pahantahtoiset tunkeilijat voivat kokeilla arvata järjestelmän salasanoja. Usein järjestelmissä on vielä päällä oletussalasanat, jotka ovat hyvin helppoja arvata tai jo valmiiksi tunkeilijoiden tiedossa. Hyökkääjät voivat myös yrittää käyttää hyväksi järjestelmistä löytyneitä tietoturvahaavoittuvuuksia. Palvelunestohyökkäyksellä järjestelmän toimintaa voidaan haitata tai estää kokonaan kohdistamalla järjestelmään poikkeuksellisen paljon verkkoliikennettä Internetistä, vaikka itse järjestelmään ei pääsisikään kirjautumaan sisälle.
 
@@ -16,7 +16,7 @@ Kun hyökkääjä pääsee sisään Internetiin kytkettyyn taloautomaatiojärjes
 
 ## Miksi häiritsette minua?
 
-Team Whack -ohjelmasarjan tietoturvatutkijat havaitsivat sinun verkossasi Internetiin kytketyn Fidelix-taloautomaatiojärjestelmän. Haavoittuvan järjestelmän IP-osoite on sinun hallinnassasi. Autamme tietoturvatutkijoita, Viestintävirastoa ja laitevalmistajaa toimittamaan viestin sinulle perille, sekä autamme sinua ymmärtämään mistä on kysymys ja miten ongelman voi korjata. Taloautomaatiojärjestelmien suomalainen valmistaja Fidelix on ollut koko ajan aktiivisesti mukana tutkimuksessa ja tiedottamisessa, koska myös heille on tärkeää, että heidän järjestelmänsä on asennettu tietoturvaohjeistuksen mukaisesti eivätkä asiattomat käyttäjät pääse niihin käsiksi.
+Team Whack -ohjelmasarjan tietoturvatutkijat havaitsivat sinun verkossasi Internetiin kytketyn Fidelix-taloautomaatiojärjestelmän. Haavoittuvan järjestelmän IP-osoite on hallinnassasi. Autamme tietoturvatutkijoita, Viestintävirastoa ja laitevalmistajaa toimittamaan viestin sinulle perille, sekä autamme sinua ymmärtämään mistä on kysymys ja miten ongelman voi korjata. Taloautomaatiojärjestelmien valmistaja Fidelix on ollut koko ajan aktiivisesti mukana tutkimuksessa ja ongelmasta tiedottamisessa, koska myös heille on tärkeää, että heidän järjestelmänsä on asennettu tietoturvaohjeistuksen mukaisesti eivätkä asiattomat käyttäjät pääse niihin käsiksi.
 
 ## Miten korjaan ongelman?
 
