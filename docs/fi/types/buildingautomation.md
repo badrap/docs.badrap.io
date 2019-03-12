@@ -27,14 +27,14 @@ Pähkinänkuoressa sinun kannattaa tehdä seuraavat asiat mahdollisimman pian:
 
 Tarkempia korjausohjeita ja yhteystietoja löydät [laitevalmistaja Fidelixin tiedotteesta](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/).
 
+## Mistä saan apua korjauksiin?
+
+Ota yhteyttä ensisijaisesti taloautomaatiojärjestelmäsi laitetoimittajaan tai huoltoyhtiöön. He neuvovat sinua mielellään tietoturvakäytännöissä ja varmistavat että laitteisiin pääsee vain suljetusta paikallisesta verkosta tai asianmukaisesti suojatulla etäyhteydellä. He voivat myös auttaa sinua varmistamaan, että järjestelmään on asennettu tietoturvapäivitykset ja että oletussalasanat on vaihdettu turvallisempiin.
+
 ## Mistä saan lisätietoja?
 
 * [Viestintäviraston Kyberturvallisuuskeskuksen tiedote](https://www.kyberturvallisuuskeskus.fi/fi/ajankohtaista/kuka-sammutti-valot-puutteellinen-rakennusautomaatiolaitteiden-suojaus-verkossa)
 * [Team Whack -ohjelman esittely](https://yle.fi/aihe/artikkeli/2019/03/04/ammattihakkerit-paljastavat-suomalaisten-tietoturva-on-heikoissa-kantimissa)
 * [Taloautomaatiojärjestelmien valmistajan Fidelixin tiedote](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/)
 * [Team Whack Wikipediassa](https://fi.wikipedia.org/wiki/Team_Whack)
-
-## Mistä saan apua korjauksiin?
-
-Ota yhteyttä ensisijaisesti taloautomaatiojärjestelmäsi laitetoimittajaan tai huoltoyhtiöön. He neuvovat sinua mielellään tietoturvakäytännöissä ja varmistavat että laitteisiin pääsee vain suljetusta paikallisesta verkosta tai asianmukaisesti suojatulla etäyhteydellä. He voivat myös auttaa sinua varmistamaan, että järjestelmään on asennettu tietoturvapäivitykset ja että oletussalasanat on vaihdettu turvallisempiin.
 
