@@ -4,11 +4,11 @@ Verkossasi on havaittu Internetiin kytketty taloautomaatiojärjestelmä, jolla v
 
 ## Mitä on tapahtunut?
 
-Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osainen ohjelmasarja Team Whack. Yhdessä sarjan jaksoista tietoturvatutkijat etsivät Suomesta Internetiin kytkettyjä taloautomaatiojärjestelmiä ja osoittivat, miten luvattomat käyttäjät voivat päästä varsin helposti muuttamaan talotekniikan asetuksia. Tietoturvatutkijat raportoivat löytämänsä järjestelmät Viestintävirastolle yhteistyössä laitevalmistajan kanssa. Me autamme nyt haavoittuvien järjestelmien omistajia kuulemaan ongelmasta, ymmärtämään sen vakavuuden ja korjaamaan tilanteen.
+Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osainen ohjelmasarja Team Whack. [Yhdessä sarjan jaksoista](https://areena.yle.fi/1-4664683) tietoturvatutkijat etsivät Suomesta Internetiin kytkettyjä taloautomaatiojärjestelmiä ja osoittivat, miten luvattomat käyttäjät voivat päästä varsin helposti muuttamaan talotekniikan asetuksia. Tietoturvatutkijat raportoivat löytämänsä järjestelmät Viestintävirastolle yhteistyössä laitevalmistajan kanssa. Me autamme nyt haavoittuvien järjestelmien omistajia kuulemaan ongelmasta, ymmärtämään sen vakavuuden ja korjaamaan tilanteen.
 
 ## Mikä tässä on vaarana?
 
-Taloautomaatiojärjestelmien ei kuulu missään nimessä olla auki Internetiin. Sekä Viestintäviraston Kyberturvallisuuskeskus että taloautomaatiojärjestelmien valmistajat varoittavat pitämästä järjestelmiä avoimissa verkoissa. Jos taloautomaatiolaitteistot ovat koko maailman käytettävissä, niitä voi löytää helposti erilaisilla hakukoneilla ja yrittää väärinkäyttää. Pahantahtoiset tunkeilijat voivat kokeilla arvata järjestelmän salasanoja. Usein järjestelmissä on vielä päällä oletussalasanat, jotka ovat hyvin helppoja arvata tai jo valmiiksi tunkeilijoiden tiedossa. Hyökkääjät voivat myös yrittää käyttää hyväksi järjestelmistä löytyneitä tietoturvahaavoittuvuuksia. 
+Taloautomaatiojärjestelmien ei kuulu missään nimessä olla auki Internetiin. Sekä [Viestintäviraston Kyberturvallisuuskeskus](https://www.kyberturvallisuuskeskus.fi/fi/ajankohtaista/kuka-sammutti-valot-puutteellinen-rakennusautomaatiolaitteiden-suojaus-verkossa) että suomalainen [taloautomaatiojärjestelmien valmistaja Fidelix](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/) varoittavat pitämästä järjestelmiä avoimissa verkoissa. Jos taloautomaatiolaitteistot ovat koko maailman käytettävissä, niitä voi löytää helposti erilaisilla hakukoneilla ja yrittää väärinkäyttää. Pahantahtoiset tunkeilijat voivat kokeilla arvata järjestelmän salasanoja. Usein järjestelmissä on vielä päällä oletussalasanat, jotka ovat hyvin helppoja arvata tai jo valmiiksi tunkeilijoiden tiedossa. Hyökkääjät voivat myös yrittää käyttää hyväksi järjestelmistä löytyneitä tietoturvahaavoittuvuuksia. 
 
 Kun hyökkääjä pääsee sisään avoimeen taloautomaatiojärjestelmään, hän voi hallita monia talon asetuksia. Järjestelmillä voi yleisesti ohjata talon valaistusta, lämmitystä, ilmanvaihtoa ja muita elintärkeitä toimintoja. Hyökkääjä voi myös vaihtaa järjestelmän salasanat, jonka jälkeen järjestelmän oikeat käyttäjät kuten huoltoyhtiö tai isännöitsijä eivät pääse enää sisään. Jos järjestelmääsi hyökätään, pahimmillaan hyökkääjä voi aiheuttaa rakennuksen käyttäjille mitä tahansa lievän epämukavuuden ja jopa hengenvaaran väliltä. 
 
@@ -25,7 +25,7 @@ Pähkinänkuoressa sinun kannattaa tehdä seuraavat asiat mahdollisimman pian:
 * Varmista yhdessä laitevalmistajan tai laitetoimittajasi kanssa että järjestelmään on asennettu viimeisimmät tietoturvapäivitykset. 
 * Varmista että järjestelmässä ei käytetä heikkoja oletussalasanoja ja tarvittaessa vaihda salasanat uusiin.
 
-Tarkempia korjausohjeita ja yhteystietoja löydät [laitevalmistajan tiedotteesta](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/).
+Tarkempia korjausohjeita ja yhteystietoja löydät [laitevalmistaja Fidelixin tiedotteesta](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/).
 
 ## Mistä saan lisätietoja?
 
