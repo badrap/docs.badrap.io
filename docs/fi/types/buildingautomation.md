@@ -25,7 +25,7 @@ Pähkinänkuoressa sinun kannattaa tehdä seuraavat asiat mahdollisimman pian:
 * Siirrä taloautomaatiojärjestelmäsi avoimesta Internetistä suljettuun sisäverkkoon, jonne ei pääse ulkopuolelta, 
 * TAI estä yleinen pääsy Internetistä taloautomaatiojärjestelmään palomuurilla ja VPN-etäyhteysratkaisulla.
 * Varmista yhdessä laitevalmistajan tai laitetoimittajasi kanssa että järjestelmään on asennettu viimeisimmät tietoturvapäivitykset. 
-* Varmista että järjestelmässä ei käytetä heikkoja oletussalasanoja ja tarvittaessa vaihda salasanat uusiin.
+* Varmista että järjestelmässä ei käytetä heikkoja oletussalasanoja ja vaihda salasanat uusiin, riittävän vahvoihin.
 
 Tarkempia korjausohjeita ja yhteystietoja löydät [laitevalmistaja Fidelixin tiedotteesta](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/).
 
@@ -35,7 +35,7 @@ Ota yhteyttä ensisijaisesti taloautomaatiojärjestelmäsi laitetoimittajaan tai
 
 ## Ketä te olette? 
 
-Badrap on suomalainen tietoturvayritys, joka haluaa välittää tietoturvatietoa tutkijoilta haavoittuvien laitteiden ja verkkojen omistajille mahdollisimman tehokkaasti. Remod on suomalainen IT-palveluyritys, jonka intohimona on ongelmanratkaisu ja mahdottoman tekeminen mahdolliseksi. Toimimme yhdessä tietoturvatutkijoiden, Viestintäviraston Kyberturvallisuuskeskuksen ja laitevalmistajien kanssa tietoturvallisemman maailman puolesta.
+[Badrap](https://badrap.io) on suomalainen tietoturvayritys, joka haluaa välittää tietoturvatietoa tutkijoilta haavoittuvien laitteiden ja verkkojen omistajille mahdollisimman tehokkaasti. [Remod](https://remod.fi) on suomalainen IT-palveluyritys, jonka intohimona on ongelmanratkaisu ja mahdottoman tekeminen mahdolliseksi. Toimimme yhdessä tietoturvatutkijoiden, Viestintäviraston Kyberturvallisuuskeskuksen ja laitevalmistajien kanssa tietoturvallisemman maailman puolesta.
 
 ## Mistä saan lisätietoja?
 
