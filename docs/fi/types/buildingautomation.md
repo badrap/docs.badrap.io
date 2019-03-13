@@ -4,7 +4,7 @@ Verkossasi on havaittu Internetiin kytketty taloautomaatiojärjestelmä, jolla v
 
 ## Mitä on tapahtunut?
 
-Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osainen ohjelmasarja Team Whack. [Yhdessä sarjan jaksoista](https://areena.yle.fi/1-4664683) tietoturvatutkijat etsivät Suomesta Internetiin kytkettyjä Fidelix-merkkisiä  taloautomaatiojärjestelmiä ja osoittivat, miten luvattomat käyttäjät voivat päästä varsin helposti muuttamaan talotekniikan asetuksia. Tietoturvatutkijat raportoivat löytämänsä järjestelmät Viestintävirastolle yhteistyössä laitevalmistajan kanssa. Me, eli [Badrap](https://badrap.io) ja [Remod](https://remod.fi), autamme nyt haavoittuvien järjestelmien omistajia kuulemaan ongelmasta, ymmärtämään sen vakavuuden ja korjaamaan tilanteen.
+Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osainen ohjelmasarja Team Whack. [Yhdessä sarjan jaksoista](https://areena.yle.fi/1-4664683) tietoturvatutkijat etsivät Suomesta Internetiin kytkettyjä Fidelix-merkkisiä  taloautomaatiojärjestelmiä ja osoittivat, miten luvattomat käyttäjät voivat päästä varsin helposti muuttamaan talotekniikan asetuksia. Tietoturvatutkijat raportoivat löytämänsä haavoittuvuudet Viestintävirastolle yhteistyössä laitevalmistajan kanssa. Me, eli [Badrap](https://badrap.io) ja [Remod](https://remod.fi), autamme nyt haavoittuvien järjestelmien omistajia kuulemaan ongelmasta, ymmärtämään sen vakavuuden ja korjaamaan tilanteen.
 
 ## Mikä tässä on vaarana?
 
@@ -16,7 +16,7 @@ Kun hyökkääjä pääsee sisään Internetiin kytkettyyn taloautomaatiojärjes
 
 ## Miksi häiritsette minua?
 
-Team Whack -ohjelmasarjan tietoturvatutkijat havaitsivat sinun verkossasi Internetiin kytketyn Fidelix-taloautomaatiojärjestelmän. Haavoittuvan järjestelmän IP-osoite on hallinnassasi. Autamme tietoturvatutkijoita, Viestintävirastoa ja laitevalmistajaa toimittamaan viestin sinulle perille, sekä autamme sinua ymmärtämään mistä on kysymys ja miten ongelman voi korjata. Taloautomaatiojärjestelmien valmistaja Fidelix on ollut koko ajan aktiivisesti mukana tutkimuksessa ja ongelmasta tiedottamisessa, koska myös heille on tärkeää, että heidän järjestelmänsä on asennettu tietoturvaohjeistuksen mukaisesti eivätkä asiattomat käyttäjät pääse niihin käsiksi.
+Tietoturvatutkijat ovat havainneet sinun verkossasi Internetiin kytketyn Fidelix-taloautomaatiojärjestelmän. Haavoittuvan järjestelmän IP-osoite on hallinnassasi. Autamme tietoturvatutkijoita, Viestintävirastoa ja laitevalmistajaa toimittamaan viestin sinulle perille, sekä autamme sinua ymmärtämään mistä on kysymys ja miten ongelman voi korjata. Taloautomaatiojärjestelmien valmistaja Fidelix on ollut koko ajan aktiivisesti mukana tutkimuksessa ja ongelmasta tiedottamisessa, koska myös heille on tärkeää, että heidän järjestelmänsä on asennettu tietoturvaohjeistuksen mukaisesti eivätkä asiattomat käyttäjät pääse niihin käsiksi.
 
 ## Miten korjaan ongelman?
 
