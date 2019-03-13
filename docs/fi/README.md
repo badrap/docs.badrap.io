@@ -20,6 +20,7 @@ Suomenkielistä oheismateriaalia [badrap.io](https://badrap.io)-palvelulle.
 - [Avoin SMB-tiedostojakopalvelu](types/smb.md)
 - [Verkkohyökkäysten lähde verkossasi](types/attacksource.md)
 - [Porttiskannauksen lähde](types/portscan.md)
+- [Avoin taloautomaatiojärjestelmä](types/buildingautomation.md)
 - [Haittaohjelma: Citeary](types/malware-citeary.md)
 - [Haittaohjelma: IRCBot](types/malware-ircbot.md)
 - [Haittaohjelma: Jadtre](types/malware-jadtre.md)
