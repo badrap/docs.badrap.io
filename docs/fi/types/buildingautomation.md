@@ -4,7 +4,7 @@ Verkossasi on havaittu Internetiin kytketty taloautomaatiojärjestelmä, jolla v
 
 ## Mitä on tapahtunut?
 
-Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osainen ohjelmasarja Team Whack. [Yhdessä sarjan jaksoista](https://areena.yle.fi/1-4664683) tietoturvatutkijat etsivät Suomesta Internetiin kytkettyjä Fidelix-merkkisiä  taloautomaatiojärjestelmiä ja osoittivat, miten luvattomat käyttäjät voivat päästä varsin helposti muuttamaan talotekniikan asetuksia. Tietoturvatutkijat raportoivat löytämänsä järjestelmät Viestintävirastolle yhteistyössä laitevalmistajan kanssa. Me eli Badrap ja Remod autamme nyt haavoittuvien järjestelmien omistajia kuulemaan ongelmasta, ymmärtämään sen vakavuuden ja korjaamaan tilanteen.
+Maaliskuun 2019 alussa Yle Areenassa julkaistiin tietoturvaa käsittelevä 6-osainen ohjelmasarja Team Whack. [Yhdessä sarjan jaksoista](https://areena.yle.fi/1-4664683) tietoturvatutkijat etsivät Suomesta Internetiin kytkettyjä Fidelix-merkkisiä  taloautomaatiojärjestelmiä ja osoittivat, miten luvattomat käyttäjät voivat päästä varsin helposti muuttamaan talotekniikan asetuksia. Tietoturvatutkijat raportoivat löytämänsä järjestelmät Viestintävirastolle yhteistyössä laitevalmistajan kanssa. Me, eli [Badrap](https://badrap.io) ja [Remod](https://remod.fi), autamme nyt haavoittuvien järjestelmien omistajia kuulemaan ongelmasta, ymmärtämään sen vakavuuden ja korjaamaan tilanteen.
 
 ## Mikä tässä on vaarana?
 
@@ -24,16 +24,16 @@ Pähkinänkuoressa sinun kannattaa tehdä seuraavat asiat mahdollisimman pian:
 
 * Siirrä taloautomaatiojärjestelmäsi avoimesta Internetistä suljettuun sisäverkkoon, jonne ei pääse ulkopuolelta, 
 * TAI estä yleinen pääsy Internetistä taloautomaatiojärjestelmään palomuurilla ja VPN-etäyhteysratkaisulla.
-* Varmista yhdessä laitevalmistajan tai laitetoimittajasi kanssa että järjestelmään on asennettu viimeisimmät tietoturvapäivitykset. 
-* Varmista että järjestelmässä ei käytetä heikkoja oletussalasanoja ja vaihda salasanat uusiin, riittävän vahvoihin.
+* Varmista yhdessä laitevalmistajan tai laitetoimittajasi kanssa, että järjestelmään on asennettu viimeisimmät tietoturvapäivitykset. 
+* Varmista että järjestelmässä ei käytetä heikkoja oletussalasanoja. Vaihda salasanat uusiin ja riittävän vahvoihin.
 
 Tarkempia korjausohjeita ja yhteystietoja löydät [laitevalmistaja Fidelixin tiedotteesta](https://www.fidelix.fi/fidelix-mukana-team-whack-kaikki-on-hakkeroitavissa-ohjelmasarjassa/).
 
 ## Mistä saan apua korjauksiin?
 
-Ota yhteyttä ensisijaisesti taloautomaatiojärjestelmäsi laitetoimittajaan tai huoltoyhtiöön. He neuvovat sinua mielellään tietoturvakäytännöissä ja varmistavat että laitteisiin pääsee vain suljetusta paikallisesta verkosta tai asianmukaisesti suojatulla etäyhteydellä. He voivat myös auttaa sinua varmistamaan, että järjestelmään on asennettu tietoturvapäivitykset ja että oletussalasanat on vaihdettu turvallisempiin.
+Ota yhteyttä ensisijaisesti taloautomaatiojärjestelmäsi laitetoimittajaan tai huoltoyhtiöön. He neuvovat sinua mielellään tietoturvakäytännöissä ja varmistavat, että laitteisiin pääsee vain suljetusta paikallisesta verkosta tai asianmukaisesti suojatulla etäyhteydellä. He voivat myös auttaa sinua varmistamaan, että järjestelmään on asennettu tietoturvapäivitykset ja että oletussalasanat on vaihdettu turvallisempiin.
 
-## Ketä te olette? 
+## Keitä te olette? 
 
 [Badrap](https://badrap.io) on suomalainen tietoturvayritys, joka haluaa välittää tietoturvatietoa tutkijoilta haavoittuvien laitteiden ja verkkojen omistajille mahdollisimman tehokkaasti. [Remod](https://remod.fi) on suomalainen IT-palveluyritys, jonka intohimona on ongelmanratkaisu ja mahdottoman tekeminen mahdolliseksi. Toimimme yhdessä tietoturvatutkijoiden, Viestintäviraston Kyberturvallisuuskeskuksen ja laitevalmistajien kanssa tietoturvallisemman maailman puolesta.
 
