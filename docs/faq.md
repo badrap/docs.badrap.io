@@ -13,7 +13,7 @@ search for their own data easily and find out if they are vulnerable.
 
 ## Is there any danger if I search for my own data in your service?
 
-Absolutely not. Information about your personal network assets (e.g. IP 
+Absolutely not. Information about your personal network assets (e.g., IP 
 addresses, email addresses) already exists out in the Internet. By searching 
 for your own data through our service, you just search for your own assets 
 from existing data sets published by security researchers. We could show the 
@@ -34,7 +34,7 @@ and to prove that this kind of service is truly needed in today's world.
 
 ## Where do the security researchers' warnings come from?
 
-We've started by requesting for data from a few extremely credible and
+We've started by requesting data from a few extremely credible and
 well-qualified sources which we know really well. These same sources
 are used by many other organizations who are interested in security and
 vulnerability observations. We are also constantly looking to add more
@@ -53,17 +53,17 @@ Short answer: no.
 
 You can find a longer answer in our [privacy policy](./privacy.md).
 We improve our service based on usage statistics, just like all other Internet
-websites out there. Our difference is that we constantly try to think how we
+websites out there. Our difference is that we continuously try to think about how we
 could improve your privacy even more when using the service.
 
 A quick demonstration about this. We use Google Analytics to collect statistics about
-our visitors, just like other web sites. Statistics are important to us, so that
+our visitors, just like other web sites. Statistics are important to us so that
 we can improve the service. Here's how you can prevent us from collecting your visitor
 analytics.
 
 You can block our analytics by using an adblocker extension in your web browser.
 For instance, uBlock Origin is a good extension to use with Google Chrome. For
-mobile devices you can use a privacy-oriented browser such as Ghostery or
+mobile devices, you can use a privacy-oriented browser such as Ghostery or
 Firefox Focus. Now that we told you this, please allow our site analytics in
 the privacy tool of your choice and block everything else. :)
 
@@ -73,7 +73,7 @@ No way. If you want, you can request automatic notifications on any new
 information regarding your IP addresses or email addresses. If any new 
 vulnerabilities appear, you will get a notification via email. We also 
 may inform you about major updates to the service as well as new features 
-that affect your use of the service substantially. You can always remove 
+that affect its use substantially. You can always remove 
 any registered assets from your notifications as well as deny all email 
 notifications completely.
 
@@ -81,14 +81,14 @@ notifications completely.
 
 We started off Badrap by allowing you to search for security information
 relating to your important IP addresses. However, IP addresses are just one type 
-of important network asset. We have added email addresses as another asset type 
+of valuable network asset. We have added email addresses as another asset type 
 that you can search for and get notified about. For this, we integrate with
 security researcher Troy Hunt's data breach search engine Have I Been Pwned. 
 It allows you to search for information relating to your email addresses among
 publically available data breach datasets. These data breaches may include
 in addition to your email addresses other personal data such as passwords, home 
 address, telephone number, etc. In addition to IP addresses and email addresses, 
-we may add also other asset types in the future - let us know if you have some 
+we may also add other asset types in the future - let us know if you have some 
 good ideas!
 
 ## What is a data breach and what can it contain? 
@@ -105,12 +105,12 @@ more about data breaches from our [instructions](types/databreach.md).
 ## How does the Have I Been Pwned search feature work?
 
 The Have I Been Pwned search feature works similarly to what we have been doing
-with IP addresses. You register your email address into our service, so that we 
+with IP addresses. You register your email address into our service so that we 
 believe you have a right to search for available security information relating to 
 it. You may register multiple email addresses, as long as you can verify that 
 you have access to those addresses. We then help you search for security 
 information relating to your email addresses from available good-quality 
-sources. Initially we use security researcher Troy Hunt's widely publicized and 
+sources. Initially, we use security researcher Troy Hunt's widely publicized and 
 credible data breach reporting service Have I Been Pwned to tell you about 
 publically known security incidents relating to your email addresses, such 
 as data breaches. 
