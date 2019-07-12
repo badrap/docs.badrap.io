@@ -3,64 +3,64 @@ version: 2.0
 jobs:
   build:
     docker:
-    - image: circleci/node:10
+      - image: circleci/node:12
     steps:
-    - checkout
-    - restore_cache:
-        name: Restore Yarn Package Cache
-        keys:
-        - yarn-packages-{{ checksum "yarn.lock" }}
-    - run:
-        name: Install Dependencies
-        command: yarn install
-    - save_cache:
-        name: Save Yarn Package Cache
-        key: yarn-packages-{{ checksum "yarn.lock" }}
-        paths:
-        - ~/.cache/yarn
-    - run:
-        name: Build the site
-        command: yarn build
-    - run: |
-        mkdir -p /tmp/workspace            
-        tar cfvz /tmp/workspace/dist.tar.gz -C docs/.vuepress/dist .
-    - persist_to_workspace:
-        root: /tmp/workspace
-        paths:
-        - dist.tar.gz    
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - run:
+          name: Build the site
+          command: yarn build
+      - run: |
+          mkdir -p /tmp/workspace
+          tar cfvz /tmp/workspace/dist.tar.gz -C docs/.vuepress/dist .
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+            - dist.tar.gz
   deploy:
     docker:
-    - image: circleci/node:10  
+      - image: circleci/node:12
     steps:
-    - add_ssh_keys:
-        fingerprints:
-        - "12:28:9b:e3:4b:df:92:3c:48:04:d9:c5:a1:30:07:e3"  
-    - checkout           
-    - attach_workspace:
-        at: /tmp/workspace
-    - run: |
-        git config --global user.email "${GIT_EMAIL}"
-        git config --global user.name "${GIT_NAME}"
-        git config --global push.default simple
-        git checkout gh-pages
-        git rm -r .
-        git checkout HEAD -- CNAME
-        tar xfz /tmp/workspace/dist.tar.gz
-        git add -A
-        git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
-        git push
-        
+      - add_ssh_keys:
+          fingerprints:
+            - "12:28:9b:e3:4b:df:92:3c:48:04:d9:c5:a1:30:07:e3"
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run: |
+          git config --global user.email "${GIT_EMAIL}"
+          git config --global user.name "${GIT_NAME}"
+          git config --global push.default simple
+          git checkout gh-pages
+          git rm -r .
+          git checkout HEAD -- CNAME
+          tar xfz /tmp/workspace/dist.tar.gz
+          git add -A
+          git commit -m "Deploy ${CIRCLE_SHA1} [skip ci]"
+          git push
+
 workflows:
   version: 2
   main:
     jobs:
-    - build:
-        filters:
-          branches:
-            ignore: gh-pages
-    - deploy:
-        requires:
-        - build
-        filters:
-          branches:
-            only: master           
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
