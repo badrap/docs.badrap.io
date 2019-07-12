@@ -4,7 +4,7 @@ services:
   docs:
     image: node:12-alpine
     init: true
-    command: /bin/sh -c 'yarn --frozen-lockfile --no-bin-links --modules-folder /cachedir/node_modules && node /cachedir/node_modules/vuepress/bin/vuepress.js dev docs'
+    command: /bin/sh -c 'yarn --frozen-lockfile --no-bin-links --modules-folder /cachedir/node_modules && /cachedir/node_modules/vuepress/cli.js dev docs'
     volumes:
       - .:/app:ro
     environment:

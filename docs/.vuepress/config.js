@@ -1,7 +1,6 @@
 module.exports = {
   host: process.env.HOST || "localhost",
   port: process.env.PORT || 8080,
-  ga: process.env.GA_TRACKING_ID,
 
   title: "Badrap docs",
   locales: {
@@ -38,5 +37,14 @@ module.exports = {
         editLinkText: "Muokkaa tätä sivua GitHubissa"
       }
     }
-  }
+  },
+
+  plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: process.env.GA_TRACKING_ID
+      }
+    ]
+  ]
 };
