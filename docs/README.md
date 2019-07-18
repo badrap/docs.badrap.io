@@ -33,4 +33,5 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 ## Service Information
 
 - [Frequently Asked Questions](./faq.md)
-- [badrap.io Privacy Policy](./privacy.md)
+- [badrap.io Privacy Policy](./privacy.md) - contains everything you need to know if you are a individual user of the free <https://badrap.io/> service.
+- [Badrap Oy Privacy Policy](./privacy-company.md) - scontains information about how we processes personal information for legitimate business interests.
