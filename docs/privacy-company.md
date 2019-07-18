@@ -76,6 +76,7 @@ You have the following rights according to GDPR regarding the processing of your
 **Right to object to direct marketing**: You have the right to object to using your personal data for direct marketing purposes.
 
 ## Duration of processing
+
 Analytic services we use for the visitor information retain data for up to 26 months. Email addresses submitted by the
 users are retained until the user unsubscribes. If a subscriber requests a permanent opt-out from any future marketing
 then opt-out address is retained until the person in question requests to be removed from the opt-out list.
