@@ -34,4 +34,4 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 
 - [Frequently Asked Questions](./faq.md)
 - [badrap.io Privacy Policy](./privacy.md) - everything you need to know if you are a individual user of the free badrap.io service.
-- [Badrap Oy Privacy Policy](./privacy-company.md) - contains information about how we processes personal information for legitimate business interests.
+- [Badrap Oy Privacy Policy](./privacy-company.md) - contains information about how we process personal information for legitimate business interests.
