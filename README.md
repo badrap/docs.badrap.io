@@ -14,6 +14,12 @@ $ docker-compose up
 
 After the initial compilation the site will be served on http://localhost:8080/. The repository root directory is mounted inside the dev build container, which should enable live reloads.
 
+You can shut down the development environment by running
+
+```sh
+$ docker-compose down -v
+```
+
 ## Development Slow Start
 
 ### Prerequisites
@@ -42,7 +48,7 @@ By default the development server binds to `localhost` port `8080`. This can be 
 $ HOST=192.168.0.1 PORT=3000 yarn dev
 ```
 
-### Build the Production Version
+## Building for Production
 
 Changes to the `master` branch are deployed automatically. However, if you want to try building a production version of the site manually, the command is:
 
