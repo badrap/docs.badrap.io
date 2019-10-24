@@ -22,7 +22,7 @@ submitted by your web browser.
 ## Purpose and legal basis for processing
 
 We process your personal information for purposes of focusing and localizing marketing content, generating leads for our
-sales, distributing factual information and news about our company and products and measuring and improving the website
+sales, distributing factual information and news related to our company and products and measuring and improving the website
 user experience.
 
 Legal basis for processing personal information is our legitimate business interests. Initially, we use it to contact
@@ -58,6 +58,10 @@ to identify people in roles implying they may be interested in our products. We 
 information. We record company name, and optionally email, your name, and phone number, depending on what information is
 available. We use this information to be able to contact you to check if you would be interested in purchasing our
 services. Further contacts are based on your consent.
+
+## Employee Cyber Hygiene Online Training
+
+We use ActiveCampaign for running Employee Cyber Hygiene online training and trials. To provide the service, participants provide their email address and the name of their employer. Participants also give answers to quiz questions, which we collect. Finally, we track the progress of the users to provide statistics to the customer.
 
 ## Your rights as a data subject
 
