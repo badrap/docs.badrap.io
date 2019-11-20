@@ -56,6 +56,7 @@ Once you have created an AWS role you can enable the integration.
         {
             "Action": [
                 "cloudfront:GetDistribution",
+                "ec2:DescribeRegions",
                 "ec2:DescribeInstances",
                 "route53:ListHostedZones",
                 "cloudfront:ListDistributions",
