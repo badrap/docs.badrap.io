@@ -4,7 +4,7 @@ By using badrap.io, you agree to these conditions. Please read them carefully.
 
 ## Intended use
 
-The Service is free for personal use and for internal use in companies with up to five employees. You may register assets to the Service to receive relevant security and privacy warnings.  If you have more than five employees check out our current offerings from the <ttps://badrap.io/companies/>.
+The Service is free for personal use and for internal use in companies with up to five employees. You may register assets to the Service to receive relevant security and privacy warnings.  If you have more than five employees, check out our current offerings from <https://badrap.io/companies/>.
 
 ## Intellectual property
 
@@ -12,11 +12,11 @@ The copyright and all other intellectual property rights in and related to the S
 
 ## Modifications to the Service
 
-We reserve the right at any time to modify the Service without notice at any time.
+We reserve the right to modify the Service without notice at any time.
 
 ## Prohibited use
 
-You are prohibited from using the site or its content: (a) to directly or indirectly violate any international or local regulations, rules, laws, or ordinances; (b) to infringe upon or violate intellectual property rights; (c) to harass, abuse, insult, harm, intimidate, or discriminate; (d) to submit false or misleading information; or (e) to interfere with the security of the Service or the Internet.
+You are prohibited from using the site or its contents: (a) to directly or indirectly violate any international or local regulations, rules, laws, or ordinances; (b) to infringe upon or violate intellectual property rights; (c) to harass, abuse, insult, harm, intimidate, or discriminate; (d) to submit false or misleading information; or (e) to interfere with the security of the Service or the Internet.
 
 ## Limitation of liability
 
@@ -40,11 +40,11 @@ Submission of personal information to the Service (badrap.io) is governed by our
 
 ## Terms of service specific to companies
 
-In addition to our End User Terms of Service, following terms apply to companies and processing data the companies provide.
+In addition to our End User Terms of Service, the following terms apply to companies and the processing of data companies provide to us.
 
-1. We comply to GDPR
-1. We do not subcontract the processing without your permission
-1. We process the data you provide for the purpose of relaying security and privacy warnings related to your assets. Duration of the processing is for as long as you keep your account active and data in our Service. We stop the processing and remove the data when you terminate your account
-1. You will be notified of any data breaches in our Service that relate to the data you have provided to us for processing
-1. Our data processing officer (DPO) can be reached from support@badrap.io
+1. We comply to GDPR.
+1. We do not subcontract data processing without your permission.
+1. We process the data you provide for the purpose of relaying security and privacy warnings related to your assets. Duration of the processing is for as long as you keep your account active and store your data in our Service. We stop the processing and remove the data when you terminate your account.
+1. You will be notified of any data breaches in our Service that relate to the data you have provided to us for processing.
+1. Our data processing officer (DPO) can be reached from support@badrap.io. 
 
