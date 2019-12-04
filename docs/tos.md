@@ -40,11 +40,12 @@ Submission of personal information to the Service (badrap.io) is governed by our
 
 ## Terms of service specific to companies
 
-In addition to our End User Terms of Service, the following terms apply to companies and the processing of data companies provide to us.
+In addition to our End User Terms of Service, the following terms apply to Companies and the processing of data Companies and their Employees provide to us.
 
 1. We comply to GDPR.
 1. We do not subcontract data processing without your permission.
-1. We process the data you provide for the purpose of relaying security and privacy warnings related to your assets. Duration of the processing is for as long as you keep your account active and store your data in our Service. We stop the processing and remove the data when you terminate your account.
+1. We process the data you provide for the purpose of relaying security and privacy warnings related to your assets. Duration of the processing is for as long as you keep your account active and store your data in our Service. We stop the processing and remove the data when you terminate your account. You may at any time review your stored data under your user account.
+1. When we provide the Service to a Company, we act as a Data Processor according to the definitions of the GDPR. The Company whose Employees use our Service acts as a Data Controller. The Company's Employees share their personal data as Data Subjects. 
 1. You will be notified of any data breaches in our Service that relate to the data you have provided to us for processing.
-1. Our data processing officer (DPO) can be reached from support@badrap.io. 
+1. For inquiries related to privacy and personal data processing, contact us at support@badrap.io. 
 
