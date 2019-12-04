@@ -34,4 +34,6 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 
 - [Frequently Asked Questions](./faq.md)
 - [badrap.io Privacy Policy](./privacy.md) - for the badrap.io users
+- [Terms of Service](./tos.md)
+- [Service Description](./service-description.md)
 - [Badrap Oy Privacy Policy](./privacy-company.md) - for Badrap Oy customers or potential customers (covers marketing, sales and deliveries)
