@@ -16,7 +16,6 @@ We may have data recipients. An up-to-date list of data recipients is always ava
 
 ## The procedures in place to secure (backup) the client's material in the software service
 
-Badrap.io is a service to relay information. We strive to store the minimum amount of data necessary to produce the service.
 We only store a minimal amount of configuration information to relay relevant messages to and from you. We design and operate the service so that encryption is used for data transfer and storage whenever possible, according to standard security practices. 
 
 We backup our production database at least once per day. We store these backups for a minimum of seven days.
