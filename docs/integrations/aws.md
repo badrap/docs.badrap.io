@@ -42,29 +42,15 @@ Once you have created an AWS role you can enable the integration.
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Action": [
-                "route53:ListResourceRecordSets",
-                "apigateway:GET"
-            ],
-            "Resource": [
-                "arn:aws:route53:::hostedzone/*",
-                "arn:aws:apigateway:*::*"
-            ],
+            "Sid": "VisualEditor0",
             "Effect": "Allow",
-            "Sid": "VisualEditor0"
-        },
-        {
             "Action": [
-                "cloudfront:GetDistribution",
-                "ec2:DescribeRegions",
                 "ec2:DescribeInstances",
-                "route53:ListHostedZones",
-                "cloudfront:ListDistributions",
-                "ses:ListIdentities"
+                "lightsail:GetInstances",
+                "ec2:DescribeRegions",
+                "lightsail:GetRegions"
             ],
-            "Resource": "*",
-            "Effect": "Allow",
-            "Sid": "VisualEditor1"
+            "Resource": "*"
         }
     ]
 }
