@@ -48,11 +48,11 @@ Setting up the Badrap integration with Amazon Web Services requires configuring 
 9. Click `Next: Tags`.
 10. Click `Next: Review`.
 11. Name the role (e.g., `BadrapIntegrationRole`).
-12. Continue to [configuration](#configuration).
+12. Click `Create role`.
 
 ## Finish the Installation
 
-1. Go back to the [AWS integration page](https://badrap.io/integrations/aws).
+1. Return to the [AWS integration page](https://badrap.io/integrations/aws).
 1. Enter your [AWS Account ID](https://console.aws.amazon.com/billing/home?#/account) into the `Account ID` field.
 1. Enter the name of the AWS role you created earlier. **Note that the role name is case sensitive!**
 1. Click `Add`.
