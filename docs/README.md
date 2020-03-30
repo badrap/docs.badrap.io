@@ -7,9 +7,9 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 - [How to locate a vulnerable service](locate.md)
 - [Information about vulnerability categories](categories.md)
 
-## Integrations
+## Apps
 
-- [Amazon Web Services (AWS)](integrations/aws.md)
+- [Amazon Web Services (AWS)](apps/aws.md)
 
 ## Instructions for Events
 
