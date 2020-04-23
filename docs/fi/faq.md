@@ -1,5 +1,17 @@
 # Usein kysytyt kysymykset
 
+## Mitä hyötyä palvelusta on?
+
+Badrap välittää tietoturvatutkijoiden varoitukset sinulle. Se yhdistää useiden tutkijoiden tuottamat tiedot yhteen paikkaan
+ja selittää mahdolliset havainnot kansantajuisesti. Lisäksi Badrap neuvoo mitä sinun kannattaa tehdä, jos havaintoja löytyy.
+Sinun ei tarvitse käyttää jatkuvasti Badrapiä. Jos rekisteröidyt palveluun, Badrap kertoo sinulle uusista varoituksista sähköpostitse.
+
+## Huolehdin läheisteni tietoturvasta, onnistuuko se Badrapin avulla?
+
+Lisää läheisten sähköpostiosoitteet tietovuotoseurantaan. Badrap lähettää heille samanlaisen
+vahvistusviestin, mitä itsekin sait. Kun läheinen antaa hyväksyntänsä, hänen sähköpostiosoitteensa
+ilmestyy listallesi.
+
 ## Miksi teitte tämän palvelun?
 
 Olemme työskennelleet tietoturva-alalla pitkään. Tosi pitkään. Olemme nähneet
@@ -19,26 +31,38 @@ tulokset napin taakse, jotta emme tee mitään ilman suostumustasi ja että
 erotamme palvelusta oikeasti kiinnostuneet käyttäjät satunnaisista
 sivuille eksyneistä.
 
+Sähköpostiosoitteeseesi liittyvät varoitukset tarkastamme tekemällä kyselyn
+tietoturvapiireissä mainetta niittäneen Troy Huntin Have I Been Pwned -palvelusta.
+Tähän tarkastukseen sinun pitää antaa erikseen lupa, koska emme halua paljastaa
+identiteettiäsi ilman lupaasi. Uskaltaako lupaa antaa? Sekä meidän että Troy Huntin
+palvelu on F-Securen [Herrasmieshakkereiden](https://hakkerit.libsyn.com/intro-herrasmieshakkerit)
+Mikko Hyppösen ja Tomi Tuomisen suosittelema. He sanoivat "kyllä" ja me olemme samaa mieltä!
+
 ## Miksi palvelu on ilmainen?
 
-testaaverkkosi.fi on pilotti, jonka tarkoituksena on tutkia, onko
-palvelulle kysyntää. Olemme saaneet yksityistä rahoitusta,
-[Ääkköset Oy:ltä](https://www.scanabc.com/) sekä julkista rahoitusta
-[TEKES:ltä](https://www.businessfinland.fi). Jos pidät palvelua tärkeänä,
-käytä sitä ja kerro muillekin. Näin autat meitä verifioimaan ideaamme ja
-osoittamaan että palvelu ansaitsee paikkansa maailmassa.
+Meillä on erilliset kaupalliset lisäpalvelut kuluttajille suunnatun ilmaispalvelun
+lisäksi. [Kyberhygieniaa työntekijöille](https://hygiene.badrap.io/fi/) -palvelu innostaa ja valistaa yrityksen työntekijöitä
+huolehtimaan tietoturvasta. Yritykset [voivat myös ottaa omia suojattavia kohteitaan](https://hygiene.badrap.io/company/) seurantaan
+automaattisesti, erillisten Badrap Appien avulla.
+
+Ilmaispalvelu lisää meidän tunnettuvuuttamme ja on yksi keino muiden joukossa poistaa kaikki tietoturvatiedon välittämiseen liittyvät esteet.
 
 ## Mistä tietoturvatutkijoiden varoitukset tulevat?
 
-Olemme aloittaneet pyytämällä dataa muutamasta meille ennestään tutusta
+Aloitimme pyytämällä dataa muutamasta meille ennestään tutusta
 äärimmäisen laadukkaasta ja luotettavasta lähteestä, joita käyttävät myös monet
-muut tietoturvasta ja haavoittuvuushavainnoista kiinnostuneet tahot. Etsimme
-koko ajan lisää laadukkaita haavoittuvuustiedon lähteitä. Tämänhetkisiä
-partnereitamme ovat:
+muut tietoturvasta ja haavoittuvuushavainnoista kiinnostuneet tahot.
 
-- [Shadowserver](https://www.shadowserver.org/)
-- [Fitsec](https://www.fitsec.com/)
-- Telia
+Ajantasainen lista tietoturvatutkijoista löytyy osoitteesta <https://badrap.io/researchers>
+
+
+## Minkälaista tietoa Badrapistä saa?
+
+Meillä on kolmea erityyppistä tietoturvatietoa:
+
+* Tietovuodot - ovatko Internetin palvelut vuotaneet sinun henkilökohtaisia tietojasi.
+* Haavoittuvuudet - onko IP-osoitteessasi, josta kytkeydyt Internetiin, havaittu haavoittuvuuksia, jotka kannattaisi korjata ennen kuin joku käyttää niitä hyväksi.
+* Hyökkäykset - joskus voit olla hyökkääjä tietämättäsi. Jos koneellasi esimerkiksi sattuisi olemaan haittaohjelma, voisi se etsiä aktiivisesti uusia uhreja. Olet itsekin uhri, mutta uuden uhrin näkökulmasta hyökkääjä. Firman nimi tulee muuten tästä: Bad rap - ansaitsematon huono maine, kuten [Merriam-Webster](https://www.merriam-webster.com/words-at-play/usage-bad-rap-vs-bad-rep-vs-bad-wrap) termin määrittää.
 
 ## Seuraatteko minua tai verkkojani?
 
@@ -46,31 +70,34 @@ Lyhyt vastaus: emme.
 
 Pidempi vastaus löytyy [tietosuojaselosteestamme](./privacy.md).
 Teemme kävijätilastoihin pohjautuvaa palvelun kehittämistä, kuten kahdeksan biljoonaa
-muutakin palvelua. Sillä erotuksella tosin, että mietimme jatkuvasti miten pitäisimme
-yksityisyydestäsi entistäkin paremmin huolta.
+muutakin palvelua. Mutta käyttäjiemme yksityisyys on meille tärkeää. Oikeasti! Tämä ei
+ollut kopioitu korulause.
 
-Demonstroidaanpa kuinka tärkeä asia meille on. Käytämme tilastointiin Google
-Analytics -työkalua, kuten miljoonat muut. Tilastointi on meille tärkeää,
+Demonstroidaanpa: tilastointi on meille tärkeää,
 jotta voimme kehittää palvelua. Kerromme nyt miten estät tilastoinnin.
 
-Voit estää tilastoinnin käyttämällä selaimessasi ad blocker -lisäosaa.
-Chrome-selaimessa kätevä työkalu on esimerkiksi uBlock Origin. Nyt kun
-kerroimme sinulle tämän, niin pieni pyyntö. Salli valitsemastasi työkalusta
-meidän tekemä tilastointi ja estä kaikki muut. :)
+Voit estää tilastoinnin käyttämällä selaimessasi sisällön estäjää.
+Esimerkiksi uBlock Origin toimii sekä [Chromessa][https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm]
+että [Firefoxissa](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)
+Samalla kun estät tilastoinnin ja mainokset, tukit yhden reitin,
+jota kautta haittaohjelma saattaisi päästä laitteellesi. Estäjistä löytyy myös
+tapa tehdä poikkeuksia, jos haluat sallia mainokset joillakin sivustoilla kannatussyistä.
 
 ## Jos rekisteröidyn, lähetättekö minulle mainoksia?
 
 Emme. Voit halutessasi tilata päivitykset uusista IP-osoitteitasi koskevista tiedoista.
 Jos uusia haavoittuvuuksia ilmenee, saat sähköpostiin ilmoituksen. Saatamme myös kertoa
-suuremmista palveluun liittyvistä päivityksistä ja uusista ominaisuuksista, jotka vaikuttavat olennaisesti palvelun käyttöön. Voit aina halutessasi poistaa osoitteet jatkuvasta seurannasta tai kieltää sähköpostin lähetyksen kokonaan.
+suuremmista palveluun liittyvistä päivityksistä ja uusista ominaisuuksista, jotka vaikuttavat
+olennaisesti palvelun käyttöön. Kun olet kirjautunut palveluun, voit säätää sähköpostiasetuksiasi
+osoitteessa <https://badrap.io/settings/account>
 
 ## Lopuksi
 
 Toivottavasti vastasimme kysymyksiisi!
 
 Voit aina tarkistaa IP-osoitteesi selaimella uudestaan kirjautumatta palveluun.
-Rekisteröitymällä voit kuitenkin lisätä IP-osoitteesi jatkuvaan seurantaan,
-jolloin saat uudet varoitukset välittömästi sähköpostiisi, ja voit lisätä
-seurantaasi useita osoitteita.
+Rekisteröitymällä voit kuitenkin tarkastaa sähköpostiisi liittyvät tietovuodot.
+Rekisteröitymällä voit myös lisätä sinulle tärkeät IP-osoitteet jatkuvaan seurantaan,
+jolloin saat uudet varoitukset välittömästi sähköpostiisi.
 
 [Rekisteröidy käyttäjäksi »](https://badrap.io/register)
