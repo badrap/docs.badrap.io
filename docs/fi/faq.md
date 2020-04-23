@@ -49,7 +49,7 @@ Ilmaispalvelu lisää meidän tunnettuvuuttamme ja on yksi keino muiden joukossa
 
 ## Mistä tietoturvatutkijoiden varoitukset tulevat?
 
-Aloittaneet pyytämällä dataa muutamasta meille ennestään tutusta
+Aloitimme pyytämällä dataa muutamasta meille ennestään tutusta
 äärimmäisen laadukkaasta ja luotettavasta lähteestä, joita käyttävät myös monet
 muut tietoturvasta ja haavoittuvuushavainnoista kiinnostuneet tahot.
 
