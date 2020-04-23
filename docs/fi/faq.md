@@ -10,7 +10,7 @@ Sinun ei tarvitse käyttää jatkuvasti Badrapiä. Jos rekisteröidyt palveluun,
 
 Lisää läheisten sähköpostiosoitteet tietovuotoseurantaan. Badrap lähettää heille samanlaisen
 vahvistusviestin, mitä itsekin sait. Kun läheinen antaa hyväksyntänsä, hänen sähköpostiosoitteensa
-ilmestyy sinun listalle.
+ilmestyy listallesi.
 
 ## Miksi teitte tämän palvelun?
 
