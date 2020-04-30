@@ -10,6 +10,7 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 ## Apps
 
 - [Amazon Web Services (AWS)](apps/aws.md)
+- [Microsoft Office 365](apps/o365.md)
 
 ## Instructions for Events
 

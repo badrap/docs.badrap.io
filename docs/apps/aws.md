@@ -10,6 +10,8 @@ Connect to Amazon Web Services to automatically bring your cloud assets into Bad
 1. Install the app.
 1. Take note of the External ID value that the app has generated for you. You'll need this later.
 
+![External Id](./aws-external-id.jpg)
+
 ## Create Required AWS Role & Policy
 
 Setting up the Badrap app with Amazon Web Services requires configuring role delegation using AWS IAM.
@@ -17,11 +19,18 @@ Setting up the Badrap app with Amazon Web Services requires configuring role del
 1. Create a new role in the [AWS IAM console.](https://console.aws.amazon.com/iam/home#/roles)
 2. Select `Another AWS account` for the role type.
 3. Enter `808384617942` (Badrap's Account ID) as the `Account ID`.
+![Another AWS Acocount](./aws-another-aws-account.jpg)
+
 4. Check the `Require external ID` option, and enter the External ID that the app generated for you earlier as the `External ID`.
 5. Leave the `Require MFA` option unchecked.
 6. Click `Next: Permissions`.
+![External Id](./aws-external-id2.jpg)
+
 7. If you've already created a policy, skip the following substeps. Otherwise click `Create Policy`, which opens a new window.
+![Create Policy](./aws-create-policy.jpg)
+
    1. Select the `JSON` tab and enter the following policy snippet into the text box:
+
    ```json
    {
      "Version": "2012-10-17",
@@ -40,11 +49,15 @@ Setting up the Badrap app with Amazon Web Services requires configuring role del
      ]
    }
    ```
+   
    2. Click `Review policy`.
    3. Name the policy (e.g., `BadrapAppPolicy`).
    4. Click `Create policy`
    5. Return to the `Create role` window.
-8. Refresh the list of policies and select the policy you just created.
+   6. Refresh the list of policies
+8. Select the BadrapAppPolicy
+![Create Policy](./aws-return.jpg)
+
 9. Click `Next: Tags`.
 10. Click `Next: Review`.
 11. Name the role (e.g., `BadrapAppRole`).
