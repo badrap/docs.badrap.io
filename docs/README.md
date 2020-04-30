@@ -9,7 +9,11 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 
 ## Apps
 
+Apps are currently available as part of the [Company Cyber Hygiene](https://hygiene.badrap.io/company) plan.
+
 - [Amazon Web Services (AWS)](apps/aws.md)
+- [Microsoft Office 365](apps/o365.md)
+- [Sensorfu Beacon](apps/beacon.md)
 
 ## Instructions for Events
 
