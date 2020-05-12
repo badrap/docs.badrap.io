@@ -40,9 +40,7 @@ Setting up the Badrap app with Amazon Web Services requires configuring role del
          "Effect": "Allow",
          "Action": [
            "ec2:DescribeInstances",
-           "lightsail:GetInstances",
-           "ec2:DescribeRegions",
-           "lightsail:GetRegions"
+           "lightsail:GetInstances"
          ],
          "Resource": "*"
        }
