@@ -23,7 +23,7 @@ Badrap app is now installed. Next, give it (the minimal) access in Azure portal.
 
 This phase has to happen *after* you (or someone in your organisation) has installed Azure app in Badrap.
 
-1. Log in to your Azure portall: <https://portal.azure.com/>
+1. Log in to your Azure portal: <https://portal.azure.com/>
 
 ![Subscriptions](./azure-10-subscriptions.jpg)
 
@@ -36,7 +36,7 @@ This phase has to happen *after* you (or someone in your organisation) has insta
 ![Add role](./azure-12-add-role.jpg)
 
 4. Select Add role assignment. 
-5. In "Add role assigment" area, select "Reader" role. Under "Select", type badrap.io and click the badrap.io object which will appear. Press save.
+5. In "Add role assignment" area, select "Reader" role. Under "Select", type badrap.io and click the badrap.io object which will appear. Press save.
 
 ![Give permissions](./azure-13-give-permissions.jpg)
 
@@ -44,6 +44,6 @@ This phase has to happen *after* you (or someone in your organisation) has insta
 
 ![Give permissions](./azure-14-ready.jpg)
 
-7. You are now ready. Your subscription's public IP-addresses should appear in Badrap's [asset list](https://badrap.io/assets) in few minutes.
+7. You are now ready. Your subscription's public IP-addresses should appear in your Badrap [asset list](https://badrap.io/assets) in few minutes.
 
 ![Assets visible](./azure-20-assets-visible.jpg)
