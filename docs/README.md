@@ -13,6 +13,7 @@ Apps are currently available as part of the [Company Cyber Hygiene](https://hygi
 
 - [Amazon Web Services (AWS)](apps/aws.md)
 - [Microsoft Office 365](apps/o365.md)
+- [Microsoft Azure](apps/azure.md)
 - [Sensorfu Beacon](apps/beacon.md)
 
 ## Instructions for Events
