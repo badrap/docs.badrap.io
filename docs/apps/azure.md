@@ -2,6 +2,8 @@
 
 Synchronize assets from Microsoft Azure to Badrap.
 
+You'll need Global Administrator, Application Administrator or Cloud Application Administrator privileges to perform this action.
+
 ## Install the App in Badrap
 
 1. Open the [Azure app page](https://badrap.io/apps/azure)
