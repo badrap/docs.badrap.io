@@ -3,7 +3,7 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:14
     steps:
       - checkout
       - restore_cache:
@@ -30,7 +30,7 @@ jobs:
             - dist.tar.gz
   deploy:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:14
     steps:
       - add_ssh_keys:
           fingerprints:
