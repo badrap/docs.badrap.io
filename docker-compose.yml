@@ -2,7 +2,7 @@ version: "2.4"
 
 services:
   docs:
-    image: node:12-alpine
+    image: node:14-alpine
     init: true
     command: /bin/sh -c 'yarn --frozen-lockfile --no-bin-links --modules-folder /cachedir/node_modules && /cachedir/node_modules/vuepress/cli.js dev docs'
     volumes:

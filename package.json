@@ -5,7 +5,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
-    "vuepress": "^v1.0.2"
+    "@vuepress/plugin-google-analytics": "^1.5.3",
+    "vuepress": "^v1.5.3"
   }
 }
