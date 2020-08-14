@@ -1,6 +1,6 @@
 # Microsoft Azure
 
-Synchronize assets from Microsoft Azure to Badrap, in order to receive security warnings to those assets.
+Synchronize assets from Microsoft Azure to Badrap, in order to receive security warnings related to those assets.
 
 Badrap needs a read-only permission to get a list of public IP-addresses in Azure. To grant that permission, you'll need Global Administrator, Application Administrator or Cloud Application Administrator privileges.
 
