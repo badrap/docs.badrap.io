@@ -1,10 +1,10 @@
 # Microsoft Azure
 
-Synchronize assets from Microsoft Azure to Badrap, in order to receive security warnings related to those assets.
-
-Badrap needs a read-only permission to get a list of public IP-addresses in Azure. To grant that permission, you'll need Global Administrator, Application Administrator or Cloud Application Administrator privileges.
+This app allows you to synchronize your Azure assets into Badrap and receive security notifications about them. The app needs to be installed and enabled under your Badrap user account to get started. The app fetches a list of your organization's public IP-addresses from your Azure installation with your consent, and adds those assets under your Badrap user account. If you do not have administrator rights for your organization's Office 365 installation, you will need help from your administrator to set up the app.
 
 ## Install the App in Badrap
+
+You'll need Global Administrator, Application Administrator, Cloud Application Administrator privileges to perform this action. If you don't have these roles, your administrator can grant you AzureWatcher -role. Your Azure administrator can follow the process desribed in detail in [O365 app documentation](o365.html#instructions-for-office-365-administrators-to-allow-a-user-to-install-badrap-office-365-app). Just make sure the administrator will give you AzureWatcher role, instead of Office 365 watcher.
 
 1. Open the [Azure app page](https://badrap.io/apps/azure)
 
