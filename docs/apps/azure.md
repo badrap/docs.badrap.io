@@ -4,8 +4,8 @@ This app allows you to synchronize your Azure assets into Badrap and receive sec
 
 ## Install the App in Badrap
 
-We've set limits on who can install Azure app for your organisation.
-You'll need Global Administrator, Application Administrator, Cloud Application Administrator privileges to perform this action. If you don't have these roles, your administrator can grant you AzureWatcher -role. Your Azure administrator can follow the process desribed in detail in [O365 app documentation](o365.html#instructions-for-office-365-administrators-to-allow-a-user-to-install-badrap-office-365-app). Just make sure the administrator will give you Azure Watcher role, instead of Office 365 watcher.
+We've set limits on who can install Azure app for your organization.
+You'll need Global Administrator, Application Administrator, Cloud Application Administrator privileges to perform this action. If you don't have these roles, your administrator can grant you AzureWatcher -role. Your Azure administrator can follow the process described in detail in [O365 app documentation](o365.html#instructions-for-office-365-administrators-to-allow-a-user-to-install-badrap-office-365-app). Make sure the administrator will give you Azure Watcher role, instead of Office 365 watcher.
 
 1. Open the [Azure app page](https://badrap.io/apps/azure)
 
