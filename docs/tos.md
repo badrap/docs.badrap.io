@@ -4,7 +4,7 @@ By using badrap.io, you agree to these conditions. Please read them carefully.
 
 ## Intended use
 
-The Service is free for personal use and for internal use in companies with up to five employees. You may register assets to the Service to receive relevant security and privacy warnings.  If you have more than five employees, check out our current offerings from <https://badrap.io/companies/>.
+The Service is free for personal use and for internal use in companies with up to five employees. You may register assets to the Service to receive relevant security and privacy warnings.  If you have more than five employees or want to use paid features contact us at contact@badrap.io. Your commercial right to use is granted by a separate purchase or trial agreement and payment of the related initial or renewal fees and other charges (“Fees”).  In this case you have a non-transferable and non-exclusive right to use the service solely for your internal business purposes in accordance with the commercial terms of the purchase or trial agreement and this Terms of Service.
 
 ## Intellectual property
 
