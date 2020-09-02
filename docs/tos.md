@@ -26,9 +26,12 @@ You expressly agree that your use of the Service is at your sole risk. The Servi
 
 If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we may terminate this agreement at any time without notice and you will remain liable for all amounts due up to and including the date of termination; and/or accordingly may deny you access to our Services.
 
-## Governing law
+## Governing law and Arbitration
 
 These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Finland.
+
+Any dispute, controversy or claim arising out of or relating to this contract, or the breach, termination or validity thereof, shall be finally settled by arbitration in accordance with the Arbitration Rules of the Finland Chamber of Commerce. The number of arbitrators shall be three. The seat of arbitration shall be Helsinki. The language of the arbitration shall be English.
+
 
 ## Contact information
 
