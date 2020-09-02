@@ -43,7 +43,7 @@ Submission of personal information to the Service (badrap.io) is governed by our
 
 ## Terms of service specific to companies
 
-In addition to our generic End User Terms of Service given above, the following terms apply to Companies and the processing of data Companies and their Employees provide to us.
+In addition to our generic End User Terms of Service given above, the following terms apply to Companies and the processing of data that Companies and their Employees provide to us.
 
 1. We comply to GDPR.
 1. We do not subcontract data processing without your permission.
