@@ -4,7 +4,7 @@ By using badrap.io, you agree to these conditions. Please read them carefully.
 
 ## Intended use
 
-The Service is free for personal use and for internal use in companies with up to five employees. You may register assets to the Service to receive relevant security and privacy warnings.  If you have more than five employees, check out our current offerings from <https://badrap.io/companies/>.
+The Service is free for personal use and for internal use in companies with up to five employees. You may register assets to the Service to receive relevant security and privacy warnings. If you have more than five employees or want to use paid features contact us at contact@badrap.io. Your commercial right to use is granted by a separate purchase or trial agreement and payment of the related initial or renewal fees and other charges (“Fees”).  In this case you have a non-transferable and non-exclusive right to use the service solely for your internal business purposes in accordance with the commercial terms of the purchase or trial agreement and this Terms of Service.
 
 ## Intellectual property
 
@@ -26,9 +26,12 @@ You expressly agree that your use of the Service is at your sole risk. The Servi
 
 If in our sole judgment you fail, or we suspect that you have failed, to comply with any term or provision of these Terms of Service, we may terminate this agreement at any time without notice and you will remain liable for all amounts due up to and including the date of termination; and/or accordingly may deny you access to our Services.
 
-## Governing law
+## Governing law and Arbitration
 
 These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Finland.
+
+Any dispute, controversy or claim arising out of or relating to this contract, or the breach, termination or validity thereof, shall be finally settled by arbitration in accordance with the Arbitration Rules of the Finland Chamber of Commerce. The number of arbitrators shall be three. The seat of arbitration shall be Helsinki. The language of the arbitration shall be English.
+
 
 ## Contact information
 
@@ -40,7 +43,7 @@ Submission of personal information to the Service (badrap.io) is governed by our
 
 ## Terms of service specific to companies
 
-In addition to our End User Terms of Service, the following terms apply to Companies and the processing of data Companies and their Employees provide to us.
+In addition to our generic End User Terms of Service given above, the following terms apply to Companies and the processing of data that Companies and their Employees provide to us.
 
 1. We comply to GDPR.
 1. We do not subcontract data processing without your permission.
