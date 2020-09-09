@@ -1,7 +1,7 @@
 # Privacy Policy for the Badrap Oy
 
 We at Badrap Oy provide badrap.io service for the consumers and related commercial products for businesses. If you are a
-badrap.io consumer user, the relevant privacy policy is [here](privacy.md). This privacy policy explains why and how we,
+badrap.io user, the relevant privacy policy is [here](privacy.md). This privacy policy explains why and how we,
 as a data controller, process your personal information for legitimate business interests.
 
 ## Data controller contact details
