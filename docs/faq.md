@@ -24,13 +24,19 @@ interested in our service from random passers-by.
 
 ## Why is this a free service?
 
-This is a pilot project, with one intention being to validate if people
-are really interested in this kind of service. We've received some private
-funding from [ScanABC](https://www.scanabc.com/) as well as some
+Some say if you are not paying for the product, you are the product. This refers to companies
+who provide free services for individuals in order to sell ads. This is not our business model.
+We want to democratize security information, and free service for individuals was
+always part of that plan. And of course, we hope that some of the happy Badrap users will become
+Badrap customers later. We have commercial services for companies, who want to protect
+their employees and infrastructure. We've also received private
+funding from the founders, [ScanABC](https://www.scanabc.com/), as well as some
 public funding from [TEKES](https://www.businessfinland.fi). If
 you like the service and think we're doing an important job, please use it
 as much as you can and tell others about it. This helps us verify our ideas
 and to prove that this kind of service is truly needed in today's world.
+
+ 
 
 ## Where do the security researchers' warnings come from?
 
