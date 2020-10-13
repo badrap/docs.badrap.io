@@ -1,8 +1,7 @@
 # Amazon Web Services (AWS)
 
-## Overview
+This app allows you to synchronize your AWS assets into Badrap and receive security notifications about them. The app needs to be installed and enabled under your Badrap user account to get started. The app fetches a list of your organization's public IP-addresses from your AWS installation with your consent, and adds those assets under your Badrap user account. Below, we describe the actions needed in Badrap. We also explain what you need to do in AWS to grant the minimum permissions for Badrap to fetch the pubic IP-addresses.
 
-Connect to Amazon Web Services to automatically bring your cloud assets into Badrap for monitoring.
 
 ## Install the App
 
