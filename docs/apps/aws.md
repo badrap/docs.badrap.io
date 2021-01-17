@@ -42,7 +42,8 @@ Setting up the Badrap app with Amazon Web Services requires configuring role del
            "lightsail:GetInstances",
            "route53:GetHostedZone",
            "route53:ListHostedZones",
-           "route53:ListResourceRecordSets"
+           "route53:ListResourceRecordSets",
+           "route53domains:ListDomains"
          ],
          "Resource": "*"
        }
