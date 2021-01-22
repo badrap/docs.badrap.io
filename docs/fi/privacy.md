@@ -27,9 +27,8 @@ ennenkuin henkilötietojasi lisätään käyttäjätilisi alle.
 Rekisteröimättömien käyttäjien henkilötietojen käsittelyn
 oikeusperuste on rekisterinpitäjän oikeutettu etu. Teemme
 sivujemme kävijöistä anonymisoitua tilastointia
-Google Analytics- ja Facebook Pixel -teknologioilla.
-Näiden teknologioiden avulla tiedämme että vierailit
-sivuillamme.
+Google Analytics-teknologioilla. Sen avulla tiedämme että
+joku vieraili sivuillamme.
 
 ## Käsittelemämme henkilötiedot
 
@@ -110,7 +109,7 @@ ulkopuolisten palveluntarjoajien työntekijöitä alihankkijoina.
 ## Tietojen siirto EU:n ulkopuolelle
 
 Osa palvelun teknisestä toteutuksesta on ulkoistettu: Google
-Analytics ja Facebook Pixel käytön tilastointiin, Mailgun
+Analytics käytön tilastointiin, Mailgun
 sekä Mailchimp sähköpostien automaattiseen lähetykseen
 rekisteröityneille käyttäjille, sekä Google Cloud SQL
 tietojen varastointia varten. Edellytämme käyttämiltämme
