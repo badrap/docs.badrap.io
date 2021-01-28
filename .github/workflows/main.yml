@@ -28,9 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          git checkout gh-pages
-          git rm -r .
+        with:
+          ref: gh-pages
+      - run: git rm -r .
       - uses: actions/download-artifact@v2
         with:
           name: dist
@@ -39,7 +39,6 @@ jobs:
           git config --global user.name "${{ secrets.GIT_NAME }}"
           git config --global push.default simple          
           git checkout HEAD -- CNAME
-          git add -A
-          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"          
+          git add -A     
           git commit -m "Update GitHub pages from ${GITHUB_SHA}"
           git push
