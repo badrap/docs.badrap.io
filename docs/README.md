@@ -1,4 +1,4 @@
-# Badrap documentation
+# Badrap Documentation
 
 This site contains supplementary material for the [badrap.io](https://badrap.io) service.
 
