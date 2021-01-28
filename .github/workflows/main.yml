@@ -1,6 +1,8 @@
-name: Build & deploy pages
+name: build
 
-on: [ push ]
+on:
+  push:
+    branches-ignore: gh-pages
 
 jobs:
   build:
