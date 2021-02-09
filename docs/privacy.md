@@ -131,7 +131,7 @@ this consent from your account settings at any time.
 ## Data transfers outside of EU
 
 Some parts of our technical service implementation use external components:
-we use Google Analytics for usage statistics, Mailgun and Mailchimp for 
+we use Google Analytics for usage statistics, Mailgun for
 sending automatic email notifications to registered users, and Google 
 Cloud SQL for storing information. We require our foreign service providers 
 that their countries have an adequate level of data privacy as required 
