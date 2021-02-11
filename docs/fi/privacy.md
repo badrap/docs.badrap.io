@@ -109,7 +109,7 @@ ulkopuolisten palveluntarjoajien työntekijöitä alihankkijoina.
 ## Tietojen siirto EU:n ulkopuolelle
 
 Osa palvelun teknisestä toteutuksesta on ulkoistettu: Google
-Analytics käytön tilastointiin sekä Mailgun
+Analytics käytön tilastointiin, Mailgun
 sähköpostien automaattiseen lähetykseen
 rekisteröityneille käyttäjille, sekä Google Cloud SQL
 tietojen varastointia varten. Edellytämme käyttämiltämme
