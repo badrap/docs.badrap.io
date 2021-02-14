@@ -24,7 +24,7 @@ Create a service account with limited access:
    - Click the **Create** button.
 
 <div style="text-align: center;">
-   <img src="./gcp-20-describe-create.png" style="width: 50%; min-width: 480px;" />
+   <img src="./gcp-20-describe-create.png" style="max-width: 95%; width: 480px;" />
 </div>
 
 5. On the _Service account permissions_ area, select the role _Compute Viewer_.
@@ -32,7 +32,7 @@ Create a service account with limited access:
    - Click the **Continue** button.
 
 <div style="text-align: center;">
-   <img src="./gcp-30-grant-roles.png" style="width: 50%; min-width: 480px;" />
+   <img src="./gcp-30-grant-roles.png" style="max-width: 95%; width: 480px;" />
 </div>
 
 6. On the _Grant users access to this service account_ area, leave the fields empty and click the **Done** button. You will be taken back to the project's _Service accounts_ page.
@@ -64,11 +64,11 @@ Install the Google Cloud Platform app.
 3. Click the **Add a new account** button. Upload the JSON key file you received or downloaded. Remember to delete the local file once the installation is finished and working.
 
 <div style="text-align: center;">
-   <img src="./gcp-60-add-account.png" style="width: 50%; min-width: 480px;" />
+   <img src="./gcp-60-add-account.png" style="max-width: 95%; width: 480px;" />
 </div>
 
 4. Congratulations! You are all done. Check the [My assets page](https://badrap.io/assets) and find the section _Google Cloud Platform_ from your asset list. You should see your public IP-addresses. If your DNS records are also under your GCP project, you should see your domain names in the list too.
 
 <div style="text-align: center;">
-   <img src="./gcp-70-my-assets.png" style="width: 50%; min-width: 480px;" />
+   <img src="./gcp-70-my-assets.png" style="max-width: 95%; width: 480px;" />
 </div>
