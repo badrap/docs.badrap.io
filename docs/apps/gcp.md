@@ -2,7 +2,7 @@
 
 This app allows you to synchronize your Google Cloud Platform (GCP) assets into Badrap and receive security notifications about them. If you are not the owner or your organization's GCP project or projects, you will need help from the owner. 
 
-First, the owner of your organization's GCP project(s) creates a service account and a key for it and delivers the key to the Badrap GCP app user. Badrap GCP app user loads the key to the Badrap GCP app. Once installed, the app maintains a list of your organization's assets and add those assets under your Badrap user account. Namely: 
+First, the owner of your organization's GCP project(s) creates a service account, downloads a key for it, and delivers the key to the Badrap GCP app user. Badrap GCP app user loads the key to the Badrap GCP app. Once installed, the app maintains a list of your organization's assets and add those assets under your Badrap user account. Namely: 
 
  * public IP-addresses from your GCP installation
  * domain names, if GCP also hosts your DNS
