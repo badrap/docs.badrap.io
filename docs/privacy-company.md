@@ -59,9 +59,11 @@ information. We record company name, and optionally email, your name, and phone 
 available. We use this information to be able to contact you to check if you would be interested in purchasing our
 services. Further contacts are based on your consent.
 
-## Employee Cyber Hygiene Online Training
+## Playbooks
 
-We use ActiveCampaign for running Employee Cyber Hygiene online training and trials. To provide the service, participants provide their email address and the name of their employer. Participants also give answers to quiz questions, which we collect. Finally, we track the progress of the users to provide statistics to the customer.
+We use ActiveCampaign for automating playbooks, such as Employee Cyber Hygiene online training and trials. Customers provide their email address or 
+email addresses for us. Participants may submit further information via forms. Playbook automation requires us to track the progress of the users. 
+Sometimes we also provide progress statistics to the playbook customers.
 
 ## Your rights as a data subject
 
