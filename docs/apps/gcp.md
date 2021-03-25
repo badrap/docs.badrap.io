@@ -38,8 +38,9 @@ Create a service account with limited access:
 6. On the _Grant users access to this service account_ area, leave the fields empty and click the **Done** button. You will be taken back to the project's _Service accounts_ page.
 
 7. On the _Service accounts_ page, find the row for the account you created, and click the three dots on the right.
-   - Click **Create key**.
-   - When **Create key** dialog opens, select the JSON option and click the **Create** button.
+   - Click **Manage keys**.
+   - From the **Add key** drop-down menu, select **Create new key**.
+   - When the key creation dialog opens, select **JSON** as the key type and click **Create**.
    - The key file is downloaded to your computer.
    - Close the dialog by clicking the **Close** button.
 
