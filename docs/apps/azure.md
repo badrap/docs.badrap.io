@@ -1,52 +1,196 @@
 # Microsoft Azure
 
-This app allows you to synchronize your Azure assets into Badrap and receive security notifications about them. The app needs to be installed and enabled under your Badrap user account to get started. The app fetches a list of your organization's public IP-addresses from your Azure installation with your consent, and adds those assets under your Badrap user account. If you do not have administrator rights for your organization's Azure installation, you will need help from your administrator to set up the app.
+This app allows you to synchronize your Microsoft Azure assets into Badrap and receive security notifications about them. The app fetches a list of your organization's public IP addresses from your Azure installation with your consent, and adds those assets under your Badrap user account. 
 
-## Install the App in Badrap
+## Install the Azure app in Badrap
 
-We've set limits on who can install Azure app for your organization.
-You'll need Global Administrator, Application Administrator, Cloud Application Administrator privileges to perform this action. If you don't have these roles, your administrator can grant you Azure Watcher -role. Your Azure administrator can follow the process described in detail in [O365 app documentation](o365.html#instructions-for-office-365-administrators-to-allow-a-user-to-install-badrap-office-365-app). Make sure the administrator will give you Azure Watcher role, instead of Office 365 watcher.
+Anyone can install the Azure app in Badrap, but you will need Global Administrator, Application Administrator or Cloud Application Administrator level privileges to enable the app to access your Azure installation and to list your assets from there. If you do not have administrator role privileges, refer your administrator to these instructions and ask them to help you with the app configuration. 
 
-1. Open the [Azure app page](https://badrap.io/apps/azure)
+1. Open the [Azure app page](https://badrap.io/apps/azure). 
 
-![Azure Install](./azure-01-install.jpg)
+<div style="text-align: center;">
+   <img src="./azure-10-install.png" style="max-width: 95%; width: 480px;" />
+</div>
 
-2. App asks for your consent to create & manage new assets. Click Install the app -button.
+2. The app asks for your consent to create & manage new assets. Click **Install the app**. 
 
-![Give consent](./azure-02-install-app.jpg)
+<div style="text-align: center;">
+   <img src="./azure-20-consent.png" style="max-width: 95%; width: 480px;" />
+</div>
 
-3. Click Add new account
-4. Log in with your account
+The Azure app is now installed. Next, you have to create a service principal for the app in your Azure installation, and to provide its configuration details to the app settings. You can do this either by using the Azure CLI (incredibly easy) or your Azure Portal (still easy). 
 
-![The end result](./azure-03-the-end-result.jpg)
+## Using the Azure CLI
 
-Badrap app is now installed. Next, give it (the minimal) access in Azure portal.
+Note that installing Azure CLI to your computer is outside of the scope of this guide. You can use [Microsoft's Azure CLI installation instructions](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) to get started if you haven't installed it previously.
 
-## Assign a reader role for badrap.io in Azure portal
+1. Log into Azure using your Azure CLI utility. 
+```
+az login
+```
 
-This phase has to happen *after* you (or someone in your organisation) has installed Azure app in Badrap.
+2. List your subscription details:
+```
+az account show
+```
+The listing will look like this:
+```
+{
+  "environmentName": "AzureCloud",
+  "homeTenantId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "id": "11111111-2222-3333-4444-555555666666",
+  "isDefault": true,
+  "managedByTenants": [],
+  "name": "Pay-As-You-Go",
+  "state": "Enabled",
+  "tenantId": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "user": {
+    "name": "adminroleuser@example.com",
+    "type": "user"
+  }
+}
+```
+Make a note of the **id** field value (subscription ID) for the next step.
 
-1. Log in to your Azure portal: <https://portal.azure.com/>
+3. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{subscription_id}` in the example below with the **id** value you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
+```
+az ad sp create-for-rbac --role "Reader" --scopes /subscriptions/{subscription_id} --name http://BadrapAzureApp
+```
+The output will look like this:
+```
+Creating 'Reader' role assignment under scope '/subscriptions/11111111-2222-3333-4444-555555666666'
+  Retrying role assignment creation: 1/36
+The output includes credentials that you must protect. Be sure that you do not include these credentials in your code or
+check the credentials into your source control. For more information, see https://aka.ms/azadsp-cli
+{
+  "appId": "aabbccdd-1122-3344-5566-eeeeffff7777",
+  "displayName": "BadrapAzureApp",
+  "name": "http://BadrapAzureApp",
+  "password": "****************************",
+  "tenant": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"
+}
+```
 
-![Subscriptions](./azure-10-subscriptions.jpg)
+4. Under your Badrap Azure app settings, add your account details. 
 
-2. Select one or more subscription you want to monitor
+<div style="text-align: center;">
+   <img src="./azure-30-add-account.png" style="max-width: 95%; width: 480px;" />
+</div>
 
-![Add Subscriptions](./azure-11-subscriptions-select.jpg)
+5. Copy the **tenant**, **appId** and **password** values into the app settings: 
 
-3. Go to Access control (IAM) and click Add
+- Tenant ID: `tenant`
+- Application ID: `appId`
+- Client Secret: `password`
 
-![Add role](./azure-12-add-role.jpg)
+6. In a few minutes after the Badrap Azure app has been configured into use, you should see a listing of your Azure assets under [My Assets](https://badrap.io/assets).
 
-4. Select Add role assignment. 
-5. In "Add role assignment" area, select "Reader" role. Under "Select", type badrap.io and click the badrap.io object which will appear. Press save.
+<div style="text-align: center;">
+   <img src="./azure-99-assets.png" style="max-width: 95%; width: 480px;" />
+</div>
 
-![Give permissions](./azure-13-give-permissions.jpg)
+7. If you want to stop using the Badrap Azure app, you can delete the service principal with the `az ad sp delete` command:
+```
+az ad sp delete --id http://BadrapAzureApp
+```
+The output of the command should be like this:
+```
+Removing role assignments
+```
+Then uninstall the Azure app from your Badrap settings page.
 
-6. badrap.io should now be visible under section "Reader"
+## Using Azure Portal
 
-![Give permissions](./azure-14-ready.jpg)
+1. Log into your [Azure Portal](https://portal.azure.com). Select Azure Active Directory from the sidebar. 
 
-7. You are now ready. Your subscription's public IP-addresses should appear in your Badrap [asset list](https://badrap.io/assets) in few minutes.
+<div style="text-align: center;">
+   <img src="./azure-50-portal.png" style="max-width: 95%; width: 480px;" />
+</div>
 
-![Assets visible](./azure-20-assets-visible.jpg)
+2. Go to **App Registrations**.
+
+<div style="text-align: center;">
+   <img src="./azure-54-appreg.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+3. Click **New registration**. Enter the following details:
+
+- Name: Badrap Azure App
+- Supported Account Types: Accounts in this organizational directory only (your organization only)
+- Redirect URI (optional): leave blank
+
+<div style="text-align: center;">
+   <img src="./azure-58-newreg.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+4. Click **Register** to complete the new app registration.
+
+5. Now, give Reader permissions to the application. Go to **Subscriptions** via the Azure Portal top search bar or via the left sidebar. 
+
+<div style="text-align: center;">
+   <img src="./azure-60-search-subs.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+6. Choose the subscription you want to use.
+
+<div style="text-align: center;">
+   <img src="./azure-64-choose-sub.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+7. Select **Access Control (IAM)** in the Subscriptions page.
+
+<div style="text-align: center;">
+   <img src="./azure-68-iam.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+8. Click **Add** and select **Add role assignment**.
+
+<div style="text-align: center;">
+   <img src="./azure-70-add-role.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+9. For "Role", select **Reader**. For "Assign access to", select **User, group or service principal**.
+
+10. In the Select menu, type the name of the application you created in the previous step (e.g. "Badrap Azure App") and click on the search result. The app should now appear in the "Selected members" list. Then click **Save**.
+
+<div style="text-align: center;">
+   <img src="./azure-74-role-details.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+11. Under **App Registrations**, select the application you created.
+
+<div style="text-align: center;">
+   <img src="./azure-78-select-app.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+12. Note down the **Directory (tenant) ID** and **Application (client) ID** values. 
+
+<div style="text-align: center;">
+   <img src="./azure-80-copy-values.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+13. Under the same app, select **Certificates and Secrets** in the Manage menu. 
+
+14. Under "Client secrets", click on **New Client Secret**.
+
+15. For the description field, you can use e.g. `badrapClientSecret`. Select a suitable time for expiration (e.g. one year), and click **Add**.
+
+16. Note down the **Value** field from the generated client secret. 
+
+<div style="text-align: center;">
+   <img src="./azure-84-client-secret.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+17. Under your Badrap Azure app settings, add a new account. Copy the **Directory (tenant) ID**, **Application (client) ID** and **client secret** values you noted down earlier into the Badrap Azure app settings.
+
+<div style="text-align: center;">
+   <img src="./azure-30-add-account.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+18. Click **Add account** to save your settings. 
+
+19. In a few minutes after the app has been configured into use, you should see a listing of your Azure assets under [My Assets](https://badrap.io/assets).
+
+<div style="text-align: center;">
+   <img src="./azure-99-assets.png" style="max-width: 95%; width: 480px;" />
+</div>
