@@ -137,7 +137,7 @@ Then uninstall the Azure app from your Badrap settings page.
    <img src="./azure-64-choose-sub.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-7. Select **Access Control (IAM)** in the Subscriptions page.
+7. Select **Access Control (IAM)** in the subscription page.
 
 <div style="text-align: center;">
    <img src="./azure-68-iam.png" style="max-width: 95%; width: 480px;" />
