@@ -49,3 +49,4 @@ Apps are currently available as part of the commercial offering.
 - [Terms of Service](./tos.md)
 - [Service Description](./service-description.md)
 - [Badrap Oy Privacy Policy](./privacy-company.md) - for Badrap Oy customers or potential customers (covers marketing, sales and deliveries)
+- [Environmental, Societal and Governance Policy](./esg.md)
