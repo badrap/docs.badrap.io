@@ -2,13 +2,14 @@ version: "2.4"
 
 services:
   docs:
-    image: node:14-alpine
+    image: node:lts-alpine
     init: true
-    command: /bin/sh -c 'yarn --frozen-lockfile --no-bin-links --modules-folder /cachedir/node_modules && /cachedir/node_modules/vuepress/cli.js dev docs'
+    command: /bin/sh -c 'npm ci && npm run dev'
     volumes:
-      - .:/app:ro
+      - ./docs:/app/docs:ro
+      - ./package.json:/app/package.json:ro
+      - ./package-lock.json:/app/package-lock.json:ro
     environment:
-      NODE_PATH: /cachedir/node_modules
       HOST: 0.0.0.0
     working_dir: /app
     ports:
