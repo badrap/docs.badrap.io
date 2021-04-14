@@ -45,3 +45,12 @@ Our employees and suppliers who participate in security and vulnerability resear
 ## Tax Policy
 
 We have a zero tolerance to tax evasion and the facilitation of tax evasion. We are not engaged in aggressive tax planning. Our headquarters is in Finland and we follow local tax laws in regions where we operate.
+
+## Standard Clause for Suppliers and Partners
+
+All Suppliers can include the following standard clause (or equivalent content in their own language) into their contract terms to demonstrate their willingness to uphold our ESG standards. 
+```
+The [Supplier/Contractor/Partner] has received a copy of the Company's Code of Conduct 
+at https:/docs.badrap.io/esg.html and agrees to uphold or to exceed the same standards 
+and to obey legal obligations and local regulations.
+```
