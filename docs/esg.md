@@ -49,8 +49,5 @@ We have a zero tolerance to tax evasion and the facilitation of tax evasion. We 
 ## Standard Clause for Suppliers and Partners
 
 All Suppliers and Partners can include the following standard clause (or equivalent content in their own language) into their contract terms to demonstrate their willingness to uphold our ESG standards. 
-```
-The [Supplier/Contractor/Partner] has received a copy of the Company's Code of Conduct 
-at https:/docs.badrap.io/esg.html and agrees to uphold or to exceed the same standards 
-and to obey legal obligations and local regulations.
-```
+
+"The Supplier/Contractor/Partner has received a copy of the Company's Code of Conduct at [https:/docs.badrap.io/esg.html] and agrees to uphold or to exceed the same standards and to obey legal obligations and local regulations."
