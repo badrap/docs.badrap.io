@@ -3,6 +3,9 @@ module.exports = {
   port: process.env.PORT || 8080,
 
   title: "Badrap docs",
+  head: [
+    ["meta", { "http-equiv": "Permissions-Policy", content: "interest-cohort=()" }]
+  ],
   locales: {
     "/": {
       lang: "en-US",
