@@ -4,50 +4,54 @@ module.exports = {
 
   title: "Badrap docs",
   head: [
-    ["meta", { "http-equiv": "Permissions-Policy", content: "interest-cohort=()" }]
+    [
+      "meta",
+      { "http-equiv": "Permissions-Policy", content: "interest-cohort=()" },
+    ],
   ],
   locales: {
     "/": {
       lang: "en-US",
-      description: "Badrap documentation site"
+      description: "Badrap documentation site",
     },
     "/fi/": {
       lang: "fi",
-      description: "Badrapin dokumentaatiosivusto"
-    }
+      description: "Badrapin dokumentaatiosivusto",
+    },
   },
   themeConfig: {
     logo: "/badrap-logo.png",
     sidebar: "auto",
     docsRepo: "badrap/docs.badrap.io",
     docsDir: "docs",
+    docsBranch: "main",
     editLinks: true,
     nav: [
       {
         text: "badrap.io",
-        link: "https://badrap.io"
-      }
+        link: "https://badrap.io",
+      },
     ],
     locales: {
       "/": {
         selectText: "Languages",
         label: "English",
-        editLinkText: "Edit this page on GitHub"
+        editLinkText: "Edit this page on GitHub",
       },
       "/fi/": {
         selectText: "Kielet",
         label: "Suomi",
-        editLinkText: "Muokkaa tätä sivua GitHubissa"
-      }
-    }
+        editLinkText: "Muokkaa tätä sivua GitHubissa",
+      },
+    },
   },
 
   plugins: [
     [
       "@vuepress/google-analytics",
       {
-        ga: process.env.GA_TRACKING_ID
-      }
-    ]
-  ]
+        ga: process.env.GA_TRACKING_ID,
+      },
+    ],
+  ],
 };
