@@ -2,7 +2,7 @@
 
 This is the repository for authoring and building content for the https://docs.badrap.io site.
 
-Changes to this repository's `master` branch get automatically built and deployed. The site is built using [VuePress](https://vuepress.vuejs.org/), the result is pushed to this repository's `gh-pages` branch from which [GitHub Pages](https://pages.github.com/) deploys it.
+Changes to this repository's `main` branch get automatically built and deployed. The site is built using [VuePress](https://vuepress.vuejs.org/), the result is pushed to this repository's `gh-pages` branch from which [GitHub Pages](https://pages.github.com/) deploys it.
 
 ## Development Quickstart
 
@@ -50,7 +50,7 @@ $ HOST=192.168.0.1 PORT=3000 npm run dev
 
 ## Building for Production
 
-Changes to the `master` branch are deployed automatically. However, if you want to try building a production version of the site manually, the command is:
+Changes to the `main` branch are deployed automatically. However, if you want to try building a production version of the site manually, the command is:
 
 ```sh
 $ npm run build
