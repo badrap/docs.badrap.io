@@ -213,4 +213,13 @@ Removing role assignments
 
 6. Select **Delete** from the actions at the top. 
 
-7. This action will disable the app registration and move the app to the "Deleted applications" list on the App registrations page. To delete the app registration and all its dependencies permanently, go to "Deleted applications", select the application (e.g. "Badrap Azure App"), and then choose "Delete permanently". 
+<div style="text-align: center;">
+   <img src="./azure-92-appreg-delete.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+7. This action will remove the app registration and move the app under the **Deleted applications** list on the App Registrations page. To delete the app registraton and all its dependencies permanently, go to "Deleted applications", select the application (e.g. "Badrap Azure App"), and then choose **Delete permanently**. 
+
+<div style="text-align: center;">
+   <img src="./azure-94-appreg-delete-perm.png" style="max-width: 95%; width: 480px;" />
+</div>
+
