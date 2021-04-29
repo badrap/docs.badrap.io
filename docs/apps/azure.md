@@ -189,7 +189,7 @@ check the credentials into your source control. For more information, see https:
 
 If you want to stop using the Badrap Azure app, you should uninstall it from your Badrap [Azure app page](https://badrap.io/apps/azure). Then you can clean up the app configuration from your Azure AD installation using either Azure CLI or your Azure Portal dashboard. 
 
-### Cleaning up your Azure configuration via Azure CLI
+### Cleaning up via Azure CLI
 
 1. If you want to clean up your Azure configuration using the Azure CLI, just delete the service principal with the `az ad sp delete` command:
 ```
@@ -201,7 +201,7 @@ Removing role assignments
 ```
 You've now successfully cleaned up your Azure configuration.
 
-### Cleaning up your Azure configuration via Azure Portal
+### Cleaning up via Azure Portal
 
 1. If you want to clean up your Azure configuration using your [Azure Portal](https://portal.azure.com), first log into the portal and select Azure Active Directory from the sidebar. 
 
@@ -223,10 +223,12 @@ You've now successfully cleaned up your Azure configuration.
    <img src="./azure-92-appreg-delete.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-5. This action will disable the app registration and move the app under the **Deleted applications** list on the App Registrations page. To delete the app registration and all its dependencies permanently, go to "Deleted applications", select the application (e.g. "Badrap Azure App"), and then choose **Delete permanently**.
+5. This action will disable the app registration and move the app under the **Deleted applications** list on the App Registrations page. 
+
+6. To delete the app registration and all its dependencies permanently, go to "Deleted applications", select the application (e.g. "Badrap Azure App"), and then choose **Delete permanently**.
 
 <div style="text-align: center;">
    <img src="./azure-94-appreg-delete-perm.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-6. You've now successfully cleaned up your Azure configuration.
+7. You've now successfully cleaned up your Azure configuration.
