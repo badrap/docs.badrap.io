@@ -89,16 +89,6 @@ check the credentials into your source control. For more information, see https:
    <img src="./azure-99-assets.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-7. If you want to stop using the Badrap Azure app, you can delete the service principal with the `az ad sp delete` command:
-```
-az ad sp delete --id http://BadrapAzureApp
-```
-The output of the command should be like this:
-```
-Removing role assignments
-```
-Then uninstall the Azure app from your Badrap settings page.
-
 ## Using Azure Portal
 
 1. Log into your [Azure Portal](https://portal.azure.com). Select Azure Active Directory from the sidebar. 
@@ -194,3 +184,33 @@ Then uninstall the Azure app from your Badrap settings page.
 <div style="text-align: center;">
    <img src="./azure-99-assets.png" style="max-width: 95%; width: 480px;" />
 </div>
+
+## Uninstalling the app
+
+1. If you want to stop using the Badrap Azure app, you should uninstall it from your [Azure app page](https://badrap.io/apps/azure). Then you can clean up the app configuration from your Azure AD installation using either Azure CLI or your Azure dashboard. 
+
+2. If you want to clean up using the Azure CLI, just delete the service principal with the `az ad sp delete` command:
+```
+az ad sp delete --id http://BadrapAzureApp
+```
+The output of the command should look like this:
+```
+Removing role assignments
+```
+3. If you want to clean up using your [Azure Portal](https://portal.azure.com), first log into the portal and select Azure Active Directory from the sidebar. 
+
+<div style="text-align: center;">
+   <img src="./azure-50-portal.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+4. Navigate to **App Registrations**.
+
+<div style="text-align: center;">
+   <img src="./azure-90-appreg-cleanup.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+5. Click on the app that you created earlier, e.g. "Badrap Azure App". 
+
+6. Select **Delete** from the actions at the top. 
+
+7. This action will disable the app registration and move the app to the "Deleted applications" list on the App registrations page. To delete the app registration and all its dependencies permanently, go to "Deleted applications", select the application (e.g. "Badrap Azure App"), and then choose "Delete permanently". 
