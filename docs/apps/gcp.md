@@ -73,3 +73,16 @@ Install the Google Cloud Platform app.
 <div style="text-align: center;">
    <img src="./gcp-70-my-assets.png" style="max-width: 95%; width: 480px;" />
 </div>
+
+## Uninstalling the app
+
+1. Open the [Google Cloud Platform app page](https://badrap.io/apps/gcp) and click **Uninstall**.
+2. Go to [Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts) in your Google Cloud Platform console. 
+3. Select the project whose assets you have been following with the Badrap GCP app. 
+4. Search for the service account you created earlier for the Badrap GCP app and select **Delete** from the Actions menu on the right. 
+
+<div style="text-align: center;">
+   <img src="./gcp-90-delete-service-account.png" />
+</div>
+
+5. You have now successfully uninstalled the app and cleaned up its configuration from your GCP installation.
