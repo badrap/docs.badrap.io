@@ -1,9 +1,9 @@
 # Amazon Web Services (AWS)
 
-This app allows you to synchronize your AWS assets into Badrap and receive security notifications about them. The app needs to be installed and enabled under your Badrap user account to get started. The app fetches a list of your organization's public IP-addresses from your AWS installation with your consent, and adds those assets under your Badrap user account. Below, we describe the actions needed in Badrap. We also explain what you need to do in AWS to grant the minimum permissions for Badrap to fetch the pubic IP-addresses.
+This app allows you to synchronize your AWS assets into Badrap and receive security notifications about them. The app needs to be installed and enabled under your Badrap user account to get started. The app fetches a list of your organization's public IP addresses from your AWS installation with your consent, and adds those assets under your Badrap user account. Below, we describe the actions needed in Badrap. We also explain what you need to do in AWS to grant the minimum permissions for Badrap to fetch the public IP addresses.
 
 
-## Install the App
+## Install the AWS app in Badrap
 
 1. Open the [AWS app page](https://badrap.io/apps/aws).
 1. Install the app.
@@ -70,3 +70,23 @@ Setting up the Badrap app with Amazon Web Services requires configuring role del
 1. Enter your [AWS Account ID](https://console.aws.amazon.com/billing/home?#/account) into the `Account ID` field.
 1. Enter the name of the AWS role you created earlier. **Note that the role name is case sensitive!**
 1. Click `Add`.
+
+## Uninstalling the app
+
+If you want to stop using the Badrap AWS app, you can uninstall it from your Badrap [AWS app page](https://badrap.io/apps/aws). 
+
+Then you can clean up the app role and policy definitions from your [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles). 
+
+1. Under the [Roles](https://console.aws.amazon.com/iam/home#/roles) section, search for the role you created earlier (e.g. "BadrapTestAppRole") and select **Delete**. 
+
+<div style="text-align: center;">
+   <img src="./aws-90-delete-role.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+2. Under the [Policies](https://console.aws.amazon.com/iam/home#/policies) section, search for the policy you created and connected to the role (e.g. "BadrapTestAppPolicy"), and from the **Policy actions** drop-down menu select **Delete**. 
+
+<div style="text-align: center;">
+   <img src="./aws-92-delete-policy.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+That's it, you have successfully uninstalled the Badrap AWS app and cleaned up its configuration from your AWS installation.
