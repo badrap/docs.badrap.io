@@ -12,3 +12,9 @@ Synchronize assets from SensorFu Beacon Home to Badrap.
 ![Beacon App](./beacon.jpg)
 
 5. You're done
+
+## Uninstalling the app
+
+1. Open the [Beacon app page](https://badrap.io/apps/beacon) and click **Uninstall**. 
+2. Shut down and optionally erase beacons that you have been running. 
+3. You're done!
