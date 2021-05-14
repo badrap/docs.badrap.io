@@ -57,9 +57,3 @@ $ npm run build
 ```
 
 If the build is successful the results are located in the `./docs/.vuepress/dist` directory.
-
-Google Analytics can be enabled by setting the `GA_TRACKING_ID` environment variable when building:
-
-```sh
-$ GA_TRACKING_ID=XX-YYYYYYYYY-Z npm run build
-```
