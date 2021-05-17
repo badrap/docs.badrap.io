@@ -29,7 +29,7 @@ This app allows you to register a new asset into Badrap simply by fetching a URL
 2. Click on the **Copy to clipboard** button to copy the URL onto your clipboard. You can also assign a name for the asset with the **Assign name** button.
 
 <div style="text-align: center;">
-   <img src="./https-30-copy-to-clipboard.png" style="max-width: 95%; width: 480px;" />
+   <img src="./https-30-copy-url.png" style="max-width: 95%; width: 480px;" />
 </div>
 
 3. On the host that you want to add as a new asset into Badrap, fetch the URL using a suitable application. For command-line usage, common tools for fetching an URL are e.g. [Wget](https://www.gnu.org/software/wget/) or [curl](https://curl.se/). These command-line tools are commonly available for Linux distributions. curl is built into Mac OS X, and into Windows 10 command line and PowerShell environments. For desktop hosts, you can simply fetch the URL with any web browser.
