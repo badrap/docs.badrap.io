@@ -16,6 +16,7 @@ Apps are currently available as part of the commercial offering.
 - [Microsoft Azure](apps/azure.md)
 - [Google Cloud Platform](apps/gcp.md)
 - [Sensorfu Beacon](apps/beacon.md)
+- [HTTPS](apps/https.md)
 
 ## Instructions for Events
 
