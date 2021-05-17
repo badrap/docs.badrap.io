@@ -28,17 +28,16 @@ This app allows you to register a new asset into Badrap simply by fetching a URL
 
 2. Click on the **Copy to clipboard** button to copy the URL onto your clipboard. 
 
-3. On the host that you want to add as a new asset into Badrap, fetch the URL using a suitable application. For command-line usage, common tools for fetching an URL are e.g. [Wget](https://www.gnu.org/software/wget/) or [curl](https://curl.se/). These command-line tools are commonly available for Linux distributions. curl is built into Mac OS X, and into Windows 10 command line and PowerShell environments. For desktop hosts, you can simply fetch the URL with any web browser. 
+3. On the host that you want to add as a new asset into Badrap, fetch the URL using a suitable application. For command-line usage, common tools for fetching an URL are e.g. [Wget](https://www.gnu.org/software/wget/) or [curl](https://curl.se/). These command-line tools are commonly available for Linux distributions. curl is built into Mac OS X, and into Windows 10 command line and PowerShell environments. For desktop hosts, you can simply fetch the URL with any web browser.
 
-Example using wget:
-```
-wget https://http-app.badrap.io/app/claim/1abc...
-```
-
-Example using curl:
-```
-curl https://http-app.badrap.io/app/claim/1abc...
-```
+   Example using wget:
+   ```
+   wget https://http-app.badrap.io/app/claim/1abc...
+   ```
+   Example using curl:
+   ```
+   curl https://http-app.badrap.io/app/claim/1abc...
+   ```
 
 4. The IP address of the host from which you fetched the URL will be registered and displayed as a new asset in your [My assets](https://badrap.io/assets) page. 
 
