@@ -23,6 +23,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
         with:
