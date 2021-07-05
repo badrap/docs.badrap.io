@@ -53,11 +53,13 @@ at <https://policies.google.com/privacy>.
 
 ## Marketing and customer relationship management (CRM)
 
-We search for publicly available data to discover leads. We use Linkedin, RocketReach and Alma Talent’s company search
-to identify people in roles implying they may be interested in our products. We use HubSpot to record their contact
-information. We record company name, and optionally email, your name, and phone number, depending on what information is
-available. We use this information to be able to contact you to check if you would be interested in purchasing our
-services. Further contacts are based on your consent.
+We search for publicly available data to discover leads. We use Linkedin, RocketReach and Alma Talent company search 
+to identify people in roles implying they may be interested in our products. We also use online forms to collect 
+product inquiries and subscriptions from leads and customers. We use HubSpot, Stripe and DepositFix to record their 
+contact information. We record the company name and optionally email, your name, VAT number, payment details and phone 
+number, depending on what information is available or provided. We use this information to contact you if you are 
+interested in purchasing our services or to provide you the services you have subscribed to. Further contacts are based 
+on your consent.
 
 ## Playbooks
 
