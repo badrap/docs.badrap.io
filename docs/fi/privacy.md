@@ -1,3 +1,12 @@
+## TIEDOTE TIETOSUOJASELOSTEEN PÄIVITYKSESTÄ
+
+Vaihdamme sivustoanalytiikkaan käyttämäämme palveluntarjoajaa
+**22.7.2021 klo 16:00 Suomen aikaa**. Tällä hetkellä käytämme
+sivustoanalytiikkaan Google Analytics-teknologioita. Muutoksen jälkeen
+emme enää käytä Google Analytics-teknologioita, vaan siirrymme
+käyttämään Plausible.io-palvelua. Siirtymän yhteydessä päivitämme
+tämän tietosuojaselosteen vastaavilta osin.
+
 # badrap.io:n tietosuojaseloste
 
 Badrap Oy ylläpitää badrap.io-palvelua. Käsittelemme

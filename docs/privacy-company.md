@@ -1,3 +1,10 @@
+## UPDATE NOTICE
+
+On **July 22, 2021, 13:00 UTC** we will switch our website analytics providers.
+Currently we are using Google Analytics and Google Tag Manager. After the change
+we will stop using Google Analytics and Google Tag Manager and start using
+Plausible.io. At that time, this privacy policy will be updated accordingly.
+
 # Privacy Policy for the Badrap Oy
 
 We at Badrap Oy provide badrap.io service for the consumers and related commercial products for businesses. If you are a
@@ -53,18 +60,18 @@ at <https://policies.google.com/privacy>.
 
 ## Marketing and customer relationship management (CRM)
 
-We search for publicly available data to discover leads. We use Linkedin, RocketReach and Alma Talent company search 
-to identify people in roles implying they may be interested in our products. We also use online forms to collect 
-product inquiries and subscriptions from leads and customers. We use HubSpot, Stripe and DepositFix to record their 
-contact information. We record the company name and optionally email, your name, VAT number, payment details and phone 
-number, depending on what information is available or provided. We use this information to contact you if you are 
-interested in purchasing our services or to provide you the services you have subscribed to. Further contacts are based 
+We search for publicly available data to discover leads. We use Linkedin, RocketReach and Alma Talent company search
+to identify people in roles implying they may be interested in our products. We also use online forms to collect
+product inquiries and subscriptions from leads and customers. We use HubSpot, Stripe and DepositFix to record their
+contact information. We record the company name and optionally email, your name, VAT number, payment details and phone
+number, depending on what information is available or provided. We use this information to contact you if you are
+interested in purchasing our services or to provide you the services you have subscribed to. Further contacts are based
 on your consent.
 
 ## Playbooks
 
-We use ActiveCampaign for automating playbooks, such as Employee Cyber Hygiene online training and trials. Customers provide their email address or 
-email addresses for us. Participants may submit further information via forms. Playbook automation requires us to track the progress of the users. 
+We use ActiveCampaign for automating playbooks, such as Employee Cyber Hygiene online training and trials. Customers provide their email address or
+email addresses for us. Participants may submit further information via forms. Playbook automation requires us to track the progress of the users.
 Sometimes we also provide progress statistics to the playbook customers.
 
 ## Your rights as a data subject
