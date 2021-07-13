@@ -1,10 +1,3 @@
-## UPDATE NOTICE
-
-On **July 22, 2021, 13:00 UTC** we will switch our website analytics providers.
-Currently we are using Google Analytics. After the change
-we will stop using Google Analytics and start using
-Plausible.io. At that time, this privacy policy will be updated accordingly.
-
 # badrap.io Privacy Policy
 
 Badrap Ltd develops and maintains this service. We process your
@@ -34,9 +27,12 @@ always ask for explicit consent before any of your personal data is stored under
 your user account.
 
 For users who use our service without creating an user account, the legal
-basis for processing personal data is our legitimate interests. We use
-Google Analytics to collect anonymous visitor statistics. It allows us to
-know someone visited our service.
+basis for processing personal data is our legitimate interests. 
+
+We use [Plausible.io](https://plausible.io/privacy) to collect anonymous visitor 
+statistics on our site. Plausible is a privacy-focused website analytics provider 
+that allows us to know someone visited our service. The legal basis for collecting 
+website visitor statistics is our legitimate interests.
 
 ## What personal information do we process?
 
@@ -138,12 +134,11 @@ this consent from your account settings at any time.
 ## Data transfers outside of EU
 
 Some parts of our technical service implementation use external components:
-we use Google Analytics for usage statistics, Mailgun for
-sending automatic email notifications to registered users, and Google
-Cloud SQL for storing information. We require our foreign service providers
-that their countries have an adequate level of data privacy as required
-by the GDPR, and that they are committed to follow the GDPR and other
-relevant EU regulations.
+we use Mailgun for sending automatic email notifications to registered users, 
+and Google Cloud SQL for storing information. We require our foreign service 
+providers that their countries have an adequate level of data privacy as 
+required by the GDPR, and that they are committed to follow the GDPR and 
+other relevant EU regulations.
 
 ## Automated individual decision-making
 
