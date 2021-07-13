@@ -1,15 +1,8 @@
-## UPDATE NOTICE
+# Privacy Policy for Badrap Oy
 
-On **July 22, 2021, 13:00 UTC** we will switch our website analytics providers.
-Currently we are using Google Analytics and Google Tag Manager. After the change
-we will stop using Google Analytics and Google Tag Manager and start using
-Plausible.io. At that time, this privacy policy will be updated accordingly.
-
-# Privacy Policy for the Badrap Oy
-
-We at Badrap Oy provide badrap.io service for the consumers and related commercial products for businesses. If you are a
+We at Badrap Oy provide badrap.io service for consumers, and related commercial products for businesses. If you are a
 badrap.io user, the relevant privacy policy is [here](privacy.md). This privacy policy explains why and how we,
-as a data controller, process your personal information for legitimate business interests.
+as a data controller, process our business users' personal information for legitimate business interests.
 
 ## Data controller contact details
 
@@ -23,7 +16,7 @@ Business ID: 2846254-9
 ## Types of data collected
 
 When discovering leads, we may collect your name, company, email address, and phone number. Our hosting, content
-delivery and analytics services collect visitor information in the form of IP-addresses and cookies automatically
+delivery and analytics services collect visitor information in the form of IP addresses and cookies automatically
 submitted by your web browser.
 
 ## Purpose and legal basis for processing
@@ -48,15 +41,14 @@ platforms, they may collect and use information that web browsers expose automat
 address, site-specific cookies, device identifiers, language preference, referring site, the time of access and user’s
 operating system. These services should collect only minimal information required to deliver the content and we don’t
 use these services to collect any information for processing. Some of these services may provide you an option to
-register directly as their user to improve the user experience. If you have directly registered to any of these services
+register directly as their user to improve the user experience. If you have directly registered to any of these services,
 we advise you to study their respective privacy policies.
 
 ## Analytics
 
-We use Google Analytics and Google Tag Manager to collect information about our website visitors and their behaviour
-while on the website. We have configured these services to anonymize IP-addresses. Google provides the means to opt-out
-from Google Analytics data collection at <https://tools.google.com/dlpage/gaoptout>. Google's privacy policy can be found
-at <https://policies.google.com/privacy>.
+We use Plausible.io to collect information about our website visitors and their behaviour while on the website. 
+Plausible.io is a privacy-focused website analytics provider that collects anonymous statistics and does not use cookies. 
+You can review the Plausible.io [data policy](https://plausible.io/data-policy) to see how their analytics service works.
 
 ## Marketing and customer relationship management (CRM)
 
@@ -92,9 +84,9 @@ You have the following rights according to GDPR regarding the processing of your
 
 ## Duration of processing
 
-Analytic services we use for the visitor information retain data for up to 26 months. Email addresses submitted by the
-users are retained until the user unsubscribes. If a subscriber requests a permanent opt-out from any future marketing
-then opt-out address is retained until the person in question requests to be removed from the opt-out list.
+Email addresses submitted by the users are retained until the user unsubscribes. If a subscriber requests a permanent 
+opt-out from any future marketing, then that opt-out address is retained until the person in question requests to be 
+removed from the opt-out list.
 
 ## Data recipients
 
@@ -108,10 +100,10 @@ Content delivery services utilize geographically distributed servers in order to
 it difficult to determine the actual location where short-lived visitor data automatically submitted by the web browsers
 is stored.
 
-External services used by us for content delivery, analytics and marketing do collect and process data outside of EU.
-Where possible we have configured these services to anonymize collected IP-addresses. We use only service providers that
+External services used by us for content delivery and marketing collect and process data outside of the EU.
+Where possible we have configured these services to anonymize collected IP addresses. We use only service providers that
 comply with an adequate level of data privacy as required by the GDPR and that are committed to following relevant EU
-regulation
+regulations.
 
 ## Automated individual decision-making
 
