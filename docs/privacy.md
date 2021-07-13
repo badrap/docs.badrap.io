@@ -29,10 +29,12 @@ your user account.
 For users who use our service without creating an user account, the legal
 basis for processing personal data is our legitimate interests. 
 
-We use [Plausible.io](https://plausible.io/privacy) to collect anonymous visitor 
-statistics on our site. Plausible is a privacy-focused website analytics provider 
-that allows us to know someone visited our service. The legal basis for collecting 
-website visitor statistics is our legitimate interests.
+We use Plausible.io to collect anonymous visitor statistics on our site. 
+Plausible.io is a privacy-focused website analytics provider that allows us to 
+know someone visited our service. You can review the Plausible.io 
+[data policy](https://plausible.io/data-policy) to see how their analytics service 
+works. The legal basis for collecting website visitor statistics is our legitimate 
+interests.
 
 ## What personal information do we process?
 
