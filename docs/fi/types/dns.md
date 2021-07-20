@@ -19,5 +19,3 @@ Omistatko laitteen, etkä tiedä miksi siinä on nimipalvelu päällä? Et toden
 ### Nimipalvelu on tarkoituksella päällä
 
 US-CERTin ohje osoitteessa <https://www.us-cert.gov/ncas/alerts/TA13-088A> tarjoaa esimerkkejä yleisimmistä nimipalveluohjelmistojen tiukemmista asetuksista. Salli rekursiiviset kyselyt vain omille laitteillesi.
-
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.

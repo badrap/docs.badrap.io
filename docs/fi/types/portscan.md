@@ -13,5 +13,3 @@ Ensiksi sinun tulisi tunnistaa laite, joka lähettää verkostasi porttiskannaus
 Kun olet paikallistanut laitteen, suosittelemme resetoimaan sen tehdasasetuksille ja konfiguroimaan uudestaan tai asentamaan laitteen käyttöjärjestelmän kokonaan uudestaan. Jos laitteesi on otettu luvattomaan käyttöön ja se tekee automaattisesti porttiskannauksia, yleensä on liian hankalaa yrittää puhdistaa haittakoodin jälkiä ilman täydellistä laitteen resetointia.
 
 Kun olet resetoinut laitteen tai asentanut sen uudestaan, sinun tulisi asentaa siihen kaikki saatavilla olevat ohjelmistopäivitykset, jotta laitteesi saadaan suojattua uusilta haltuunottoyrityksiltä. Jos tietoturvapäivityksiä ei ole laitteellesi saatavilla, sinun kannattaa harkita laitteen päivittämistä uuteen versioon tai kokonaan eri malliin, johon on saatavilla säännöllisiä tietoturvapäivityksiä. 
-
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.
