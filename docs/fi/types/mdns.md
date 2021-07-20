@@ -13,5 +13,3 @@ Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet lait
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun käytöstä. Jos kyseessä on kotitietokoneesi ja haluat pitää palvelun päällä, siirrä ainakin laitteet palomuurin taakse tai ota tietokoneesi oma palomuuri käyttöön.
 
 Mikäli kyseessä oli laite, jota et voi piilottaa palomuurin taakse, poista palvelu kokonaan käytöstä. Etsi laitteeseesi sopivat ohjeet kirjoittamalla hakukoneeseen `disable mdns` ja laitteeseen liittyvä tarkenne, esimerkiksi kotireitittimen malli: `disable mdns google wifi`
-
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.

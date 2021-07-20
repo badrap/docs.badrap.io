@@ -15,5 +15,3 @@ Ensiksi sinun tulisi tunnistaa laite, jossa palvelu on avoinna. [Lue ohjeet lait
 Kun olet paikallistanut laitteen, suosittelemme poistamaan palvelun välittömästi käytöstä. Etsi laitteeseesi tai käyttöjärjestelmään sopivat ohjeet kirjoittamalla hakukoneeseen `disable snmp` ja laitteeseen liittyvä tarkenne, esimerkiksi: `disable snmp apple airport`
 
 Saattaa olla että löydät vain ohjeita, joissa kerrotaan miten SNMP-palvelu laitetaan päälle. Onneksi tätäkin ohjeita voi soveltaa: etsi ohjeista miten palvelu kytketään päälle ja tee juuri päinvastainen toimenpide – palvelun voi myös sammuttaa samasta paikasta.
-
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.

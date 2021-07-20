@@ -15,5 +15,3 @@ Jos haluat ymmärtää paremmin kuinka tämän tyyppiset, ns. amplifikaatiohyök
 Estä ulkopuolisten pääsy palveluun palomuuraamalla portti 11211 umpeen. Mikäli et tarvitse palvelua, ota se kokonaan pois käytöstä.
 
 Hakusanoilla "how to disable memcache" löytyy hyvin ohjeita. Voit liittää hakuusi vielä laitteen, käyttöjärjestelmän tai Linux-distribuution nimen tarkentaaksesi osumatarkkuutta.
-
-Olemme keränneet linkkejä kaupallista apua tarjoaviin yrityksiin, mikäli tarvit apua korjaukseen <https://plus.google.com/collection/wu6ZWE>.
