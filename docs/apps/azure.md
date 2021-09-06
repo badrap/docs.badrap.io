@@ -50,7 +50,7 @@ The listing will look like this:
   }
 }
 ```
-Make a note of the **id** field value (subscription ID) for the next step.
+Make a note of the **id** field value (subscription ID) for the next step. If you want to add multiple subscriptions, make a note of all of their IDs. 
 
 3. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{subscription_id}` in the example below with the **id** value you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
 ```
@@ -69,6 +69,10 @@ check the credentials into your source control. For more information, see https:
   "password": "****************************",
   "tenant": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"
 }
+```
+If you want to add access to multiple subscriptions, simply include all of their IDs after the `--scopes` parameter, separated with spaces: 
+```
+az ad sp create-for-rbac --role "Reader" --scopes /subscriptions/{subscription_id1} /subscriptions/{subscription_id2} --name http://BadrapAzureApp
 ```
 
 4. Under your Badrap Azure app settings, add your account details. 
@@ -121,7 +125,7 @@ check the credentials into your source control. For more information, see https:
    <img src="./azure-60-search-subs.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-6. Choose the subscription you want to use.
+6. Choose the subscription you want to use. If you have multiple subscriptions that you want to add, you can just repeat steps 6-10 to add access to all of them. 
 
 <div style="text-align: center;">
    <img src="./azure-64-choose-sub.png" style="max-width: 95%; width: 480px;" />
