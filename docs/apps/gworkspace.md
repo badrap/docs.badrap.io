@@ -14,7 +14,7 @@ The app can be connected to Workspace either with an admin or non-admin account.
 
 1. Google considers the Badrap app is "Unverified" because it requires certain "Limited" scopes from the Google Workspace user who installs it and it hasn't been vetted by Google.
 
-    For a Google Workspace user to install the app, the app has to be whitelisted by an admin in their Google Workspace organization. The whitelisting can be done from the [Google Admin panel](https://admin.google.com/):
+    For a Google Workspace user to install the app, the app has to be allowlisted by an admin in their Google Workspace organization. The allowlisting can be done from the [Google Admin panel](https://admin.google.com/):
 
 - Navigate to _Security_ -> _API Controls_ -> _Manage Third-Party App Access_ -> _Configure New App_ -> _OAuth App Name Or Client ID_.
 - In the search field fill in the app's client ID, and click **Search**. The page will list the matching apps by name. Highlight the app and click **Select**.
