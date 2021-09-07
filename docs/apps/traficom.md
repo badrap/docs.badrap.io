@@ -14,7 +14,7 @@ security coordination centre.
 
 ## Installation
 
-1. Open the [Traficom app page](https://badrap.io/apps/traficom)
+1. Open the [Traficom app page](https://badrap.io/apps/traficom).
 2. Click **Install**.
 
 <div style="text-align: center;">
