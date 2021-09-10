@@ -1,6 +1,6 @@
 # Microsoft Azure
 
-This app allows you to synchronize your Microsoft Azure assets into Badrap and receive security notifications about them. The app fetches a list of your organization's public IP addresses from your Azure installation with your consent, and adds those assets under your Badrap user account. 
+This app allows you to synchronize your Microsoft Azure assets into Badrap and receive security notifications about them. The app fetches a list of your organization's public IP addresses and DNS entries from your Azure installation with your consent, and adds those assets under your Badrap user account. 
 
 ## Install the Azure app in Badrap
 
@@ -74,6 +74,32 @@ If you want to add access to multiple subscriptions, simply include all of their
 ```
 az ad sp create-for-rbac --role "Reader" --scopes /subscriptions/{subscription_id1} /subscriptions/{subscription_id2} --name http://BadrapAzureApp
 ```
+If you want to restrict the permissions of the service principal even further, instead of the default Reader role you can create a custom role and assign it to the service principal. The custom role needs to have permissions to only a few resources. First, create the service principal without assigning any role to it.  
+```
+az ad sp create-for-rbac --skip-assignment --scopes /subscriptions/{subscription_id} --name http://BadrapAzureApp
+```
+Then, create your custom role with only minimal privileges:
+```
+az role definition create --role-definition '{
+    "Name": "CustomReaderBadrapApp",
+    "Description": "Custom restricted Reader role for Badrap Azure app",
+    "AssignableScopes": [
+            "/subscriptions/445566eeff-2222-aaaa-ffff-112233aabbcc"
+    ],
+    "Actions": [
+        "Microsoft.Network/publicIPAddresses/read",
+        "Microsoft.Network/dnszones/read",
+        "Microsoft.Network/dnszones/all/read"
+    ],
+    "NotActions": [],
+    "DataActions": [],
+    "NotDataActions": []
+}'
+```
+Lastly, assign the custom role to the service principal you created earlier:
+```
+az role assignment create --role "CustomReaderBadrapApp" --assignee http://BadrapAzureApp --scope /subscriptions/{subscription_id}
+```
 
 4. Under your Badrap Azure app settings, add your account details. 
 
@@ -145,45 +171,89 @@ az ad sp create-for-rbac --role "Reader" --scopes /subscriptions/{subscription_i
 
 9. For "Role", select **Reader**. For "Assign access to", select **User, group or service principal**.
 
-10. In the Select menu, type the name of the application you created in the previous step (e.g. "Badrap Azure App") and click on the search result. The app should now appear in the "Selected members" list. Then click **Save**.
+10. In the Select menu, type the name of the application you created in the previous step (e.g. ```Badrap Azure App```) and click on the search result. The app should now appear in the "Selected members" list. Then click **Save**.
 
 <div style="text-align: center;">
    <img src="./azure-74-role-details.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-11. Under **App Registrations**, select the application you created.
+11. If you want to restrict the permissions of the service principal even further, instead of the default Reader role you can create a custom role and assign it to the service principal. The custom role needs to have permissions to only a few resources. First, under the **Access Control (IAM)** page under your subscription (see step 7 above), create your custom role with only minimal privileges by clicking **Add** and selecting **Add custom role**. 
+
+<div style="text-align: center;">
+   <img src="./azure-75-add-custom-role.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+Under the "Basics" tab in the "Create new role" dialog, create a name for your role under **Custom role name**, e.g. ```CustomReaderBadrapApp```. For **Description**, write down the purpose of the custom role, e.g. ```Custom restricted Reader role for Badrap Azure app service principal```. For **Baseline permissions**, select **Start from scratch**.
+
+<div style="text-align: center;">
+   <img src="./azure-76-custom-role-basics.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+Under the "JSON" tab in the "Create new role" dialog, edit the JSON to look like this: 
+```
+{
+    "properties": {
+        "roleName": "CustomReaderBadrapApp",
+	     "description": "Custom restricted Reader role for Badrap Azure app",
+        "assignableScopes": [
+            "/subscriptions/445566eeff-2222-aaaa-ffff-112233aabbcc"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Network/publicIPAddresses/read",
+                    "Microsoft.Network/dnszones/read",
+                    "Microsoft.Network/dnszones/all/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+	     ]
+    }
+}
+```
+<div style="text-align: center;">
+   <img src="./azure-77-custom-role-json.png" style="max-width: 95%; width: 480px;" />
+</div>
+
+    Review the custom role one more time in the **Review + create** tab, and then select **Create**. 
+
+    Then, assign the custom role to the app service principal by following steps 8-10 above, but substituting your custom role name (e.g. ```CustomReaderBadrapApp```) in place of the Reader role in step 9. 
+
+12. After you have assigned the necessary role for the service principal, you need to create a client secret for the app. Under **App Registrations**, select the application you created.
 
 <div style="text-align: center;">
    <img src="./azure-78-select-app.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-12. Note down the **Directory (tenant) ID** and **Application (client) ID** values. 
+13. Note down the **Directory (tenant) ID** and **Application (client) ID** values. 
 
 <div style="text-align: center;">
    <img src="./azure-80-copy-values.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-13. Under the same app, select **Certificates and Secrets** in the Manage menu. 
+14. Under the same app, select **Certificates and Secrets** in the Manage menu. 
 
-14. Under "Client secrets", click on **New Client Secret**.
+15. Under "Client secrets", click on **New Client Secret**.
 
-15. For the description field, you can use e.g. `badrapClientSecret`. Select a suitable time for expiration (e.g. one year), and click **Add**.
+16. For the description field, you can use e.g. `badrapClientSecret`. Select a suitable time for expiration (e.g. one year), and click **Add**.
 
-16. Note down the **Value** field from the generated client secret. 
+17. Note down the **Value** field from the generated client secret. 
 
 <div style="text-align: center;">
    <img src="./azure-84-client-secret.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-17. Under your Badrap Azure app settings, add a new account. Copy the **Directory (tenant) ID**, **Application (client) ID** and **client secret** values you noted down earlier into the Badrap Azure app settings.
+18. Under your Badrap Azure app settings, add a new account. Copy the **Directory (tenant) ID**, **Application (client) ID** and **client secret** values you noted down earlier into the Badrap Azure app settings.
 
 <div style="text-align: center;">
    <img src="./azure-30-add-account.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-18. Click **Add account** to save your settings. 
+19. Click **Add account** to save your settings. 
 
-19. In a few minutes after the app has been configured into use, you should see a listing of your Azure assets under [My Assets](https://badrap.io/assets).
+20. In a few minutes after the app has been configured into use, you should see a listing of your Azure assets under [My Assets](https://badrap.io/assets).
 
 <div style="text-align: center;">
    <img src="./azure-99-assets.png" style="max-width: 95%; width: 480px;" />
@@ -202,6 +272,10 @@ az ad sp delete --id http://BadrapAzureApp
 The output of the command should look like this:
 ```
 Removing role assignments
+```
+2. If you assigned a custom role for the service principal during the app registration, you can delete the custom role with this CLI command:
+```
+az role definition delete --name "CustomReaderBadrapApp"
 ```
 You've now successfully cleaned up your Azure configuration.
 
