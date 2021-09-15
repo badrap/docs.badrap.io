@@ -290,7 +290,7 @@ If you want to stop using the Badrap Azure app, you should uninstall it from you
 
 7. If you created a custom role for your service principal instead of using the default Reader role, go to "Subscriptions" view, select your subscription, go to the "Access control (IAM)" menu, select "Roles", search for your custom role (e.g. "CustomReaderBadrapApp"), select the custom role, and click "Remove".
    <div style="text-align: center;">
-      <img src="./azure-96-customrole-delete.png" style="max-width: 95%; width: 480px;" />
+      <img src="./azure-96-customrole-remove.png" style="max-width: 95%; width: 480px;" />
    </div>
 
 8. You've now successfully cleaned up your Azure configuration.
