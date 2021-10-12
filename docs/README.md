@@ -14,6 +14,7 @@ Apps are currently available as part of the commercial offering.
 - [Amazon Web Services (AWS)](apps/aws.md)
 - [Microsoft Office 365](apps/o365.md)
 - [Microsoft Azure](apps/azure.md)
+- [Google Workspace](apps/gworkspace.md)
 - [Google Cloud Platform](apps/gcp.md)
 - [Sensorfu Beacon](apps/beacon.md)
 - [HTTPS](apps/https.md)
