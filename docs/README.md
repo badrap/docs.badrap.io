@@ -18,6 +18,7 @@ Apps are currently available as part of the commercial offering.
 - [Google Cloud Platform](apps/gcp.md)
 - [Sensorfu Beacon](apps/beacon.md)
 - [HTTPS](apps/https.md)
+- [Traficom](apps/traficom.md)
 
 ## Instructions for Events
 
