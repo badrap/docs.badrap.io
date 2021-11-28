@@ -6,6 +6,7 @@ First, the owner of your organization's GCP project(s) creates a service account
 
 - public IP-addresses from your GCP installation
 - domain names, if GCP also hosts your DNS
+- public IP-addresses of your Google Kubernetes Engine clusters' control planes
 
 ## I am the owner of the GCP project
 
@@ -29,6 +30,7 @@ Create a service account with limited access:
 
 5. On the _Service account permissions_ area, select the role _Compute Viewer_.
    - Click **Add another role** and add the _DNS Reader_ role.
+   - Click **Add another role** and add the _Kubernetes Engine Cluster Viewer_ role.
    - Click the **Continue** button.
 
 <div style="text-align: center;">
@@ -77,9 +79,9 @@ Install the Google Cloud Platform app.
 ## Uninstalling the app
 
 1. Open the [Google Cloud Platform app page](https://badrap.io/apps/gcp) and click **Uninstall**.
-2. Go to [Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts) in your Google Cloud Platform console. 
-3. Select the project whose assets you have been following with the Badrap GCP app. 
-4. Search for the service account you created earlier for the Badrap GCP app and select **Delete** from the Actions menu on the right. 
+2. Go to [Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts) in your Google Cloud Platform console.
+3. Select the project whose assets you have been following with the Badrap GCP app.
+4. Search for the service account you created earlier for the Badrap GCP app and select **Delete** from the Actions menu on the right.
 
 <div style="text-align: center;">
    <img src="./gcp-90-delete-service-account.png" />
