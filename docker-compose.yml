@@ -1,8 +1,6 @@
-version: "2.4"
-
 services:
   docs:
-    image: node:lts-alpine
+    image: node:16-alpine
     init: true
     command: /bin/sh -c 'npm ci && npm run dev'
     volumes:
