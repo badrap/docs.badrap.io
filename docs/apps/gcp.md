@@ -6,6 +6,7 @@ First, the owner of your organization's GCP project(s) creates a service account
 
 - public IP-addresses from your GCP installation
 - domain names, if GCP also hosts your DNS
+- public IP-addresses of your Google Cloud SQL instances
 - public IP-addresses of your Google Kubernetes Engine clusters' control planes
 
 ## I am the owner of the GCP project
@@ -30,6 +31,7 @@ Create a service account with limited access:
 
 5. On the _Service account permissions_ area, select the role _Compute Viewer_.
    - Click **Add another role** and add the _DNS Reader_ role.
+   - Click **Add another role** and add the _Cloud SQL Viewer_ role.
    - Click **Add another role** and add the _Kubernetes Engine Cluster Viewer_ role.
    - Click the **Continue** button.
 
