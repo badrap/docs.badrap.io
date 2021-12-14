@@ -8,7 +8,7 @@ provides alerts about any critical identified weaknesses and vulnerabilities in 
 The instructions below explain the installation of the app, integration with your AWS environment, as well as what you need to do in AWS to enable Amazon Security Hub and
 Amazon GuardDuty functionalities, and how to grant the minimum permissions for Badrap to list your AWS assets and to scan them using Amazon's own security tools. 
 
-When the app identifies vulnerabilities, it will provide you with comprehensive details of the finding and a link to the AWS console to find out more. If you would like to receive expert assistance to mitigate or fix the findings, you can contact Fraktal Ltd for professional services.
+When the app identifies vulnerabilities, it will provide you with comprehensive details of the finding and a link to the AWS console to find out more. If you would like to receive expert assistance to mitigate or fix the findings, you can contact Fraktal Ltd for their professional services.
 
 ## Install the Fraktal AWS Audit app
 
@@ -31,7 +31,7 @@ Configure role delegation for the app with the AWS IAM console.
    <img src="./fraktal-20-create-role.png" style="max-width: 95%; width: 480px;" />
 </div>
 2. Select `Another AWS account` for the role type.
-3. Enter `927561705797` (AWS Audit app Account ID) as the `Account ID`.
+3. Enter `816084135002` (AWS Audit app Account ID) as the `Account ID`.
 4. Check the `Require external ID` option, and enter the External ID that the app generated for you earlier as the `External ID`.
 5. Leave the `Require MFA` option unchecked.
 <div style="text-align: center;">
