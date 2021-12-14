@@ -2,11 +2,9 @@
 
 This app allows you to audit and monitor your Amazon Web Services (AWS) assets for configuration weaknesses and security vulnerabilities automatically and continuously. It has been created in collaboration with our partner Fraktal Ltd, the experts in AWS security.
 
-The app fetches a list of your public IP and domain assets from your AWS installation with your consent. It then launches Amazon Security Hub and Amazon GuardDuty scans for your assets, and
-provides alerts about any critical identified weaknesses and vulnerabilities in your configurations. 
+The app fetches a list of your public IP and domain assets from your AWS installation with your consent. It then launches Amazon Security Hub and Amazon GuardDuty scans for your assets, and provides alerts about any critical identified weaknesses and vulnerabilities in your configurations. 
 
-The instructions below explain the installation of the app, integration with your AWS environment, as well as what you need to do in AWS to enable Amazon Security Hub and
-Amazon GuardDuty functionalities, and how to grant the minimum permissions for Badrap to list your AWS assets and to scan them using Amazon's own security tools. 
+The instructions below explain the installation of the app, integration with your AWS environment, as well as what you need to do in AWS to enable Amazon Security Hub and Amazon GuardDuty functionalities, and how to grant the minimum permissions for Badrap to list your AWS assets and to scan them using Amazon's own security tools. 
 
 When the app identifies vulnerabilities, it will provide you with comprehensive details of the finding and a link to the AWS console to find out more. If you would like to receive expert assistance to mitigate or fix the findings, you can contact Fraktal Ltd for their professional services.
 
@@ -17,10 +15,15 @@ When the app identifies vulnerabilities, it will provide you with comprehensive 
 <div style="text-align: center;">
    <img src="./fraktal-10-install.png" style="max-width: 95%; width: 480px;" />
 </div>
-3. The app asks for your permission to fetch your AWS assets and to add them to Badrap for monitoring.
+3. The app asks for permission to fetch your AWS assets and to add them to Badrap for monitoring.
 <div style="text-align: center;">
    <img src="./fraktal-12-perms.png" style="max-width: 95%; width: 480px;" />
 </div>
+4. Add the details of your AWS account(s) that you want to scan. Create a recognizable role name for the app, e.g. "AWSAuditRole".
+<div style="text-align: center;">
+   <img src="./fraktal-14-add-account.png" style="max-width: 95%; width: 480px;" />
+</div>
+5. Note down the "External-ID" value that the app creates. You will need it later when creating a role delegation in the AWS console. 
 
 ## Create AWS role & policy
 
@@ -32,41 +35,20 @@ Configure role delegation for the app with the AWS IAM console.
 </div>
 2. Select `Another AWS account` for the role type.
 3. Enter `816084135002` (AWS Audit app Account ID) as the `Account ID`.
-4. Check the `Require external ID` option, and enter the External ID that the app generated for you earlier as the `External ID`.
+4. Check the `Require external ID` option, and enter the External ID that the app generated for you earlier.
 5. Leave the `Require MFA` option unchecked.
 <div style="text-align: center;">
    <img src="./fraktal-22-select-type.png" style="max-width: 95%; width: 480px;" />
 </div>
 6. Click `Next: Permissions`.
-7. If you've already created a policy, skip the following substeps. Otherwise click `Create Policy`, which opens a new window.
-   1. Select the `JSON` tab and enter the following policy snippet into the text box:
-
-   ```json
-   {
-     "Version": "2012-10-17",
-     "Statement": [
-       {
-         "Sid": "VisualEditor0",
-         "Effect": "Allow",
-         "Action": [
-           "ec2:DescribeInstances",
-           "lightsail:GetInstances",
-           "route53:GetHostedZone",
-           "route53:ListHostedZones",
-           "route53:ListResourceRecordSets",
-           "route53domains:ListDomains"
-         ],
-         "Resource": "*"
-       }
-     ]
-   }
-   ```   
-   2. Click `Review policy`.
-   3. Name the policy (e.g., `AWSAuditPolicy`).
-   4. Click `Create policy`
-   5. Return to the `Create role` window.
-   6. Refresh the list of policies
-8. Select `AWSAuditPolicy`.
+7. Type `ReadOnlyAccess` to the policy search bar, scroll down to find the correct policy and select it. 
+<div style="text-align: center;">
+   <img src="./fraktal-24-policies-readonly.png" style="max-width: 95%; width: 480px;" />
+</div>
+8. Type `SecurityAudit` to the policy search bar, scroll down to find the correct policy and select it. 
+<div style="text-align: center;">
+   <img src="./fraktal-26-policies-securityaudit.png" style="max-width: 95%; width: 480px;" />
+</div>
 9. Click `Next: Tags`.
 10. Click `Next: Review`.
 11. Name the role (e.g., `AWSAuditRole`).
