@@ -29,7 +29,7 @@ When the app identifies vulnerabilities, it will provide you with comprehensive 
 
 6. Note down the "External-ID" value that the app creates. You will need it later when creating a role delegation in the AWS console. 
 
-## Create AWS role & policy
+## Create AWS role
 
 Configure role delegation for the app with the AWS IAM console.
 
@@ -136,22 +136,18 @@ However, remember that it is a common security problem to assume that you have r
 
 ## Uninstalling the app
 
-If you want to stop using the app, you can uninstall the app and clean up the role delegation from your AWS IAM console. 
+If you want to stop using the app, you can uninstall it and clean up the role delegation from your AWS IAM console. 
 
 1. Go to the [Fraktal AWS Audit app page](https://badrap.io/apps/fraktal) and click **Uninstall**. 
 <div style="text-align: center;">
    <img src="./fraktal-95-uninstall.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-2. Clean up the app role and policy definitions from your [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles). 
+2. Clean up the app role from your [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles). 
 3. Under the [Roles](https://console.aws.amazon.com/iam/home#/roles) section, search for the role you created earlier (e.g. "AWSAuditRole") and select **Delete**. 
 <div style="text-align: center;">
    <img src="./fraktal-90-delete-role.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-4. Under the [Policies](https://console.aws.amazon.com/iam/home#/policies) section, search for the policy you created and connected to the role (e.g. "AWSAuditPolicy"), and from the **Policy actions** drop-down menu select **Delete**. 
-<div style="text-align: center;">
-   <img src="./fraktal-92-delete-policy.png" style="max-width: 95%; width: 480px;" />
-</div>
-
-5. That's it, you have successfully uninstalled the Fraktal AWS Audit app and cleaned up its configuration from your AWS installation.
+3. Turn off AWS Config, AWS Security Hub and Amazon GuardDuty in AWS Console for all of your accounts and regions, if you wish to stop using them.
+4. That's it, you have successfully uninstalled the Fraktal AWS Audit app and cleaned up its configuration from your AWS installation.
