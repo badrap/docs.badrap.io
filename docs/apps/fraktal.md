@@ -142,13 +142,16 @@ If you want to stop using the app, you can uninstall the app and clean up the ro
 <div style="text-align: center;">
    <img src="./fraktal-95-uninstall.png" style="max-width: 95%; width: 480px;" />
 </div>
+
 2. Clean up the app role and policy definitions from your [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles). 
 3. Under the [Roles](https://console.aws.amazon.com/iam/home#/roles) section, search for the role you created earlier (e.g. "AWSAuditRole") and select **Delete**. 
 <div style="text-align: center;">
    <img src="./fraktal-90-delete-role.png" style="max-width: 95%; width: 480px;" />
 </div>
+
 4. Under the [Policies](https://console.aws.amazon.com/iam/home#/policies) section, search for the policy you created and connected to the role (e.g. "AWSAuditPolicy"), and from the **Policy actions** drop-down menu select **Delete**. 
 <div style="text-align: center;">
    <img src="./fraktal-92-delete-policy.png" style="max-width: 95%; width: 480px;" />
 </div>
+
 5. That's it, you have successfully uninstalled the Fraktal AWS Audit app and cleaned up its configuration from your AWS installation.
