@@ -4,9 +4,9 @@ This app allows you to audit and monitor your Amazon Web Services (AWS) assets f
 
 The app connects to your AWS account(s) with your consent. It then employs AWS Config, AWS Security Hub and Amazon GuardDuty to scan your AWS assets periodically, and provides you with alerts about any critical identified weaknesses and vulnerabilities in your configurations. 
 
-The instructions below explain the installation of the app, integration with your AWS environment, how to enable AWS Config, AWS Security Hub and AWS GuardDuty functionalities, and how to grant the minimum permissions for Badrap to list your AWS assets and to scan them. 
+The instructions below explain the installation of the app, integration with your AWS environment, how to enable AWS Config, AWS Security Hub and AWS GuardDuty functionalities, and how to grant the minimum permissions for the app to scan your AWS assets. 
 
-When the app identifies vulnerabilities, it will provide you with comprehensive details of the finding and a link to the AWS console to find out more. If you would like to receive expert assistance to mitigate or fix the findings, you can contact Fraktal Ltd for their professional services.
+When the app identifies vulnerabilities, it will provide you with details of the finding and a link to the AWS console to find out more. If you would like to receive expert assistance to mitigate or fix the findings, you can [contact Fraktal Ltd](https://www.fraktal.fi/contact) for their professional services.
 
 ## Install the Fraktal AWS Audit app
 
