@@ -144,7 +144,7 @@ If you want to stop using the app, you can uninstall it and clean up the role de
 </div>
 
 2. Clean up the app role from your [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles). 
-3. Under the [Roles](https://console.aws.amazon.com/iam/home#/roles) section, search for the role you created earlier (e.g. "AWSAuditRole") and select **Delete**. 
+3. Under the [Roles](https://console.aws.amazon.com/iam/home#/roles) section, find and select the role you created earlier (e.g. "AWSAuditRole"), select **Delete** and confirm deletion. 
 <div style="text-align: center;">
    <img src="./fraktal-90-delete-role.png" style="max-width: 95%; width: 480px;" />
 </div>
