@@ -16,7 +16,7 @@ The app can be connected to Workspace either with an admin or non-admin account.
 
     For a Google Workspace user to install the app, the app has to be allowlisted by an admin in their Google Workspace organization. The allowlisting can be done from the [Google Admin panel](https://admin.google.com/):
 
-- Navigate to _Security_ -> _API Controls_ -> _Manage Third-Party App Access_ -> _Configure New App_ -> _OAuth App Name Or Client ID_.
+- Navigate to _Security_ -> _Access and data control_ -> _API Controls_ -> _Manage Third-Party App Access_ -> _Add app_ -> _OAuth App Name Or Client ID_.
 - In the search field fill in the app's client ID, and click **Search**. The page will list the matching apps by name. Highlight the app and click **Select**.
   - The Badrap app client ID is _896703348678-sg4fi97m6p6r10dj49bfu88fjhj0t0am.apps.googleusercontent.com_, and the app is named _Badrap App for Google Workspace_.
 - The next page asks which client IDs you want to configure. Select all of them and click **Select**.
@@ -30,34 +30,37 @@ The app can be connected to Workspace either with an admin or non-admin account.
 - Click **Create Role**.
 - The role has now been created and can be assigned to the users that need the required permissions to install the Google Workspace Badrap app.
 
-3. After the steps above, you can proceed to install the Workspace app. 
+3. After the steps above, you can proceed to install the Workspace app.
 
-4. Open the [Workspace app page](https://badrap.io/apps/gworkspace). Click **Install**. 
+4. Go to [badrap.io](https://badrap.io/). Install the app for a team or for you personally.
+      - Team: Pick your team from the menu and click _Apps_ 
+      - Personal: Go to _Settings_ -> _Apps_
+5. Open the Workspace app page (opens new window). Click Install.
 
 <div style="text-align: center;">
    <img src="./gworkspace-10-install.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-5. Review the permissions that the app requests. Click **Install the app**.
+6. Review the permissions that the app requests. Click **Install the app**.
 
 <div style="text-align: center;">
    <img src="./gworkspace-20-perms.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-6. Click on **Add a new account**. 
+7. Click on **Add a new account**.
 
 <div style="text-align: center;">
    <img src="./gworkspace-30-add-account.png" style="max-width: 95%; width: 480px;" />
 </div>
 
-7. Select your Google account that you want to use to connect to your Google Workspace installation. 
-8. Google will ask for your permission to share your Workspace assets with Badrap. Review the permissions and click **Allow** to provide your consent.
+8. Select your Google account that you want to use to connect to your Google Workspace installation.
+9. Google will ask for your permission to share your Workspace assets with Badrap. Review the permissions and click **Allow** to provide your consent.
 
 <div style="text-align: center;">
    <img src="./gworkspace-40-google-perms.png" style="max-width: 95%; width: 480px;" />
 </div>
  
-9. In a few minutes, you should see your assets under the **Google Workspace** section on your [My Assets](https://badrap.io/assets) page.
+10. In a few minutes, you should see your assets under the **Google Workspace** section on your [My Assets](https://badrap.io/assets) page.
 
 <div style="text-align: center;">
    <img src="./gworkspace-80-assets.png" style="max-width: 95%; width: 480px;" />
