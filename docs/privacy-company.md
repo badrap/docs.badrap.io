@@ -60,6 +60,18 @@ number, depending on what information is available or provided. We use this info
 interested in purchasing our services or to provide you the services you have subscribed to. Further contacts are based
 on your consent.
 
+## Customer Success and Support Emails
+
+We use Google Workspace and Microsoft Office 365 for email communications with customers. This includes support requests and 
+customer success discussions. 
+
+## Customer Meetings
+
+We use Google Calendar and Microsoft Office 365 to book customer meetings, and Google Meet and Microsoft Teams for conducting 
+online meetings. We may also offer you the chance to book meetings with our personnel using Hubspot's Meetings tool, which is
+connected to our Microsoft or Google calendars. Hubspot's Meetings tool may be offered as an option for booking a meeting 
+e.g. inside selected playbooks or on the web site.
+
 ## Playbooks
 
 We use ActiveCampaign for automating playbooks, such as Employee Cyber Hygiene online training and trials. Customers provide their email address or
