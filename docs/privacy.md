@@ -11,10 +11,10 @@ data.
 ## Data controller contact details
 
 Badrap Oy\
-Teknologiantie 18 B\
+Teknologiantie 11\
 90590 Oulu\
 Finland\
-Email: [support@badrap.io](support@badrap.io)\
+Email: [contact@badrap.io](contact@badrap.io)\
 Business ID: 2846254-9
 
 ## Purpose and legal basis for processing
