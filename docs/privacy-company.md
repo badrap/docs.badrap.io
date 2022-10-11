@@ -62,15 +62,35 @@ on your consent.
 
 ## Customer Success and Support Emails
 
-We use Google Workspace and Microsoft Office 365 for email communications with customers. This includes support requests and 
-customer success discussions. 
+We use Google Workspace, Microsoft Office 365 and Hubspot for email
+communications with customers. This includes support requests, customer success
+discussions, general inquiries and sales discussions. When you contact us, you
+consent and acknowledge that we will be processing any personal data you may
+include in your email with the aforementioned third-party services.
 
 ## Customer Meetings
 
-We use Google Calendar and Microsoft Office 365 to book customer meetings, and Google Meet and Microsoft Teams for conducting 
-online meetings. We may also offer you the chance to book meetings with our personnel using Hubspot's Meetings tool, which is
-connected to our Microsoft or Google calendars. Hubspot's Meetings tool may be offered as an option for booking a meeting 
-e.g. inside selected playbooks or on the web site.
+We use Google Calendar and Microsoft Office 365 to book customer meetings,
+and Google Meet and Microsoft Teams for conducting online meetings. We may
+also offer you the chance to book meetings with our personnel using
+Hubspot's Meetings tool, which is connected to our Microsoft or Google
+calendars. Hubspot's Meetings tool may be offered as an option for booking
+a meeting e.g. inside selected playbooks, on the web site or in our email
+signatures. Please note that your usage of the Hubspot Meetings tool is
+based on your own explicit and unambiguous consent, and it is covered by
+Hubspot's own privacy policy.
+
+## Embedded Content
+
+We may sometimes embed media content such as videos onto our playbooks and
+web pages. This embedded media content may reside at an external hosting
+provider, such as Youtube. When we embed media content, we do it in a way
+that will share as little user information as possible with the content
+hosting provider. When viewing embedded content hosted at a third-party
+service provider, your viewing and interactions with the content are
+covered by the hosting provider's privacy policy. This means that you
+may have to review their privacy policy and to provide consent in order
+to view or interact with the embedded media. 
 
 ## Playbooks
 
