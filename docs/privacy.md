@@ -150,7 +150,7 @@ profiling.
 ## Data protection principles and measures
 
 Your personal data is stored and processed according to the best possible
-current technical and organizatorial privacy and security practices that
+current technical and organizational privacy and security practices that
 we know of. We use encryption in all data transfer and storage, access
 control and auditing in all access to data, as well as backups and
 version control to ensure the integrity and availability of databases and
