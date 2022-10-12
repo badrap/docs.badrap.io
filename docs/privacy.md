@@ -116,6 +116,8 @@ who develop and maintain the service. As a rule, we do not transfer
 your data to third parties or use external service providers as
 subcontractors.
 
+### Data Breach Monitoring
+
 As part of our data breach monitoring service, we offer an integrated
 search function against security researcher Troy Hunt's [Have I Been Pwned](https://haveibeenpwned.com/)
 data breach reporting database. This search function allows you to search for
@@ -133,7 +135,7 @@ Note that you have to always provide your explicit and unambiguous consent to
 use Badrap's Have I Been Pwned search feature, and that you can revoke
 this consent from your account settings at any time.
 
-## Support Emails
+### Support Emails
 
 When you choose to contact us by email for general service inquiries,
 support requests or any other questions, we use Google Workspace, Microsoft
@@ -142,7 +144,7 @@ you contact us, you consent and acknowledge that we will be processing any
 personal data you may include in your email with the aforementioned
 third-party services.
 
-## Embedded Content
+### Embedded Content
 
 We may sometimes embed media content such as videos onto our playbooks and
 web pages. This embedded media content may reside at an external hosting
