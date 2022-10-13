@@ -7,10 +7,10 @@ as a data controller, process our business users' personal information for legit
 ## Data controller contact details
 
 Company name: Badrap Oy\
-Address: Teknologiatie 18 B\
+Address: Teknologiantie 11\
 90590 Oulu\
 Finland\
-Email: [support@badrap.io](support@badrap.io)\
+Email: [contact@badrap.io](contact@badrap.io)\
 Business ID: 2846254-9
 
 ## Types of data collected
@@ -44,13 +44,13 @@ use these services to collect any information for processing. Some of these serv
 register directly as their user to improve the user experience. If you have directly registered to any of these services,
 we advise you to study their respective privacy policies.
 
-## Analytics
+### Analytics
 
 We use Plausible.io to collect information about our website visitors and their behaviour while on the website. 
 Plausible.io is a privacy-focused website analytics provider that collects anonymous statistics and does not use cookies. 
 You can review the Plausible.io [data policy](https://plausible.io/data-policy) to see how their analytics service works.
 
-## Marketing and customer relationship management (CRM)
+### Marketing and customer relationship management (CRM)
 
 We search for publicly available data to discover leads. We use Linkedin, RocketReach and Alma Talent company search
 to identify people in roles implying they may be interested in our products. We also use online forms to collect
@@ -60,7 +60,39 @@ number, depending on what information is available or provided. We use this info
 interested in purchasing our services or to provide you the services you have subscribed to. Further contacts are based
 on your consent.
 
-## Playbooks
+### Customer Success and Support Emails
+
+We use Google Workspace, Microsoft Office 365 and Hubspot for email
+communications with customers. This includes support requests, customer success
+discussions, general inquiries and sales discussions. When you contact us, you
+consent and acknowledge that we will be processing any personal data you may
+include in your email with the aforementioned third-party services.
+
+### Customer Meetings
+
+We use Google Calendar and Microsoft Office 365 to book customer meetings,
+and Google Meet and Microsoft Teams for conducting online meetings. We may
+also offer you the chance to book meetings with our personnel using
+Hubspot's Meetings tool, which is connected to our Microsoft or Google
+calendars. Hubspot's Meetings tool may be offered as an option for booking
+a meeting e.g. inside selected playbooks, on the web site or in our email
+signatures. Please note that your usage of the Hubspot Meetings tool is
+based on your own explicit and unambiguous consent, and it is covered by
+Hubspot's own privacy policy.
+
+### Embedded Content
+
+We may sometimes embed media content such as videos onto our playbooks and
+web pages. This embedded media content may reside at an external hosting
+provider, such as Youtube. When we embed media content, we do it in a way
+that will share as little user information as possible with the content
+hosting provider. When viewing embedded content hosted at a third-party
+service provider, your viewing and interactions with the content are
+covered by the hosting provider's privacy policy. This means that you
+may have to review their privacy policy and to provide consent in order
+to view or interact with the embedded media. 
+
+### Playbooks
 
 We use ActiveCampaign for automating playbooks, such as Employee Cyber Hygiene online training and trials. Customers provide their email address or
 email addresses for us. Participants may submit further information via forms. Playbook automation requires us to track the progress of the users.

@@ -11,10 +11,10 @@ data.
 ## Data controller contact details
 
 Badrap Oy\
-Teknologiantie 18 B\
+Teknologiantie 11\
 90590 Oulu\
 Finland\
-Email: [support@badrap.io](support@badrap.io)\
+Email: [contact@badrap.io](contact@badrap.io)\
 Business ID: 2846254-9
 
 ## Purpose and legal basis for processing
@@ -116,6 +116,8 @@ who develop and maintain the service. As a rule, we do not transfer
 your data to third parties or use external service providers as
 subcontractors.
 
+### Data Breach Monitoring
+
 As part of our data breach monitoring service, we offer an integrated
 search function against security researcher Troy Hunt's [Have I Been Pwned](https://haveibeenpwned.com/)
 data breach reporting database. This search function allows you to search for
@@ -132,6 +134,27 @@ the Have I Been Pwned search feature in Badrap.
 Note that you have to always provide your explicit and unambiguous consent to
 use Badrap's Have I Been Pwned search feature, and that you can revoke
 this consent from your account settings at any time.
+
+### Support Emails
+
+When you choose to contact us by email for general service inquiries,
+support requests or any other questions, we use Google Workspace, Microsoft
+Office 365 and Hubspot to receive, process and answer your emails. When
+you contact us, you consent and acknowledge that we will be processing any
+personal data you may include in your email with the aforementioned
+third-party services.
+
+### Embedded Content
+
+We may sometimes embed media content such as videos onto our playbooks and
+web pages. This embedded media content may reside at an external hosting
+provider, such as Youtube. When we embed media content, we do it in a way
+that will share as little user information as possible with the content
+hosting provider. When viewing embedded content hosted at a third-party
+service provider, your viewing and interactions with the content are covered
+by the hosting provider's privacy policy. This means that you may have to
+review their privacy policy and to provide consent in order to view or
+interact with the embedded media. 
 
 ## Data transfers outside of EU
 
