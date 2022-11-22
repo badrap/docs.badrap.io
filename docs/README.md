@@ -23,6 +23,7 @@ Apps are currently available as part of the commercial offering.
 
 ## Instructions for Events
 
+- [Subdomain Takeover](types/subdomain.md)
 - [Data Breach](types/databreach.md)
 - [Spam List](types/spamlist.md)
 - [Open Telnet service](types/telnet.md)
