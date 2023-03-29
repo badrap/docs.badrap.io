@@ -1,14 +1,19 @@
 # Expired Certificate
 
-A TLS certificate in your organization has expired recently or is about to expire. The certificate has not yet been renewed.
+A TLS certificate issued to a host at your organization has expired. The certificate has not yet been renewed.
 
 ## Problem description
 
-Publically available Certificate Transparency logs contain information on all TLS certificates that have been generated into use. 
+Publically available Certificate Transparency logs contain information on all TLS certificates that have been generated 
+into use. According to those logs, a certificate assigned to a host in your organization has expired, and it has not yet been 
+renewed. When a certificate expires, services relying on TLS on that host no longer work correctly, and those services may 
+not be reachable by their intended users.
 
-According to the Certificate Transparency logs, a certificate assigned to a host in your organization has expired, and it has not
-yet been renewed. When the certificate expires, services relying on TLS no longer work correctly and your server may not be 
-reachable by its intended users. 
+## Verifying the issue
+
+You can use a public Certificate Transparency logs search engine such as crt.sh to check the status of your certificate. 
+Replace the hostname "host.example.com" in the following query string with your hostname. 
+* https://crt.sh/?q=host.example.com
 
 ## Suggestions for repair
 
@@ -20,5 +25,5 @@ reachable by its intended users.
 
 1. Monitor your TLS certificates actively for expiration. 
 2. Renew your actively used certificates automatically, if possible. 
-3. Make sure that you have named service owners who are responsible for maintaining the certificates for their systems. 
+3. Make sure that you have named service owners who are responsible for maintaining certificates on their systems. 
 4. Decommission legacy servers when they are no longer needed.
