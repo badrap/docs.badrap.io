@@ -1,14 +1,11 @@
 # Exposed Service
 
 A computer with an Internet-facing IP address at your organization has a database, remote administration or
-a filesharing service exposed to the Internet. Attackers may try to abuse these exposed services to steal data or
+a file sharing service exposed to the Internet. Attackers may try to abuse these exposed services to steal data or
 to gain access to the server. The exposed service should be verified and isolated, if it does not need to be exposed
 to the public.
 
-## Problem description
-
-Based on services visible to the Internet, a server, workstation or laptop in your network has a common database, remote 
-administration or file sharing port open to the public. 
+## Problem description 
 
 Databases, remote administration interfaces or file shares should not be visible directly to the Internet, unless 
 there is a very specific need. Databases accidentally left open to the Internet are a common cause for severe data breaches.
@@ -21,6 +18,10 @@ be abused by attackers before security updates are released and installed.
 You can check if Shodan.io has identified your exposed service with the following query. Replace the example IP address in the query 
 string with your server IP. 
 * https://www.shodan.io/search?query=127.0.0.1
+
+Make sure to pay attention to the "last seen" timestamp in Shodan's information page. If the issue was last observed some time ago, it 
+may already be fixed. If the issue has been observed recently, the service is likely still exposed. Despite what Shodan says, always 
+verify the issue by checking the server itself or by trying to connect to the exposed service.
 
 ## Suggestions for repair
 
