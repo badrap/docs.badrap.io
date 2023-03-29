@@ -12,7 +12,7 @@ not be reachable by their intended users.
 ## Verifying the issue
 
 You can use a public Certificate Transparency logs search engine such as crt.sh to check the status of your certificate. 
-Replace the hostname "host.example.com" in the following query string with your hostname. 
+Replace the hostname in the query string with your hostname. 
 * https://crt.sh/?q=host.example.com
 
 ## Suggestions for repair
