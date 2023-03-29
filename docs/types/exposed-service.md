@@ -28,7 +28,7 @@ string with your server IP.
 2. If the server cannot be decommissioned, verify if its services really need to be publicly visible to the Internet.
 3. Make sure that the exposed service is properly access-controlled, at a minimum with a non-default username and password.
 4. If the services do not need to be visible to the Internet, block access with a firewall and/or configure the service to only accept connection attempts from within your own organization.
-5. If remote connectivity is necessary, consider if the remote connection could be arranged in some other way. For instance, consider requiring a VPN.
+5. If remote connectivity is necessary, consider if the remote connection could be arranged securely. For instance, consider requiring a VPN.
 6. Check from logs if the server has been accessed without authorization.
 
 ## Further considerations
@@ -44,8 +44,7 @@ string with your server IP.
 
 1. When designing a new service, try to limit its exposure to a minimum. 
 2. Allow access to the service only from a limited set of trusted IP addresses or networks.
-3. Allow access to the service only after some form of authentication and authorization (e.g. a VPN or single sign-on).
-4. Never expose a service with a default username or password to the public.
-5. Use multi-factor authentication for access to the service.
-6. Make sure that you have named service owners who follow vulnerability reports and install updates whenever new vulnerabilities are announced.
-7. Continue to identify exposed services automatically. Decommission any servers which are no longer needed.
+3. Never expose a service with a default username or password to the public. Use a strong username and password for authentication. 
+4. Allow access to the service only after some form of authentication and authorization (e.g. a VPN or single sign-on). Require users to use multi-factor authentication, if possible.
+5. Make sure that you have named service owners who follow vulnerability reports and install updates whenever new vulnerabilities are announced.
+6. Continue to identify exposed services automatically. Decommission any servers which are no longer needed.
