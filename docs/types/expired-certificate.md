@@ -15,6 +15,9 @@ You can use a public Certificate Transparency logs search engine such as crt.sh 
 Replace the hostname in the query string with your hostname. 
 * https://crt.sh/?q=host.example.com
 
+Note that if you are replacing a host-specific certificate with a wildcard certificate (e.g. "*.example.com"), this may be 
+a perfectly valid reason to let the old host certificate expire. 
+
 ## Suggestions for repair
 
 1. Check if the host and service with the TLS certificate is still in active use. If the server is no longer needed, decommission it.
