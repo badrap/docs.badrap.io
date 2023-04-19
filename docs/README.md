@@ -24,6 +24,7 @@ Apps are currently available as part of the commercial offering.
 ## Instructions for Events
 
 - [Abandoned Server](types/abandoned-server.md)
+- [End Of Life Server](types/eol-server.md)
 - [Exposed Service](types/exposed-service.md)
 - [Expired Certificate](types/expired-certificate.md)
 - [Subdomain Takeover](types/subdomain.md)
