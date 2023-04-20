@@ -1,3 +1,3 @@
 # End Of Life Server
 
-See [Abandoned server](./abandoned-server.md)
+See [Abandoned Server](./abandoned-server.md)
