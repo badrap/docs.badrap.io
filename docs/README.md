@@ -27,7 +27,7 @@ Apps are currently available as part of the commercial offering.
 - [End Of Life Server](types/eol-server.md)
 - [Exposed Service](types/exposed-service.md)
 - [Expired Certificate](types/expired-certificate.md)
-- [Subdomain Takeover](types/subdomain.md)
+- [Subdomain Takeover Risk](types/subdomain.md)
 - [Data Breach](types/databreach.md)
 - [Spam List](types/spamlist.md)
 - [Open Telnet service](types/telnet.md)

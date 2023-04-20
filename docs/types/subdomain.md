@@ -1,4 +1,4 @@
-# Subdomain Takeover
+# Subdomain Takeover Risk
 
 Your domain has a stale DNS entry (a "subdomain") pointing to a third-party provider, which may be open to abuse.
 
