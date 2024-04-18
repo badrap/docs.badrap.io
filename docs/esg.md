@@ -40,7 +40,7 @@ Our employees and suppliers are encouraged to participate in community efforts s
 
 ## Security Research
 
-Our employees and suppliers who participate in security and vulnerability research are encouraged to work responsibly and disclose any findings with care (e.g. using a responsible disclosure model).
+Our employees and suppliers who participate in security and vulnerability research are encouraged to work responsibly and disclose any findings with care.
 
 ## Tax Policy
 
