@@ -12,7 +12,6 @@ This site contains supplementary material for the [badrap.io](https://badrap.io)
 Apps are currently available as part of the commercial offering.
 
 - [Amazon Web Services (AWS)](apps/aws.md)
-- [Fraktal AWS Audit](apps/fraktal.md)
 - [Microsoft Office 365](apps/o365.md)
 - [Microsoft Azure](apps/azure.md)
 - [Google Workspace](apps/gworkspace.md)
