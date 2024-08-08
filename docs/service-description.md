@@ -2,12 +2,21 @@
 
 Some commercial contracts we make with our customers may require us to describe certain aspects of our service. In the spirit of transparency, we publish the description here.
 
-## A detailed specification of the content and implementation of the service
+## Content and implementation of the service
 
-Security researchers who produce security content send their findings to badrap.io.
-Users who consume security content sign up to badrap.io to register their assets and receive
-targeted information related to those assets. Users may also choose to share their assets to
-security researchers to receive more content.
+badrap.io is a hosted subscription service to accomplish key compliance needs cost-effectively and easily. Companies subscribe to badrap.io online service. Users of the service use online step-by-step playbooks and automation to complete cyber security tasks. Tasks range from cyber security training to automated monitoring of the subscriber's digital footprint.
+
+![Figure explaining the badrap.io -service](./badrapio.jpg)
+
+Subscribers on the *Automation* tier can use a modern web-based interface to drive the service to help them to accomplish daily cyber security tasks. The service supports users by keeping track of the subscribers' assets and providing apps for automating manual work.
+
+*Full service* tier subscribers gain access to experts in addition to automation. Experts help execute the playbooks together with the subscribers. Furthermore, execution of some of the playbooks to the fullest extent requires a *Full service* tier subscription. The execution pace is three months per each cyber security playbook. For example, a subscriber can execute employee cyber security training during the first three months of the subscription. During the next three months, the customer can assess the risks related to their supply chain. Customers can focus on executing one playbook repeatedly, or different playbooks over time. The up-to-date list of playbooks is availabe at <https://badrap.io>. 
+
+## Responsibilities
+
+Once a customer has subscribed to the service, the customer creates their own user accounts at badrap.io. Badrap experts will create a badrap.io team for the organization and grant access to the first users of the subscribing organization. After that, members in the customer team can grant access to other users in their organization themselves. Only users who manage and use the service need a user account to badrap.io.
+
+After a customer has access to the service, the customer can use the automation (and depending on the subscription tier, expert assistance) to execute cyber security playbooks.
 
 ## The supplier's subcontractors who process personal data
 
