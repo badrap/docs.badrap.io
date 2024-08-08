@@ -4,11 +4,7 @@ services:
     init: true
     command: /bin/sh -c 'npm ci && npm run dev'
     volumes:
-      - ./docs:/app/docs:ro
-      - ./package.json:/app/package.json:ro
-      - ./package-lock.json:/app/package-lock.json:ro
-    environment:
-      HOST: 0.0.0.0
+      - .:/app
     working_dir: /app
     ports:
       - "127.0.0.1:8080:8080"
