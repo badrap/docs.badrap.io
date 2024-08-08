@@ -10,7 +10,7 @@ badrap.io is a hosted subscription service to accomplish key compliance needs co
 
 Subscribers on the *Automation* tier can use a modern web-based interface to drive the service to help them to accomplish daily cyber security tasks. The service supports users by keeping track of the subscribers' assets and providing apps for automating manual work.
 
-*Full service* tier subscribers gain access to experts in addition to automation. Experts help execute the playbooks together with the subscribers. Furthermore, execution of some of the playbooks to the fullest extent requires a *Full service* tier subscription. The execution pace is three months per each cyber security playbook. For example, a subscriber can execute employee cyber security training during the first three months of the subscription. During the next three months, the customer can assess the risks related to their supply chain. Customers can focus on executing one playbook repeatedly, or different playbooks over time.
+*Full service* tier subscribers gain access to experts in addition to automation. Experts help execute the playbooks together with the subscribers. Furthermore, execution of some of the playbooks to the fullest extent requires a *Full service* tier subscription. The execution pace is three months per each cyber security playbook. For example, a subscriber can execute employee cyber security training during the first three months of the subscription. During the next three months, the customer can assess the risks related to their supply chain. Customers can focus on executing one playbook repeatedly, or different playbooks over time. The up-to-date list of playbooks is availabe at <https://badrap.io>. 
 
 ## Responsibilities
 
