@@ -59,3 +59,10 @@ typings/
 
 # Mac
 .DS_Store
+
+# VuePress default temp directory
+docs/.vuepress/.temp
+# VuePress default cache directory
+docs/.vuepress/.cache
+# VuePress default build output directory
+docs/.vuepress/dist

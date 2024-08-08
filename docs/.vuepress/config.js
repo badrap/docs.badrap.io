@@ -1,6 +1,35 @@
-module.exports = {
-  host: process.env.HOST || "localhost",
-  port: process.env.PORT || 8080,
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+
+module.exports = defineUserConfig({
+  bundler: viteBundler(),
+  theme: defaultTheme({
+    logo: "/badrap-logo.png",
+    docsRepo: "badrap/docs.badrap.io",
+    docsDir: "docs",
+    docsBranch: "main",
+    contributors: false,
+    editLink: true,
+    navbar: [
+      {
+        text: "badrap.io",
+        link: "https://badrap.io",
+      },
+    ],
+    locales: {
+      "/": {
+        selectLanguageName: "English",
+        selectLanguageText: "Languages",
+        editLinkText: "Edit this page on GitHub",
+      },
+      "/fi/": {
+        selectLanguageName: "Suomi",
+        selectLanguageText: "Kielet",
+        editLinkText: "Muokkaa tätä sivua GitHubissa",
+      },
+    }
+  }),
   title: "Badrap docs",
   locales: {
     "/": {
@@ -12,30 +41,4 @@ module.exports = {
       description: "Badrapin dokumentaatiosivusto",
     },
   },
-  themeConfig: {
-    logo: "/badrap-logo.png",
-    sidebar: "auto",
-    docsRepo: "badrap/docs.badrap.io",
-    docsDir: "docs",
-    docsBranch: "main",
-    editLinks: true,
-    nav: [
-      {
-        text: "badrap.io",
-        link: "https://badrap.io",
-      },
-    ],
-    locales: {
-      "/": {
-        selectText: "Languages",
-        label: "English",
-        editLinkText: "Edit this page on GitHub",
-      },
-      "/fi/": {
-        selectText: "Kielet",
-        label: "Suomi",
-        editLinkText: "Muokkaa tätä sivua GitHubissa",
-      },
-    },
-  },
-};
+});
