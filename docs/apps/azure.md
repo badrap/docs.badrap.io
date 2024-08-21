@@ -113,11 +113,11 @@ Use this section if you are using Azure management groups to manage multiple sub
 
 4. List your management group details:
    ```
-   az account management-group show
+   az account management-group list
    ```
    Make a note of the management group ID you want to use for access. 
 
-5. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{managementGroup_id}` in the example below with the **id** value you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
+5. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{managementGroup_id}` in the example below with the management group ID you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
    ```
    az ad sp create-for-rbac --role "Reader" --scopes /providers/Microsoft.Management/managementGroups/{managementGroup_id} --name http://BadrapAzureApp
    ```
