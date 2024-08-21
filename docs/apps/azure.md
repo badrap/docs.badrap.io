@@ -26,12 +26,16 @@ Anyone can install the Azure app in Badrap, but you will need Global Administrat
 
 Note that installing Azure CLI to your computer is outside of the scope of this guide. You can use [Microsoft's Azure CLI installation instructions](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) to get started if you haven't installed it previously.
 
-1. Log into Azure using your Azure CLI utility. 
+3. To get started, log into Azure using your Azure CLI utility. 
    ```
    az login
    ```
 
-2. List your subscription details:
+### Adding access to one or several Azure subscriptions individually
+
+We'll cover first the case where you want to integrate the Badrap Azure app into to one or more Azure subscriptions individually. If you are using Azure Management Groups to manage access for multiple subscriptions, please refer to the next section instead. 
+
+4. List your subscription details:
    ```
    az account show
    ```
@@ -54,11 +58,11 @@ Note that installing Azure CLI to your computer is outside of the scope of this 
    ```
    Make a note of the **id** field value (subscription ID) for the next step. If you want to add multiple subscriptions, make a note of all of their IDs. 
 
-3. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{subscription_id}` in the example below with the **id** value you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
+5. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{subscription_id}` in the example below with the **id** value you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
    ```
    az ad sp create-for-rbac --role "Reader" --scopes /subscriptions/{subscription_id} --name http://BadrapAzureApp
    ```
-   The output will look like this:
+   The output will look like this. Note down the **appId**, **tenant** and **password** values to be used for configuring the Badrap Azure app.
    ```
    Creating 'Reader' role assignment under scope '/subscriptions/11111111-2222-3333-4444-555555666666'
      Retrying role assignment creation: 1/36
@@ -75,10 +79,6 @@ Note that installing Azure CLI to your computer is outside of the scope of this 
    If you want to add access to multiple subscriptions, simply include all of their IDs after the `--scopes` parameter, separated with spaces: 
    ```
    az ad sp create-for-rbac --role "Reader" --scopes /subscriptions/{subscription_id1} /subscriptions/{subscription_id2} --name http://BadrapAzureApp
-   ```
-   If you are using management groups and want to add access to all subscriptions under a management group, you can do it like this:
-   ```
-   az ad sp create-for-rbac --role "Reader" --scopes /providers/Microsoft.Management/managementGroups/{managementGroup_id} --name http://BadrapAzureApp
    ```
    If you want to restrict the permissions of the service principal even further, instead of the default Reader role you can create a custom role and assign it to the service principal. The custom role needs to have permissions to only a few resources. First, create the service principal without assigning any role to it.  
    ```
@@ -106,13 +106,34 @@ Note that installing Azure CLI to your computer is outside of the scope of this 
    ```
    az role assignment create --role "CustomReaderBadrapApp" --assignee http://BadrapAzureApp --scope /subscriptions/{subscription_id}
    ```
-   If you are using management groups and want to assign a custom role to all subscriptions under a management group, create a custom role that looks like this:
+
+### Add access to subscriptions managed with a management group
+
+Use this section if you are using Azure management groups to manage multiple subscriptions, and you want to allow Badrap Azure app access to all subscriptions under a single management group.
+
+4. List your management group details:
+   ```
+   az account management-group show
+   ```
+   Make a note of the management group ID you want to use for access. 
+
+5. Use the `az ad sp` command to create an application as a service principal with Reader role privileges. Substitute `{managementGroup_id}` in the example below with the **id** value you noted down previously. Note that the `--name` parameter is optional and you can define any name you want for the service principal.
+   ```
+   az ad sp create-for-rbac --role "Reader" --scopes /providers/Microsoft.Management/managementGroups/{managementGroup_id} --name http://BadrapAzureApp
+   ```
+   Note down the **appId**, **tenant** and **password** values to be used for configuring the Badrap Azure app.
+   
+   If you want to restrict the permissions of the service principal even further, instead of the default Reader role you can create a custom role and assign it to the service principal. The custom role needs to have permissions to only a few resources. First, create a service principal without assigning any role to it:
+   ```
+   az ad sp create-for-rbac --skip-assignment --scopes /providers/Microsoft.Management/managementGroups/{managementGroup_Id} --name http://BadrapAzureApp
+   ```
+   Then, create your custom role with only minimal privileges:
    ```
    az role definition create --role-definition '{
        "Name": "CustomReaderBadrapApp",
        "Description": "Custom restricted Reader role for Badrap Azure app",
        "AssignableScopes": [
-               "/providers/Microsoft.Management/managementGroups/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+               "/providers/Microsoft.Management/managementGroups/{managementgroup_Id}"
        ],
        "Actions": [
            "Microsoft.Network/publicIPAddresses/read",
@@ -126,20 +147,22 @@ Note that installing Azure CLI to your computer is outside of the scope of this 
    ```
    Then, assign the custom role to the management group:
    ```
-   az role assignment create --role "CustomReaderBadrapApp" --assignee http://BadrapAzureApp --scope /providers/Microsoft.Management/managementGroups/{managementGroupId}
+   az role assignment create --role "CustomReaderBadrapApp" --assignee http://BadrapAzureApp --scope /providers/Microsoft.Management/managementGroups/{managementGroup_Id}
    ```
 
-5. Under your Badrap Azure app settings, add your account details. 
+### Provide Azure access details for Badrap Azure app
+
+6. Under your Badrap Azure app settings, add your account details. 
    <div style="text-align: center;">
       <img src="./azure-30-add-account.png" style="max-width: 95%; width: 480px;" />
    </div>
 
-6. Copy the **tenant**, **appId** and **password** values into the app settings: 
+7. Copy the **tenant**, **appId** and **password** values into the app settings: 
    * Tenant ID: `tenant`
    * Application ID: `appId`
    * Client Secret: `password`
 
-7. In a few minutes after the Badrap Azure app has been configured into use, you should see a listing of your Azure assets under [My Assets](https://badrap.io/assets).
+8. In a few minutes after the Badrap Azure app has been configured into use, you should see a listing of your Azure assets under [My Assets](https://badrap.io/assets).
    <div style="text-align: center;">
       <img src="./azure-99-assets.png" style="max-width: 95%; width: 480px;" />
    </div>
