@@ -38,3 +38,8 @@ As we are serving a global audience, we may perform installations, modifications
 All data in our service is stored in data centres within the EU.
 Maintenance and management are conducted in Finland.
 See our privacy policy for more details: <https://docs.badrap.io/privacy.html>.
+
+## Attribution
+
+* <sup>[Company icons created by Afian Rochmah Afif - Flaticon](https://www.flaticon.com/free-icons/company)</sup>
+* <sup>[User icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/user)</sup>
