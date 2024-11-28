@@ -46,6 +46,10 @@ Our employees and suppliers who participate in security and vulnerability resear
 
 We have a zero tolerance to tax evasion and the facilitation of tax evasion. We are not engaged in aggressive tax planning. Our headquarters is in Finland and we follow local tax laws in regions where we operate.
 
+## Export Control & Sanctions
+
+We comply with applicable export control laws, and international trade sanctions.
+
 ## Standard Clause for Suppliers and Partners
 
 All Suppliers and Partners can include the following standard clause (or equivalent content in their own language) into their contract terms to demonstrate their willingness to uphold our ESG standards. 
