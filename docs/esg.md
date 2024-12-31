@@ -1,6 +1,6 @@
 # Environmental, Social and Governance Policy - Badrap Oy
 
-This Environmental, Social and Governance Policy has been approved on 2024-12-02 by the board of directors to be used at Badrap Oy. 
+This Environmental, Social and Governance Policy has been approved on 2024-12-31 by the board of directors to be used at Badrap Oy. 
 
 ## Corporate Responsibility Statement
 
