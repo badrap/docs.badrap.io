@@ -9,7 +9,7 @@ Changes to this repository's `main` branch get automatically built and deployed.
 If you have Docker and Docker Compose installed, then you can run
 
 ```sh
-$ docker-compose up
+$ docker compose up --build
 ```
 
 After the initial compilation the site will be served on http://localhost:8080/. The repository root directory is mounted inside the dev build container, which should enable live reloads.
@@ -17,7 +17,7 @@ After the initial compilation the site will be served on http://localhost:8080/.
 You can shut down the development environment by running
 
 ```sh
-$ docker-compose down -v
+$ docker compose down -v
 ```
 
 ## Development Slow Start
