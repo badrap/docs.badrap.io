@@ -1,0 +1,10 @@
+{
+  "name": "docs.badrap.io",
+  "dockerComposeFile": [
+    "../compose.yml"
+  ],
+  "service": "workspace",
+  "shutdownAction": "none",
+  "remoteUser": "node",
+  "workspaceFolder": "/app"
+}
