@@ -1,6 +1,6 @@
 services:
   docs:
-    image: node:18-alpine
+    image: node:22-alpine
     init: true
     command: /bin/sh -c 'npm ci && npm run dev'
     volumes:
