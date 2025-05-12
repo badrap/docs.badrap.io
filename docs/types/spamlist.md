@@ -40,7 +40,7 @@ Treat your personal information online like money – you need to have a good re
 it away. Support efforts to increase consumer privacy rights, be it on a political or voluntary 
 level. Favour companies who demonstrate they care about your privacy. Having an easy-to-understand
 privacy policy that explains how your personal information is handled and protected 
-is one good sign. (Here is Badrap's [privacy policy](../docs/privacy.md).)
+is one good sign. (Here is Badrap's [privacy policy](../privacy.md).)
 
 Many of you have heard of the EU's General Data Protection Regulation (GDPR) - it is one step
 towards better privacy online, with increased security against personal data breaches. You need to
