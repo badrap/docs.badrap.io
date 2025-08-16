@@ -29,7 +29,7 @@
 - WARN: When the playbook step discusses talking to experts or needing advice, it should have "Book a meeting" link similar to other playbooks
 - MUST: Book a meeting explanation should describe a reason why the user would want to book the meeting
 - MUST: Book a meeting explanation must be relevant to the specific step where it appears, not generic or referencing other steps' activities
-- WARN: Book a meeting explanation should be at most 70 characters
+- WARN: Book a meeting explanation should be at most 75 characters
 - MUST: Explanation should not repeat "book a meeting" if it is already mentioned in the button
 - WARN: the playbook structure should not deviate much from other playbooks. Consider both content and html/css
 - WARN: Avoid excessive use of images. Only introduction section should have an image.
@@ -55,7 +55,7 @@
   - Good: "We in Badrap believe that cyber security should be easy."
   - Bad: "Badrap believes that cyber security should be easy."
 - You can use acronyms also when you are pointing to a specific technical object, such as a service or a protocol
-- Avoid also other cybersecurity jargon in general, not just acronyms. Avoid for example "credentials"
+- Avoid also other cybersecurity jargon in general, not just acronyms.
 - Avoid military and war terminology when the topic is not related to military and war. Examples:
   - Instead of "Weaponization" use wording, such as "creating a way to exploit a vulnerability"
   - Instead of "Cyber Kill Chain" use wording, such as "steps that criminals take to break into a computer system"
@@ -132,4 +132,12 @@ Also follow these rules:
 - Be precise when listing violations. Make sure you refer to the exact part of the guide
 - Don't confuse the sections. When the playbook violates linting rules, list the finding there and not under a wrong section, for example under design principle check in this case.
 - Warn if the same requirement is covered by several sections in this guide. In that case you can list the violation under both matched categories.
-- In language check, remember that a period, exclamation mark and questionmark signifies the end of the sentence.
+
+Remember to check also these in language checks:
+
+- When checking sentence lenght, remember that a period, exclamation mark and questionmark signifies the end of the sentence.
+- When flagging a long sentence, display the original version and suggest new wording
+- Spot misuse of the apostrophe. Flag if the text says for example "users" when the context looks like it should say "user's"
+- Check for incorrect terminal punctuation marks at the end of sentences (periods, question marks, exclamation points)
+  and flag any that don't match the sentence's intended meaning or grammatical structure
+- When reviewing lists, ensure all items are punctuated consistently, whether with commas, semicolons, or no punctuation at all.
