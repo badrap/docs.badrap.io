@@ -64,6 +64,7 @@
   - Bad: "get a comprehensive report with all the details", better: "get a concise report with the
     necessary details to fix the issues".
 - Avoid long sentences. Sentences over 130 characters need to be very clear otherwise. Never go beyond 160 characters.
+- Use badrap.io always instead of Badrap, unless the text needs to refer to the actual legal entity (Badrap Oy).
 
 ## Playbook design principles
 
@@ -127,17 +128,28 @@ Categorize the checks to the following categories:
 
 Also follow these rules:
 
-- Follow the category structure above when outputting results. Don't invent new subcategories. You may, however, include a summary of the findings at the end
-- When looking at the source code, understand that some of the playbook metadata can be included from other files
-- Be precise when listing violations. Make sure you refer to the exact part of the guide
+- Follow the category structure above when outputting results. Don't invent new subcategories. You may, however, include a summary of the findings at the end.
+- When looking at the source code, understand that some of the playbook metadata can be included from other files.
+- Be precise when listing violations. Make sure you refer to the exact part of the guide.
 - Don't confuse the sections. When the playbook violates linting rules, list the finding there and not under a wrong section, for example under design principle check in this case.
 - Warn if the same requirement is covered by several sections in this guide. In that case you can list the violation under both matched categories.
 
-Remember to check also these in language checks:
+Remember these when checking language issues:
 
+- Do not report non-issues in the reveiw, just issues.
 - When checking sentence lenght, remember that a period, exclamation mark and questionmark signifies the end of the sentence.
-- When flagging a long sentence, display the original version and suggest new wording
-- Spot misuse of the apostrophe. Flag if the text says for example "users" when the context looks like it should say "user's"
+- When flagging a long sentence, display the original version and suggest new wording.
+- Spot misuse of the apostrophe. Flag if the text says for example "users" when the context looks like it should say "user's", e.g. the apostrophe is missing or in the wrong place.
 - Check for incorrect terminal punctuation marks at the end of sentences (periods, question marks, exclamation points)
-  and flag any that don't match the sentence's intended meaning or grammatical structure
+  and flag any that don't match the sentence's intended meaning or grammatical structure.
 - When reviewing lists, ensure all items are punctuated consistently, whether with commas, semicolons, or no punctuation at all.
+- When looking at the source code, understand that &apos; equals to apostrophe
+- Find space-will-be-missing issues when reviewing .tsx files. Carefully check every line that ends with a closing HTML tag (like `</em>`, `</strong>`,
+  `</a>`, etc.) - if text continues on the immediately following line without any explicit space character or JSX space expression `{" "}`, this will cause missing spaces in the rendered output. See the examples below.
+
+Space-will-be-missing issue examples
+
+  <p>
+    If you&apos;re an <em>automation</em> or <em>full service</em>
+    subscriber, you have access...
+  </p>
