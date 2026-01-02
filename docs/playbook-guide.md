@@ -144,8 +144,10 @@ Remember these when checking language issues:
   and flag any that don't match the sentence's intended meaning or grammatical structure.
 - When reviewing lists, ensure all items are punctuated consistently, whether with commas, semicolons, or no punctuation at all.
 - When looking at the source code, understand that &apos; equals to apostrophe
-- Find space-will-be-missing issues when reviewing .tsx files. Carefully check every line that ends with a closing HTML tag (like `</em>`, `</strong>`,
-  `</a>`, etc.) - if text continues on the immediately following line without any explicit space character or JSX space expression `{" "}`, this will cause missing spaces in the rendered output. See the examples below.
+- Find space-will-be-missing issues when reviewing .tsx files. In JSX, whitespace-only lines between text content are stripped. Only flag an issue if BOTH:
+  1. A line ends with a closing tag (like `</em>`, `</strong>`, `</a>`) with nothing after it (no space, no `{" "}`, no other text) before the line break
+  2. The next line starts with any text other than punctuation or an opening tag
+     Do NOT flag if the closing tag is followed by space, `{" "}`, or any other text on the same line. See the examples below.
 
 Space-will-be-missing issue examples
 
