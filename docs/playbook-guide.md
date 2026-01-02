@@ -146,7 +146,7 @@ Remember these when checking language issues:
 - When looking at the source code, understand that &apos; equals to apostrophe
 - Find space-will-be-missing issues when reviewing .tsx files. In JSX, whitespace-only lines between text content are stripped. Only flag an issue if BOTH:
   1. A line ends with a closing tag (like `</em>`, `</strong>`, `</a>`) with nothing after it (no space, no `{" "}`, no other text) before the line break
-  2. The next line starts with any other text than punctuation or an opening tag
+  2. The next line starts with any text other than punctuation or an opening tag
      Do NOT flag if the closing tag is followed by space, `{" "}`, or any other text on the same line. See the examples below.
 
 Space-will-be-missing issue examples
