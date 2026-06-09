@@ -7,7 +7,7 @@ as a data controller, process our business users' personal information for legit
 ## Data controller contact details
 
 Company name: Badrap Oy\
-Address: Teknologiantie 11\
+Address: Teknologiantie 16\
 90590 Oulu\
 Finland\
 Email: [contact@badrap.io](contact@badrap.io)\
