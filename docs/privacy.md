@@ -11,7 +11,7 @@ data.
 ## Data controller contact details
 
 Badrap Oy\
-Teknologiantie 11\
+Teknologiantie 16\
 90590 Oulu\
 Finland\
 Email: [contact@badrap.io](contact@badrap.io)\
