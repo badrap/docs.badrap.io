@@ -1,6 +1,8 @@
 # badrap.io Privacy Policy
 
-Badrap Ltd develops and maintains this service. We process your
+Badrap Ltd develops and maintains this service. If you are a Badrap Oy
+customer or potential customer, the relevant privacy policy is
+[here](privacy-company.md). We process your
 personal data according to the General Data Protection Regulation (GDPR)
 of the European Union, as well as according to all other relevant
 legislation according to Finnish and EU law. In this privacy
